@@ -1,0 +1,125 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "The Northern Castle States/0.0.1": {
+        "dependencies": {
+          "BUTR.Harmony.Analyzer": "1.0.1.50",
+          "Bannerlord.BuildResources": "1.1.0.103",
+          "Bannerlord.Lib.Harmony": "2.2.2",
+          "Harmony.Extensions": "3.2.0.77",
+          "IsExternalInit": "1.0.3",
+          "NETStandard.Library": "2.0.3",
+          "Nullable": "1.3.1"
+        },
+        "runtime": {
+          "The Northern Castle States.dll": {}
+        }
+      },
+      "Bannerlord.BuildResources/1.1.0.103": {},
+      "Bannerlord.Lib.Harmony/2.2.2": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0"
+        }
+      },
+      "BUTR.Harmony.Analyzer/1.0.1.50": {},
+      "Harmony.Extensions/3.2.0.77": {},
+      "IsExternalInit/1.0.3": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Nullable/1.3.1": {},
+      "System.Reflection.Emit/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {}
+    }
+  },
+  "libraries": {
+    "The Northern Castle States/0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bannerlord.BuildResources/1.1.0.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zX1UjWxOQtD3E4aCBX09leLLbQpfXDzBxt5KNG9E5dUDrTwqnE6MfGLNs/SRLr6dJ/kNNRZaPWSzZAzje85QHg==",
+      "path": "bannerlord.buildresources/1.1.0.103",
+      "hashPath": "bannerlord.buildresources.1.1.0.103.nupkg.sha512"
+    },
+    "Bannerlord.Lib.Harmony/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0eV+vbwm204jepvVgSv+4aoaUH1qymOOrbmTDk5zfZ9AUUk4tj+y7ZvZV4tJMttRhQMAqxOob2aXOyeh7wxS2A==",
+      "path": "bannerlord.lib.harmony/2.2.2",
+      "hashPath": "bannerlord.lib.harmony.2.2.2.nupkg.sha512"
+    },
+    "BUTR.Harmony.Analyzer/1.0.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-39Y2jGWy+BrwKXfdyP4sHT43T/yrkUXMxdi2EvOFwrub4kMPZ8K5feDVJzfgiJHOEJj5kG7YXCIxPsje0D8Dvg==",
+      "path": "butr.harmony.analyzer/1.0.1.50",
+      "hashPath": "butr.harmony.analyzer.1.0.1.50.nupkg.sha512"
+    },
+    "Harmony.Extensions/3.2.0.77": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXvQpnH3awXEfHvWigHCuMfBxSWInko7i74t7IoWM6aLjJpQrDpEHMnDQbcBoU8Uv5itH92BTb0vczGknajMTA==",
+      "path": "harmony.extensions/3.2.0.77",
+      "hashPath": "harmony.extensions.3.2.0.77.nupkg.sha512"
+    },
+    "IsExternalInit/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jcdN7vpDwjnV7U9KGCv/oNIWHJ/RIbyrpVsLQL2qbj6Cbi5U3iafKsaMn1rP+qCbkLbkB0v6oAwbVEkqrUnlyg==",
+      "path": "isexternalinit/1.0.3",
+      "hashPath": "isexternalinit.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Nullable/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mk4ZVDfAORTjvckQprCSehi1XgOAAlk5ez06Va/acRYEloN9t6d6zpzJRn5MEq7+RnagyFIq9r+kbWzLGd+6QA==",
+      "path": "nullable/1.3.1",
+      "hashPath": "nullable.1.3.1.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    }
+  }
+}

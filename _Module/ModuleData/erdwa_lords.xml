@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="erdwa_lord_1"
+	name="{=erdwa_lord_1.name}Ulbesos"
+	is_female="false"
+	voice="earnest"
+	age="39"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.42" weight="0.4417" build="0.5017"  key="0008240F000025C222C019D911B1673A5BE59D71D9338F371A9A12844A1958DB0068700306DC1028000000000000000000000000000000000000000008D00080"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="170" />
+			<skill
+				id="TwoHanded"
+				value="122" />
+			<skill
+				id="Polearm"
+				value="147" />
+			<skill
+				id="Bow"
+				value="74" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="57" />
+			<skill
+				id="Riding"
+				value="152" />
+			<skill
+				id="Athletics"
+				value="97" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="66" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="150" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="160" />
+			<skill
+				id="Steward"
+				value="145" />
+			<skill
+				id="Medicine"
+				value="157" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_2"
+	name="{=erdwa_lord_2.name}Ocheros the Bull"
+	is_female="false"
+	voice="earnest"
+	age="45"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="46.5" weight="0.6293" build="0.2603"  key="0005480800001008F8E67A11E6251D13D686E55D61E6279B2437CDBC1A67262E0464904506145046000000000000000000000000000000000000000020D87100"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="170" />
+			<skill
+				id="TwoHanded"
+				value="97" />
+			<skill
+				id="Polearm"
+				value="150" />
+			<skill
+				id="Bow"
+				value="70" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="81" />
+			<skill
+				id="Riding"
+				value="200" />
+			<skill
+				id="Athletics"
+				value="123" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="160" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="300" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="160" />
+			<skill
+				id="Steward"
+				value="120" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait
+				id="Calculating"
+				value="4" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_3"
+	name="{=erdwa_lord_3.name}Arenicos the Surgeon Guardian"
+	is_female="false"
+	voice="earnest"
+	age="42"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.421" build="0.6007"  key="0008B40D00000008A3D9D458D953AE6E8A343863C885A5DE7B36F25D1A0BA74901496014041C7445000000000000000000000000000000000000000072885100"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="200" />
+			<skill
+				id="TwoHanded"
+				value="195" />
+			<skill
+				id="Polearm"
+				value="275" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="Crossbow"
+				value="80" />
+			<skill
+				id="Throwing"
+				value="190" />
+			<skill
+				id="Riding"
+				value="275" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="90" />
+			<skill
+				id="Scouting"
+				value="45" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="80" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="60" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="300" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="4" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="4" />
+			<Trait
+				id="Calculating"
+				value="4" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_4"
+	name="{=erdwa_lord_4.name}Thalia the Shadow Maiden"
+	is_female="true"
+	voice="earnest"
+	age="18"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.3" weight="0.1" build="0.3"  key="0000AC0E50FC30045948A3188A41766557598897843A8925A7E38F398578987403841635087375210000000000000000000000000000000000000000011C1040"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="200" />
+			<skill
+				id="TwoHanded"
+				value="150" />
+			<skill
+				id="Polearm"
+				value="250" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="Crossbow"
+				value="70" />
+			<skill
+				id="Throwing"
+				value="60" />
+			<skill
+				id="Riding"
+				value="200" />
+			<skill
+				id="Athletics"
+				value="120" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="100" />
+			<skill
+				id="Scouting"
+				value="200" />
+			<skill
+				id="Roguery"
+				value="160" />
+			<skill
+				id="Leadership"
+				value="100" />
+			<skill
+				id="Charm"
+				value="75" />
+			<skill
+				id="Trade"
+				value="50" />
+			<skill
+				id="Steward"
+				value="70" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait
+					id="BalancedFightingSkills"
+					value="0" />
+			<Trait
+					id="Commander"
+					value="10" />
+			<Trait
+					id="Politician"
+					value="20" />
+			<Trait
+					id="Manager"
+					value="14" />
+			<Trait
+					id="Generosity"
+					value="1" />
+			<Trait
+					id="Calculating"
+					value="1" />
+			<Trait
+					id="Authoritarian"
+					value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_5"
+	name="{=erdwa_lord_5.name}William Grimes"
+	is_female="false"
+	voice="earnest"
+	age="23"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.3" weight="0.5659" build="0.963"  key="0010840A40E42005B5BB7777974B3A4AB97D6948EAC8647E277397A88483343900AE86030A6FB669000000000000000000000000000000000000000051445040"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="200" />
+			<skill
+				id="TwoHanded"
+				value="200" />
+			<skill
+				id="Polearm"
+				value="250" />
+			<skill
+				id="Bow"
+				value="130" />
+			<skill
+				id="Crossbow"
+				value="80" />
+			<skill
+				id="Throwing"
+				value="90" />
+			<skill
+				id="Riding"
+				value="200" />
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="90" />
+			<skill
+				id="Scouting"
+				value="90" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="170" />
+			<skill
+				id="Charm"
+				value="80" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_6"
+	name="{=erdwa_lord_6.name}Eronys"
+	is_female="false"
+	voice="earnest"
+	age="35"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.51" weight="0.3666" build="0.5978"  key="0008E80AC0001401A2BB9AC565155B140D8E5CCE6A7383847DDC340CD949BB140359503505354937000000000000000000000000000000000000000006A80100"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="200" />
+			<skill
+				id="TwoHanded"
+				value="156" />
+			<skill
+				id="Polearm"
+				value="270" />
+			<skill
+				id="Bow"
+				value="71" />
+			<skill
+				id="Crossbow"
+				value="57" />
+			<skill
+				id="Throwing"
+				value="57" />
+			<skill
+				id="Riding"
+				value="152" />
+			<skill
+				id="Athletics"
+				value="230" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="70" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="138" />
+			<skill
+				id="Charm"
+				value="60" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="40" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_7"
+	name="{=erdwa_lord_7.name}Haley Blazer"
+	is_female="true"
+	voice="earnest"
+	age="22"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.3" weight="0.553" build="0.3771"  key="000A780B800010049072DB1319827C33906329A3EC60C1E5DED5C2ECC9A8D56507668072077CC96700000000000000000000000000000000000000002CD02040"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="120" />
+			<skill
+				id="TwoHanded"
+				value="200" />
+			<skill
+				id="Polearm"
+				value="230" />
+			<skill
+				id="Bow"
+				value="300" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="90" />
+			<skill
+				id="Riding"
+				value="240" />
+			<skill
+				id="Athletics"
+				value="130" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="65" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="200" />
+			<skill
+				id="Charm"
+				value="200" />
+			<skill
+				id="Trade"
+				value="120" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="40" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+						slot="Item0"
+						id="Item.composite_steppe_bow" />
+				<equipment
+						slot="Item1"
+						id="Item.barbed_arrows" />
+				<equipment
+						slot="Item2"
+						id="Item.barbed_arrows" />
+				<equipment
+						slot="Item3"
+						id="Item.empire_sword_5_t4" />
+				<equipment
+						slot="Head"
+						id="Item.imperial_goggled_helmet" />
+				<equipment
+						slot="Body"
+						id="Item.imperial_lamellar" />
+				<equipment
+						slot="Gloves"
+						id="Item.lordly_padded_mitten" />
+				<equipment
+						slot="Leg"
+						id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erdwa_lord_8"
+	name="{=erdwa_lord_8.name}Lilian Kirk"
+	is_female="true"
+	voice="earnest"
+	age="24"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.3" weight="0.3262" build="0.0509"  key="000AB00B800010049072DB1319827C33906329A3EC60C1E5DED5C2ECC9A8D56507D150720A7CC96700000000000000000000000000000000000000002DB82040"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="60" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="90" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="65" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="70" />
+			<skill
+				id="Charm"
+				value="60" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="70" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="40" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+						slot="Item0"
+						id="Item.composite_steppe_bow" />
+				<equipment
+						slot="Item1"
+						id="Item.barbed_arrows" />
+				<equipment
+						slot="Item2"
+						id="Item.barbed_arrows" />
+				<equipment
+						slot="Item3"
+						id="Item.empire_sword_5_t4" />
+				<equipment
+						slot="Head"
+						id="Item.imperial_goggled_helmet" />
+				<equipment
+						slot="Body"
+						id="Item.imperial_lamellar" />
+				<equipment
+						slot="Gloves"
+						id="Item.lordly_padded_mitten" />
+				<equipment
+						slot="Leg"
+						id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

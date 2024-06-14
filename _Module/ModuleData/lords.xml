@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<!-- Meyla the Thorn  -->
+
+	<NPCCharacter id="walneria_lord_1"
+	name="{=walneria_lord_1.name}Meyla the Thorn"
+	is_female="true"
+	voice="earnest"
+	age="30"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.29" weight="0.3707" build="0.6716"  key="0005600AC0702002577606C2717443D2698CE5B935E56311573D51388CEB433D014A661304D7D4820000000000000000000000000000000000000000668C4040"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="210" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="160" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Crossbow"
+				value="140" />
+			<skill
+				id="Throwing"
+				value="150" />
+			<skill
+				id="Riding"
+				value="180" />
+			<skill
+				id="Athletics"
+				value="230" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="200" />
+			<skill
+				id="Scouting"
+				value="170" />
+			<skill
+				id="Roguery"
+				value="160" />
+			<skill
+				id="Leadership"
+				value="240" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="160" />
+			<skill
+				id="Steward"
+				value="240" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="walneria_lord_2"
+	name="{=walneria_lord_2.name}Petrys the Strong"
+	is_female="false"
+	voice="earnest"
+	age="30"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32.32" weight="0.365" build="0.3848"  key="000DAC0800001006A695D69489849F45CD865F42A163E3ED55CC52ECC5E332ED02B650240B7AD11C00000000000000000000000000000000000000006F681080"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="210" />
+			<skill
+				id="TwoHanded"
+				value="220" />
+			<skill
+				id="Polearm"
+				value="260" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Crossbow"
+				value="140" />
+			<skill
+				id="Throwing"
+				value="150" />
+			<skill
+				id="Riding"
+				value="180" />
+			<skill
+				id="Athletics"
+				value="240" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="80" />
+			<skill
+				id="Scouting"
+				value="120" />
+			<skill
+				id="Roguery"
+				value="100" />
+			<skill
+				id="Leadership"
+				value="90" />
+			<skill
+				id="Charm"
+				value="130" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="120" />
+			<skill
+				id="Medicine"
+				value="60" />
+			<skill
+				id="Engineering"
+				value="50" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Politician" value="2" />
+			<Trait id="Manager" value="3" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="walneria_lord_3"
+	name="{walneria_lord_3.name}Tristin the Bold"
+	is_female="false"
+	voice="curt"
+	age="34"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.62" weight="0" build="0"  key="000018014014100C75984426A660979A37B9855CB589AB5597B8794D3874A56408B00482095846690000000000000000000000000000000000000000616C0000"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Crossbow"
+				value="140" />
+			<skill
+				id="Throwing"
+				value="150" />
+			<skill
+				id="Riding"
+				value="180" />
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="200" />
+			<skill
+				id="Scouting"
+				value="230" />
+			<skill
+				id="Roguery"
+				value="240" />
+			<skill
+				id="Leadership"
+				value="220" />
+			<skill
+				id="Charm"
+				value="130" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="180" />
+			<skill
+				id="Medicine"
+				value="60" />
+			<skill
+				id="Engineering"
+				value="280" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Honor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="walneria_lord_4"
+	name="{walneria_lord_4.name}Broyden"
+	is_female="false"
+	voice="curt"
+	age="34"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.62" weight="0" build="0"  key="000018014014100C75984426A660979A37B9855CB589AB5597B8794D3874A56408B00482095846690000000000000000000000000000000000000000616C0000"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Crossbow"
+				value="140" />
+			<skill
+				id="Throwing"
+				value="150" />
+			<skill
+				id="Riding"
+				value="180" />
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="200" />
+			<skill
+				id="Scouting"
+				value="230" />
+			<skill
+				id="Roguery"
+				value="240" />
+			<skill
+				id="Leadership"
+				value="220" />
+			<skill
+				id="Charm"
+				value="130" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="180" />
+			<skill
+				id="Medicine"
+				value="60" />
+			<skill
+				id="Engineering"
+				value="280" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Honor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="walneria_lord_5"
+	name="{walneria_lord_5.name}Reydlon"
+	is_female="true"
+	voice="curt"
+	age="34"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.62" weight="0" build="0"  key="000018014014100C75984426A660979A37B9855CB589AB5597B8794D3874A56408B00482095846690000000000000000000000000000000000000000616C0000"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Crossbow"
+				value="140" />
+			<skill
+				id="Throwing"
+				value="150" />
+			<skill
+				id="Riding"
+				value="180" />
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="200" />
+			<skill
+				id="Scouting"
+				value="230" />
+			<skill
+				id="Roguery"
+				value="240" />
+			<skill
+				id="Leadership"
+				value="220" />
+			<skill
+				id="Charm"
+				value="130" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="180" />
+			<skill
+				id="Medicine"
+				value="60" />
+			<skill
+				id="Engineering"
+				value="280" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Honor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="walneria_lord_6"
+	name="{walneria_lord_6.name}Darkishan the Terror"
+	is_female="false"
+	voice="curt"
+	age="34"
+	default_group="Cavalry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.62" weight="0" build="0"  key="000018014014100C75984426A660979A37B9855CB589AB5597B8794D3874A56408B00482095846690000000000000000000000000000000000000000616C0000"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Crossbow"
+				value="140" />
+			<skill
+				id="Throwing"
+				value="150" />
+			<skill
+				id="Riding"
+				value="180" />
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="200" />
+			<skill
+				id="Scouting"
+				value="230" />
+			<skill
+				id="Roguery"
+				value="240" />
+			<skill
+				id="Leadership"
+				value="220" />
+			<skill
+				id="Charm"
+				value="130" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="180" />
+			<skill
+				id="Medicine"
+				value="60" />
+			<skill
+				id="Engineering"
+				value="280" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Honor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster
+		id="wa_bat_template_heavy"
+		culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm_over_mail" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_lamellar" />
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Leg"
+				id="Item.lamellar_plate_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.mail_mitten" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm_over_leather" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_scale_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+			<Equipment
+				slot="Cape"
+				id="Item.studded_imperial_neckguard" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_mail_mitten" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.feathered_spangenhelm_over_imperial_coif" />
+			<Equipment
+				slot="Body"
+				id="Item.lamellar_with_scale_skirt" />
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Leg"
+				id="Item.plated_strip_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.lamellar_plate_gauntlets" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_guarded_lord_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_lamellar" />
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.lamellar_plate_gauntlets" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsHeavyTemplate="true"
+			IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="wa_civ_template_default"
+		culture="Culture.empire">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+		<EquipmentRoster
+		id="wa_bat_template_lady"
+		culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_nasalhelm_over_imperial_coif" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_lamellar" />
+			<Equipment
+				slot="Leg"
+				id="Item.lamellar_plate_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.mail_mitten" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.heavy_nasalhelm_over_imperial_mail" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_scale_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_mail_mitten" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.steel_round_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Item3"
+				id="Item.aserai_2haxe_3_t5" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_lord_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.lamellar_with_scale_skirt" />
+			<Equipment
+				slot="Leg"
+				id="Item.plated_strip_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.plated_strip_gauntlets" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsFemaleTemplate="true" />
+	</EquipmentRoster>
+</EquipmentRosters>

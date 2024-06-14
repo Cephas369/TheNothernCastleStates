@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="avaloria_lord_1"
+                  name="{=avaloria_lord_1.name}Laura Taylor"
+                  is_female="true"
+                  voice="earnest"
+                  age="21"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="21.53" weight="0" build="0.2639"  key="00082408C0CC1003C7A88A5988D778745954684BAB57B986A789399878BA58A700440903049B9A65000000000000000000000000000000000000000074842000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="250" />
+            <skill
+                    id="TwoHanded"
+                    value="210" />
+            <skill
+                    id="Polearm"
+                    value="210" />
+            <skill
+                    id="Bow"
+                    value="298" />
+            <skill
+                    id="Crossbow"
+                    value="57" />
+            <skill
+                    id="Throwing"
+                    value="150" />
+            <skill
+                    id="Riding"
+                    value="240" />
+            <skill
+                    id="Athletics"
+                    value="230" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="150" />
+            <skill
+                    id="Scouting"
+                    value="260" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="200" />
+            <skill
+                    id="Charm"
+                    value="180" />
+            <skill
+                    id="Trade"
+                    value="200" />
+            <skill
+                    id="Steward"
+                    value="200" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.battania_noble_sword_1_t5" />
+                <equipment
+                        slot="Item1"
+                        id="Item.noble_bow" />
+                <equipment
+                        slot="Item2"
+                        id="Item.bodkin_arrows_a" />
+                <equipment
+                        slot="Item3"
+                        id="Item.bodkin_arrows_a" />
+                <equipment
+                        slot="Body"
+                        id="Item.lamellar_with_scale_skirt" />
+                <equipment 
+                        slot="Gloves" 
+                        id="Item.lamellar_plate_gauntlets" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_imperial_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.battania_warlord_boots" />
+                <equipment
+                        slot="Cape"
+                        id="Item.fur_cloak_b" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_2"
+                  name="{=avaloria_lord_2.name}Derristan"
+                  is_female="false"
+                  voice="earnest"
+                  age="25"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="25.59" weight="0.5185" build="0.1565"  key="001B440A402C01D4AAD6746A53B85744675C8B9784AB8988494669857C4CA4A90122891302DEC8160000000000000000000000000000000000000000163C7000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="230" />
+            <skill
+                    id="TwoHanded"
+                    value="210" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="200" />
+            <skill
+                    id="Crossbow"
+                    value="80" />
+            <skill
+                    id="Throwing"
+                    value="180" />
+            <skill
+                    id="Riding"
+                    value="240" />
+            <skill
+                    id="Athletics"
+                    value="250" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="140" />
+            <skill
+                    id="Scouting"
+                    value="250" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="210" />
+            <skill
+                    id="Charm"
+                    value="200" />
+            <skill
+                    id="Trade"
+                    value="195" />
+            <skill
+                    id="Steward"
+                    value="200" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.khuzait_lance_3_t5" />
+                <equipment
+                        slot="Item1"
+                        id="Item.empire_sword_6_t5" />
+                <equipment
+                        slot="Item2"
+                        id="Item.steel_round_shield" />
+                <equipment
+                        slot="Item3"
+                        id="Item.vlandia_2hsword_2_t5" />
+                <equipment
+                        slot="Body"
+                        id="Item.lamellar_with_scale_skirt" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_leather_vambraces" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_imperial_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.plated_strip_boots" />
+                <equipment
+                        slot="Cape"
+                        id="Item.a_empire_plated_shoulder_b" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_3"
+                  name="{=avaloria_lord_3.name}Christian Bailor"
+                  is_female="false"
+                  voice="earnest"
+                  age="21"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="21.54" weight="0" build="0.2768"  key="001B440FC02C0001AAD6746A53B85744675C8B9784AB8988494669857C4CA4A90034090303DEC8160000000000000000000000000000000000000000166C7000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="240" />
+            <skill
+                    id="TwoHanded"
+                    value="210" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="100" />
+            <skill
+                    id="Crossbow"
+                    value="80" />
+            <skill
+                    id="Throwing"
+                    value="120" />
+            <skill
+                    id="Riding"
+                    value="240" />
+            <skill
+                    id="Athletics"
+                    value="260" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="80" />
+            <skill
+                    id="Scouting"
+                    value="120" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="240" />
+            <skill
+                    id="Charm"
+                    value="200" />
+            <skill
+                    id="Trade"
+                    value="195" />
+            <skill
+                    id="Steward"
+                    value="100" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.khuzait_lance_3_t5" />
+                <equipment
+                        slot="Item1"
+                        id="Item.empire_sword_6_t5" />
+                <equipment
+                        slot="Item2"
+                        id="Item.steel_round_shield" />
+                <equipment
+                        slot="Item3"
+                        id="Item.vlandia_2hsword_2_t5" />
+                <equipment
+                        slot="Body"
+                        id="Item.lamellar_with_scale_skirt" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_leather_vambraces" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_imperial_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.plated_strip_boots" />
+                <equipment
+                        slot="Cape"
+                        id="Item.a_empire_plated_shoulder_b" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_4"
+                  name="{=avaloria_lord_4.name}Edmund Torkus"
+                  is_female="false"
+                  voice="earnest"
+                  age="18"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="18.05" weight="0.3993" build="0.5359"  key="001BD40A5958318F8C3C9D69748D65B95CC68E73777A8AD576712DBBA4DA33D506786962076493B3000000000000000000000000000000000000000074EC10C0"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="280" />
+            <skill
+                    id="TwoHanded"
+                    value="280" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="80" />
+            <skill
+                    id="Crossbow"
+                    value="80" />
+            <skill
+                    id="Throwing"
+                    value="190" />
+            <skill
+                    id="Riding"
+                    value="280" />
+            <skill
+                    id="Athletics"
+                    value="260" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="80" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="50" />
+            <skill
+                    id="Charm"
+                    value="200" />
+            <skill
+                    id="Trade"
+                    value="195" />
+            <skill
+                    id="Steward"
+                    value="100" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.khuzait_lance_3_t5" />
+                <equipment
+                        slot="Item1"
+                        id="Item.empire_sword_6_t5" />
+                <equipment
+                        slot="Item2"
+                        id="Item.steel_round_shield" />
+                <equipment
+                        slot="Item3"
+                        id="Item.vlandia_2hsword_2_t5" />
+                <equipment
+                        slot="Body"
+                        id="Item.imperial_lamellar" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_leather_vambraces" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_imperial_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.decorated_imperial_boots" />
+                <equipment
+                        slot="Cape"
+                        id="Item.pauldron_cape_a" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_5"
+                  name="{=avaloria_lord_5.name}Lilia the Bold"
+                  is_female="true"
+                  voice="earnest"
+                  age="18"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="18.61" weight="0.1" build="0.3"  key="0000AC0E50FC30045948A3188A41766557598897843A8925A7E38F398578987408841682087375210000000000000000000000000000000000000000011C1040"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="280" />
+            <skill
+                    id="TwoHanded"
+                    value="280" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="80" />
+            <skill
+                    id="Crossbow"
+                    value="80" />
+            <skill
+                    id="Throwing"
+                    value="190" />
+            <skill
+                    id="Riding"
+                    value="104" />
+            <skill
+                    id="Athletics"
+                    value="260" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="73" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="181" />
+            <skill
+                    id="Charm"
+                    value="214" />
+            <skill
+                    id="Trade"
+                    value="127" />
+            <skill
+                    id="Steward"
+                    value="207" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.khuzait_lance_3_t5" />
+                <equipment
+                        slot="Item1"
+                        id="Item.empire_sword_6_t5" />
+                <equipment
+                        slot="Item2"
+                        id="Item.steel_round_shield" />
+                <equipment
+                        slot="Item3"
+                        id="Item.vlandia_2hsword_2_t5" />
+                <equipment
+                        slot="Body"
+                        id="Item.imperial_lamellar" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_leather_vambraces" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_imperial_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.decorated_imperial_boots" />
+                <equipment
+                        slot="Cape"
+                        id="Item.pauldron_cape_a" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_6"
+                  name="{=avaloria_lord_6.name}Danira Belconess"
+                  is_female="true"
+                  voice="earnest"
+                  age="22"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="22.15" weight="0.5" build="0.5"  key="00000805400030017C76648767508E8F750761625EC6F643C4B84E308C95A03700F776030FF7497A00000000000000000000000000000000000000005FF44000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="200" />
+            <skill
+                    id="TwoHanded"
+                    value="200" />
+            <skill
+                    id="Polearm"
+                    value="200" />
+            <skill
+                    id="Bow"
+                    value="75" />
+            <skill
+                    id="Crossbow"
+                    value="55" />
+            <skill
+                    id="Throwing"
+                    value="150" />
+            <skill
+                    id="Riding"
+                    value="50" />
+            <skill
+                    id="Athletics"
+                    value="200" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="73" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="90" />
+            <skill
+                    id="Charm"
+                    value="214" />
+            <skill
+                    id="Trade"
+                    value="127" />
+            <skill
+                    id="Steward"
+                    value="50" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.empire_lance_2_t4" />
+                <equipment
+                        slot="Item1"
+                        id="Item.chivalric_kite_shield" />
+                <equipment
+                        slot="Item2"
+                        id="Item.empire_sword_5_t4" />
+                <equipment
+                        slot="Head"
+                        id="Item.imperial_goggled_helmet" />
+                <equipment
+                        slot="Cape"
+                        id="Item.imperial_lamellar_shoulders" />
+                <equipment
+                        slot="Body"
+                        id="Item.imperial_scale_armor" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.decorated_imperial_gauntlets" />
+                <equipment
+                        slot="Leg"
+                        id="Item.decorated_imperial_boots" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_7"
+                  name="{=avaloria_lord_7.name}Amaldulf Bitterdraught"
+                  is_female="false"
+                  voice="earnest"
+                  age="31"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="31.19" weight="0.6068" build="0.4057"  key="0000AC0800002144497EE96E8A549375663A8D719645ABAB86B6BEAD8628BA20018690140866B22200000000000000000000000000000000000000001F1050C0"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="175" />
+            <skill
+                    id="TwoHanded"
+                    value="70" />
+            <skill
+                    id="Polearm"
+                    value="140" />
+            <skill
+                    id="Bow"
+                    value="65" />
+            <skill
+                    id="Crossbow"
+                    value="50" />
+            <skill
+                    id="Throwing"
+                    value="120" />
+            <skill
+                    id="Riding"
+                    value="50" />
+            <skill
+                    id="Athletics"
+                    value="140" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="73" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="60" />
+            <skill
+                    id="Charm"
+                    value="214" />
+            <skill
+                    id="Trade"
+                    value="127" />
+            <skill
+                    id="Steward"
+                    value="50" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.star_falchion_sword_t3" />
+                <equipment
+                        slot="Item1"
+                        id="Item.stronger_reinforced_kite_shield" />
+                <equipment
+                        slot="Item2"
+                        id="Item.generic_javelin_1_t3" />
+                <equipment
+                        slot="Item3"
+                        id="Item.generic_javelin_1_t3" />
+                <equipment
+                        slot="Body"
+                        id="Item.legionary_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.leather_cavalier_boots" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_padded_mitten" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_laced_cloth" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_8"
+                  name="{=avaloria_lord_8.name}Targai the Ragged"
+                  is_female="false"
+                  voice="earnest"
+                  age="40"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="40.16" weight="0.5947" build="0.4724"  key="001BF80F0000178B80B15DD3BDEB293D36CB283EA6C886822AE2AD79856DEEF20317903501D3574E000000000000000000000000000000000000000012304080"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="175" />
+            <skill
+                    id="TwoHanded"
+                    value="70" />
+            <skill
+                    id="Polearm"
+                    value="30" />
+            <skill
+                    id="Bow"
+                    value="65" />
+            <skill
+                    id="Crossbow"
+                    value="50" />
+            <skill
+                    id="Throwing"
+                    value="120" />
+            <skill
+                    id="Riding"
+                    value="50" />
+            <skill
+                    id="Athletics"
+                    value="145" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="73" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="60" />
+            <skill
+                    id="Charm"
+                    value="214" />
+            <skill
+                    id="Trade"
+                    value="127" />
+            <skill
+                    id="Steward"
+                    value="50" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.generic_javelin_1_t3" />
+                <equipment
+                        slot="Item1"
+                        id="Item.generic_javelin_1_t3" />
+                <equipment
+                        slot="Item2"
+                        id="Item.steppe_guardian_shield" />
+                <equipment
+                        slot="Item3"
+                        id="Item.vlandia_sword_3_t4" />
+                <equipment
+                        slot="Body"
+                        id="Item.legionary_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.leather_cavalier_boots" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_padded_mitten" />
+                <equipment
+                        slot="Head"
+                        id="Item.spiked_kettle_over_imperial_mail" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_9"
+                  name="{=avaloria_lord_9.name}Arthobald the Brave"
+                  is_female="false"
+                  voice="earnest"
+                  age="21"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="21.17" weight="0.7203" build="0.404"  key="00002C08C00012453A75C7E83895ADA3ADD8716C1CA13557E46369178B9481740086B002085EBD42000000000000000000000000000000000000000017084080"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="185" />
+            <skill
+                    id="TwoHanded"
+                    value="70" />
+            <skill
+                    id="Polearm"
+                    value="40" />
+            <skill
+                    id="Bow"
+                    value="65" />
+            <skill
+                    id="Crossbow"
+                    value="50" />
+            <skill
+                    id="Throwing"
+                    value="160" />
+            <skill
+                    id="Riding"
+                    value="50" />
+            <skill
+                    id="Athletics"
+                    value="140" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="73" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="30" />
+            <skill
+                    id="Charm"
+                    value="214" />
+            <skill
+                    id="Trade"
+                    value="127" />
+            <skill
+                    id="Steward"
+                    value="50" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.khuzait_polearm_1_t4_blunt" />
+                <equipment
+                        slot="Item1"
+                        id="Item.eastern_javelin_1_t2_blunt" />
+                <equipment
+                        slot="Item2"
+                        id="Item.southern_oval_shield" />
+                <equipment
+                        slot="Item3"
+                        id="Item.empire_sword_4_t4" />
+                <equipment
+                        slot="Body"
+                        id="Item.desert_scale_armor" />
+                <equipment
+                        slot="Leg"
+                        id="Item.leather_cavalier_boots" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_padded_mitten" />
+                <equipment
+                        slot="Head"
+                        id="Item.spiked_kettle_over_imperial_mail" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="avaloria_lord_10"
+                  name="{=avaloria_lord_10.name}Uluen the She-wolf"
+                  is_female="true"
+                  voice="earnest"
+                  age="28"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="28.11" weight="0.5405" build="0.5978"  key="0013C40F12143010C98A3945CB747B84662B4CAEDCBC7BB7DC7E7B0DA244B5A8012986130235138400000000000000000000000000000000000000001A3C10C0"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="185" />
+            <skill
+                    id="TwoHanded"
+                    value="70" />
+            <skill
+                    id="Polearm"
+                    value="40" />
+            <skill
+                    id="Bow"
+                    value="65" />
+            <skill
+                    id="Crossbow"
+                    value="50" />
+            <skill
+                    id="Throwing"
+                    value="160" />
+            <skill
+                    id="Riding"
+                    value="100" />
+            <skill
+                    id="Athletics"
+                    value="140" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="57" />
+            <skill
+                    id="Scouting"
+                    value="60" />
+            <skill
+                    id="Roguery"
+                    value="65" />
+            <skill
+                    id="Leadership"
+                    value="100" />
+            <skill
+                    id="Charm"
+                    value="209" />
+            <skill
+                    id="Trade"
+                    value="125" />
+            <skill
+                    id="Steward"
+                    value="145" />
+            <skill
+                    id="Medicine"
+                    value="100" />
+            <skill
+                    id="Engineering"
+                    value="40" />
+        </skills>
+        <Traits>
+            <Trait
+                    id="BalancedFightingSkills"
+                    value="0" />
+            <Trait
+                    id="Commander"
+                    value="10" />
+            <Trait
+                    id="Politician"
+                    value="20" />
+            <Trait
+                    id="Manager"
+                    value="14" />
+            <Trait
+                    id="Generosity"
+                    value="1" />
+            <Trait
+                    id="Calculating"
+                    value="1" />
+            <Trait
+                    id="Authoritarian"
+                    value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.star_falchion_sword_t3" />
+                <equipment
+                        slot="Item1"
+                        id="Item.stronger_reinforced_kite_shield" />
+                <equipment
+                        slot="Item2"
+                        id="Item.generic_javelin_1_t3" />
+                <equipment
+                        slot="Item3"
+                        id="Item.generic_javelin_1_t3" />
+                <equipment
+                        slot="Body"
+                        id="Item.legionary_mail" />
+                <equipment
+                        slot="Leg"
+                        id="Item.leather_cavalier_boots" />
+                <equipment
+                        slot="Gloves"
+                        id="Item.reinforced_padded_mitten" />
+                <equipment
+                        slot="Head"
+                        id="Item.heavy_nasalhelm_over_laced_cloth" />
+                <equipment
+                        slot="Horse"
+                        id="Item.noble_horse_imperial" />
+                <equipment
+                        slot="HorseHarness"
+                        id="Item.imperial_scale_barding" />
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

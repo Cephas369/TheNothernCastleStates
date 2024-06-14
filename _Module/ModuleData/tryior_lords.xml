@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="tryior_lord_1"
+	name="{=tryior_lord_1.name}Kaitlyn Hamby"
+	is_female="true"
+	voice="earnest"
+	age="20"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.8" weight="0.0231" build="0.0331"  key="000D540F0000300A84C2944A3EEA4748EEE91C688BA909FC99420DD1824883080E5000E2094FAB26000000000000000000000000000000000000000060980040" />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="300" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="95" />
+			<skill
+				id="Bow"
+				value="65" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="60" />
+			<skill
+				id="Riding"
+				value="135" />
+			<skill
+				id="Athletics"
+				value="265" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="172" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="114" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="160" />
+			<skill
+				id="Steward"
+				value="116" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tryior_lord_2"
+	name="{=tryior_lord_2.name}Dachan the Loyal"
+	is_female="false"
+	voice="earnest"
+	age="40"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.73" weight="0.2869" build="0.4144" key="0018E00D8000171291E93C7DDED9511BDEE47979A8EA897CB77669A884654164032640350219DC6C0000000000000000000000000000000000000000424000C0" />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="76" />
+			<skill
+				id="TwoHanded"
+				value="123" />
+			<skill
+				id="Polearm"
+				value="142" />
+			<skill
+				id="Bow"
+				value="72" />
+			<skill
+				id="Crossbow"
+				value="54" />
+			<skill
+				id="Throwing"
+				value="60" />
+			<skill
+				id="Riding"
+				value="158" />
+			<skill
+				id="Athletics"
+				value="97" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="68" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="114" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="160" />
+			<skill
+				id="Steward"
+				value="188" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tryior_lord_3"
+	name="{=tryior_lord_3.name}Thea"
+	is_female="true"
+	voice="earnest"
+	age="23"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.92" weight="0.5" build="0.5"  key="00006806D04410036436583353C5743893B76C7627786754569AB47979575AE800E776030E7A225F00000000000000000000000000000000000000001DDC1080"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="80" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="60" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="100" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="100" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="50" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tryior_lord_4"
+	name="{=tryior_lord_4.name}Eden"
+	is_female="false"
+	voice="earnest"
+	age="20"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.13" weight="0.5" build="0.5"  key="0005E006C000000D976577688DC974CDB7648B819B9E7598D9BC69B331354EA40C7776C20A552777000000000000000000000000000000000000000022FC1000"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="100" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="Crossbow"
+				value="70" />
+			<skill
+				id="Throwing"
+				value="60" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="70" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="70" />
+			<skill
+				id="Charm"
+				value="220" />
+			<skill
+				id="Trade"
+				value="50" />
+			<skill
+				id="Steward"
+				value="70" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+		<NPCCharacter id="tryior_lord_5"
+	name="{=tryior_lord_5.name}Troy"
+	is_female="false"
+	voice="earnest"
+	age="25"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.1" weight="0.6" build="0.5"  key="000A100E51E4200F267B493B89C9477584CA4556433D5492B5979E75A8899A5501579613054347D4000000000000000000000000000000000000000058AC3080"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="135" />
+			<skill
+				id="Polearm"
+				value="140" />
+			<skill
+				id="Bow"
+				value="130" />
+			<skill
+				id="Crossbow"
+				value="80" />
+			<skill
+				id="Throwing"
+				value="84" />
+			<skill
+				id="Riding"
+				value="140" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="70" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="70" />
+			<skill
+				id="Charm"
+				value="90" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="210" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tryior_lord_6"
+	name="{=tryior_lord_6.name}Vince"
+	is_female="false"
+	voice="earnest"
+	age="34"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.93" weight="0.4463" build="0.6332"  key="00007400000004500870001008F1EFFF800F78777781070E70E019518088880F02897024080FFEF0000000000000000000000000000000000000000011103000"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="90" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="70" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="100" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Athletics"
+				value="150" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="70" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="70" />
+			<skill
+				id="Charm"
+				value="60" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="40" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_heavy" />
+			<EquipmentSet
+				id="wa_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tryior_lord_7"
+	name="{=tryior_lord_7.name}Trinity"
+	is_female="true"
+	voice="earnest"
+	age="25"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.91" weight="0.5664" build="0.7577"  key="0010900A52142006A87321448876B529E920889893905436D8C49E55747A584501BB86130B3756930000000000000000000000000000000000000000716C3040"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="100" />
+			<skill
+				id="Bow"
+				value="90" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="90" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="65" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="80" />
+			<skill
+				id="Charm"
+				value="60" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="100" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="40" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tryior_lord_8"
+	name="{=tryior_lord_8.name}Erica"
+	is_female="true"
+	voice="earnest"
+	age="27"
+	default_group="Infantry"
+	is_hero="true"
+	culture="Culture.empire"
+	occupation="Lord"
+	face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.94" weight="0.5" build="0.5"  key="00155C000014000EE93966A9966848AA5746E9558867A392654767867CA775120197761309B278C50000000000000000000000000000000000000000593C30C0"  />
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="60" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="90" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Crafting"
+				value="60" />
+			<skill
+				id="Tactics"
+				value="65" />
+			<skill
+				id="Scouting"
+				value="85" />
+			<skill
+				id="Roguery"
+				value="65" />
+			<skill
+				id="Leadership"
+				value="70" />
+			<skill
+				id="Charm"
+				value="60" />
+			<skill
+				id="Trade"
+				value="100" />
+			<skill
+				id="Steward"
+				value="70" />
+			<skill
+				id="Medicine"
+				value="200" />
+			<skill
+				id="Engineering"
+				value="40" />
+		</skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Honor" value="4" />
+			<Trait id="Mercy" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="wa_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

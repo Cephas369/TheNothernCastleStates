@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item
+            id="decorated_imperial_boots"
+            name="{=tncs_XXGZLTN6}Decorated Knight Plate Boots"
+            mesh="empire_plate_armor_boots"
+            culture="Culture.empire"
+            weight="2.3"
+            appearance="3"
+            Type="LegArmor">
+        <ItemComponent>
+            <Armor
+                    leg_armor="24"
+                    covers_legs="true"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item
+            id="lordly_padded_mitten"
+            name="{=tncs_t01v8qW7}Light Lordly Padded Mittens"
+            mesh="padded_vambrace_a_lordly"
+            culture="Culture.empire"
+            weight="0.9"
+            difficulty="0"
+            appearance="0.7"
+            Type="HandArmor">
+        <ItemComponent>
+            <Armor
+                    arm_armor="16"
+                    covers_hands="true"
+                    modifier_group="cloth"
+                    material_type="Cloth" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item
+            id="battanian_chainmail_armor_b"
+            name="{=tncs_y3CwqUDR}Cheap Mail Shirt"
+            subtype="body_armor"
+            mesh="battanian_chainmail_armor_b"
+            culture="Culture.battania"
+            weight="10.7"
+            difficulty="0"
+            appearance="1.8"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="23"
+                    leg_armor="4"
+                    arm_armor="4"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+    <Item
+            id="decorated_imperial_boots"
+            name="{=tncs_XXGZLTN6}Steel Decorated Plate Boots"
+            mesh="empire_plate_armor_boots"
+            culture="Culture.empire"
+            weight="2.3"
+            appearance="3"
+            Type="LegArmor">
+        <ItemComponent>
+            <Armor
+                    leg_armor="23"
+                    covers_legs="true"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item
+            id="plated_strip_boots"
+            name="{=tncs_Fb7PrJuc}Plated Leather Plate Boots"
+            mesh="empire_plated_boots"
+            culture="Culture.empire"
+            weight="2.7"
+            appearance="2"
+            Type="LegArmor">
+        <ItemComponent>
+            <Armor
+                    leg_armor="20"
+                    covers_legs="true"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item
+            id="hemp_tunic"
+            name="{=tncs_yTWOMSmv}Heavy Mercenary Combat Tunic "
+            mesh="armor_hemp_tunic"
+            culture="Culture.empire"
+            subtype="body_armor"
+            weight="0.4"
+            difficulty="0"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="24"
+                    leg_armor="12"
+                    arm_armor="8"
+                    covers_body="true"
+                    modifier_group="cloth_unarmoured"
+                    material_type="Cloth" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"
+                Civilian="true" />
+    </Item>
+    <Item
+            id="sleeveless_studded_fur_armor"
+            name="{=tncs_4AfHO0BA}Native Champion Hunter Armor"
+            mesh="bandit_1_c"
+            subtype="body_armor"
+            culture="Culture.battania"
+            weight="0.4"
+            difficulty="0"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="38"
+                    leg_armor="16"
+                    arm_armor="0"
+                    covers_body="false"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"
+                Civilian="true"
+                DoesNotHideChest="true" />
+    </Item>
+    <Item
+            id="fur_armor"
+            name="{=tncs_VSMpadvq}Northern native fur vest"
+            subtype="body_armor"
+            mesh="battania_fur_armor_a"
+            culture="Culture.battania"
+            weight="4.0"
+            difficulty="0"
+            appearance="0.6"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="26"
+                    leg_armor="16"
+                    arm_armor="16"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+    <Item
+            id="legionary_mail"
+            name="{=tncs_PTKyNh2O}Praetorian Bttlefeild Mail Armor"
+            mesh="empire_armor_b"
+            culture="Culture.empire"
+            subtype="body_armor"
+            weight="19"
+            difficulty="0"
+            appearance="1.3"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="50"
+                    leg_armor="21"
+                    arm_armor="14"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+    <Item
+            id="armwraps"
+            name="{=tncs_oEJnxsQ1}Northern Natives Gloves"
+            mesh="battania_armwraps_a"
+            culture="Culture.battania"
+            weight="0.2"
+            difficulty="0"
+            appearance="0.3"
+            Type="HandArmor">
+        <ItemComponent>
+            <Armor
+                    arm_armor="3"
+                    modifier_group="cloth_unarmoured"
+                    material_type="Cloth" />
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
+    </Item>
+    <CraftedItem
+            id="eastern_javelin_3_t4"
+            name="{=Z6Ak3H6G}Basilisk Jav"
+            crafting_template="Javelin"
+            culture="Culture.aserai"
+            modifier_group="spear_dart_throwing">
+        <Pieces>
+            <Piece
+                    id="spear_blade_27"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="default_polearm_guard"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="spear_handle_10"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="spear_pommel_12"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+</Items>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+
+	<Hero id="walneria_lord_1" faction="Faction.walneria_clan_1" />
+	<Hero id="walneria_lord_2" faction="Faction.walneria_clan_1" />
+	<Hero id="walneria_lord_3" faction="Faction.walneria_clan_1" />
+	
+	<Hero id="walneria_lord_4" spouse="Hero.walneria_lord_5" faction="Faction.walneria_clan_2" />
+	<Hero id="walneria_lord_5" spouse="Hero.walneria_lord_4" faction="Faction.walneria_clan_2" />
+	<Hero id="walneria_lord_6" faction="Faction.walneria_clan_2" />
+	
+	
+	<Hero id="tryior_lord_1" faction="Faction.tryior_clan_1" />
+	<Hero id="tryior_lord_2" faction="Faction.tryior_clan_1" />
+	<Hero id="tryior_lord_3" faction="Faction.tryior_clan_1" />
+	<Hero id="tryior_lord_4" faction="Faction.tryior_clan_1" />
+	
+	<Hero id="tryior_lord_5" faction="Faction.tryior_clan_2" />
+	<Hero id="tryior_lord_6" faction="Faction.tryior_clan_2" />
+	<Hero id="tryior_lord_7" faction="Faction.tryior_clan_2" />
+	<Hero id="tryior_lord_8" faction="Faction.tryior_clan_2" />
+
+	<Hero id="erdwa_lord_1" faction="Faction.erdwa_clan_1" />
+	<Hero id="erdwa_lord_2" faction="Faction.erdwa_clan_1" />
+	<Hero id="erdwa_lord_3" faction="Faction.erdwa_clan_1" />
+	<Hero id="erdwa_lord_4" faction="Faction.erdwa_clan_1" />
+
+	<Hero id="erdwa_lord_5" faction="Faction.erdwa_clan_2" />
+	<Hero id="erdwa_lord_6" faction="Faction.erdwa_clan_2" />
+	<Hero id="erdwa_lord_7" faction="Faction.erdwa_clan_2" />
+	<Hero id="erdwa_lord_8" faction="Faction.erdwa_clan_2" />
+
+	<Hero id="avaloria_lord_1" spouse="Hero.avaloria_lord_2" faction="Faction.avaloria_clan_1" />
+	<Hero id="avaloria_lord_2" spouse="Hero.avaloria_lord_1" faction="Faction.avaloria_clan_1" />
+	<Hero id="avaloria_lord_3" faction="Faction.avaloria_clan_1" />
+	<Hero id="avaloria_lord_4" faction="Faction.avaloria_clan_1" />
+	<Hero id="avaloria_lord_5" faction="Faction.avaloria_clan_1" />
+
+	<Hero id="avaloria_lord_6" faction="Faction.avaloria_clan_2" />
+	<Hero id="avaloria_lord_7" faction="Faction.avaloria_clan_2" />
+	<Hero id="avaloria_lord_8" faction="Faction.avaloria_clan_2" />
+	<Hero id="avaloria_lord_9" faction="Faction.avaloria_clan_2" />
+
+	<Hero id="avaloria_lord_10" faction="Faction.avaloria_clan_3" />
+</Heroes>
