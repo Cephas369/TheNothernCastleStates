@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
-  <tags>
-    <tag language="English" />
-  </tags>
-  <strings>
-    <string id="Settlements.Settlement.name.castle_WA" text="Bastion d'Avirgues" />
-	<string id="Settlements.Settlement.name.castle_village_WA_1" text="Arkala" />
-	<string id="Settlements.Settlement.text.castle_village_WA_1" text="Arkala is a village of woodcutters." />
-	<string id="Settlements.Settlement.name.castle_village_WA_2" text="Bexley" />
-	<string id="Settlements.Settlement.text.castle_village_WA_2" text="Bexley is a iron producer village." />
-	<string id="Settlements.Settlement.name.castle_village_WA_3" text="Martslock" />
-	<string id="Settlements.Settlement.text.castle_village_WA_3" text="Martslock is a horse ranch village." />
-	
-	<string id="Settlements.Settlement.name.castle_TRI" text="Citadelle d'Alenrac" />
-	<string id="Settlements.Settlement.name.castle_village_TRI_1" text="Isca" />
-	<string id="Settlements.Settlement.text.castle_village_TRI_1" text="Isca is a village that produces olive." />
-	<string id="Settlements.Settlement.name.castle_village_TRI_2" text="Massilia" />
-	<string id="Settlements.Settlement.text.castle_village_TRI_2" text="Massilia is a wheat farm village." />
-	<string id="Settlements.Settlement.name.castle_village_TRI_3" text="Vesunna" />
-	<string id="Settlements.Settlement.text.castle_village_WA_3" text="Vesunna is a cattle raising village." />
-	
-	
-	<string id="k_walneria_name" text="The Dutchy of Walneria" />
-	<string id="walneria_clan_1.name" text="Thibensens" />
-	<string id="walneria_clan_1.name" text="The Baldegs" />
-	
-	<string id="walneria_lord_1.name" text="Meyla the Thorn" />
-	<string id="walneria_lord_2.name" text="Petrys the Strong" />
-	<string id="walneria_lord_3.name" text="Tristin the Bold" />
-	<string id="walneria_lord_4.name" text="Broyden" />
-	<string id="walneria_lord_5.name" text="Reydlon" />
-	<string id="walneria_lord_6.name" text="Darkishan the Terror" />
-	
-	<string id="tryior_lord_1.name" text="Kaitlyn Hamby" />
-	<string id="tryior_lord_2.name" text="Dachan the Loyal" />
-	<string id="tryior_lord_3.name" text="Thea" />
-	<string id="tryior_lord_4.name" text="Eden" />
-	<string id="tryior_lord_5.name" text="Troy" />
-	<string id="tryior_lord_6.name" text="Vince" />
-	<string id="tryior_lord_7.name" text="Trinity" />
-	<string id="tryior_lord_8.name" text="Erica" />
-  </strings>
+    <tags>
+        <tag language="English"/>
+    </tags>
+    <strings>
+        <string id="Settlements.Settlement.name.castle_WA" text="Bastion d'Avirgues"/>
+        <string id="Settlements.Settlement.name.castle_village_WA_1" text="Arkala"/>
+        <string id="Settlements.Settlement.text.castle_village_WA_1" text="Arkala is a village of woodcutters."/>
+        <string id="Settlements.Settlement.name.castle_village_WA_2" text="Bexley"/>
+        <string id="Settlements.Settlement.text.castle_village_WA_2" text="Bexley is a iron producer village."/>
+        <string id="Settlements.Settlement.name.castle_village_WA_3" text="Martslock"/>
+        <string id="Settlements.Settlement.text.castle_village_WA_3" text="Martslock is a horse ranch village."/>
+
+        <string id="Settlements.Settlement.name.castle_TRI" text="Citadelle d'Alenrac"/>
+        <string id="Settlements.Settlement.name.castle_village_TRI_1" text="Isca"/>
+        <string id="Settlements.Settlement.text.castle_village_TRI_1" text="Isca is a village that produces olive."/>
+        <string id="Settlements.Settlement.name.castle_village_TRI_2" text="Massilia"/>
+        <string id="Settlements.Settlement.text.castle_village_TRI_2" text="Massilia is a wheat farm village."/>
+        <string id="Settlements.Settlement.name.castle_village_TRI_3" text="Vesunna"/>
+        <string id="Settlements.Settlement.text.castle_village_WA_3" text="Vesunna is a cattle raising village."/>
+
+
+        <string id="k_walneria_name" text="The Dutchy of Walneria"/>
+        <string id="walneria_clan_1.name" text="Thibensens"/>
+        <string id="walneria_clan_1.name" text="The Baldegs"/>
+
+        <string id="walneria_lord_1.name" text="Meyla the Thorn"/>
+        <string id="walneria_lord_2.name" text="Petrys the Strong"/>
+        <string id="walneria_lord_3.name" text="Tristin the Bold"/>
+        <string id="walneria_lord_4.name" text="Broyden"/>
+        <string id="walneria_lord_5.name" text="Reydlon"/>
+        <string id="walneria_lord_6.name" text="Darkishan the Terror"/>
+
+        <string id="tryior_lord_1.name" text="Kaitlyn Hamby"/>
+        <string id="tryior_lord_2.name" text="Dachan the Loyal"/>
+        <string id="tryior_lord_3.name" text="Thea"/>
+        <string id="tryior_lord_4.name" text="Eden"/>
+        <string id="tryior_lord_5.name" text="Troy"/>
+        <string id="tryior_lord_6.name" text="Vince"/>
+        <string id="tryior_lord_7.name" text="Trinity"/>
+        <string id="tryior_lord_8.name" text="Erica"/>
+
+		<string id="scam_townsfolk" text="Scam townsfolk"/>
+		<string id="scamming_townsfolk" text="Scamming..."/>
+		<string id="commit_fraud" text="Commit fraud ({TOTAL_AMOUNT}{GOLD_ICON})"/>
+		<string id="committing_fraud" text="Applying fraud..."/>
+    </strings>
 </base>

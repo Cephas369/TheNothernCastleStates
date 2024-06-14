@@ -157,7 +157,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_AV_1" name="{=Settlements.Settlement.name.castle_village_ER_1}Capreae" posX="724.1489" posY="660.2901" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ER_1}Capreae is a village that produces wheat.">
+  <Settlement id="castle_village_AV_1" name="{=Settlements.Settlement.name.castle_village_ER_1}Capreae" posX="724.8400" posY="660.7201" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ER_1}Capreae is a village that produces wheat.">
     <Components>
       <Village id="castle_village_comp_AV_1" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.castle_AV" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>

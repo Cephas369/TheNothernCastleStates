@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Items>
     <Item
             id="decorated_imperial_boots"
@@ -7,15 +7,16 @@
             culture="Culture.empire"
             weight="2.3"
             appearance="3"
-            Type="LegArmor">
+            Type="LegArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     leg_armor="24"
                     covers_legs="true"
                     modifier_group="plate"
-                    material_type="Plate" />
+                    material_type="Plate"/>
         </ItemComponent>
-        <Flags />
+        <Flags/>
     </Item>
     <Item
             id="lordly_padded_mitten"
@@ -25,15 +26,16 @@
             weight="0.9"
             difficulty="0"
             appearance="0.7"
-            Type="HandArmor">
+            Type="HandArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     arm_armor="16"
                     covers_hands="true"
                     modifier_group="cloth"
-                    material_type="Cloth" />
+                    material_type="Cloth"/>
         </ItemComponent>
-        <Flags />
+        <Flags/>
     </Item>
     <Item
             id="battanian_chainmail_armor_b"
@@ -44,7 +46,8 @@
             weight="10.7"
             difficulty="0"
             appearance="1.8"
-            Type="BodyArmor">
+            Type="BodyArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     body_armor="23"
@@ -53,10 +56,10 @@
                     has_gender_variations="true"
                     covers_body="true"
                     modifier_group="chain"
-                    material_type="Chainmail" />
+                    material_type="Chainmail"/>
         </ItemComponent>
         <Flags
-                UseTeamColor="true" />
+                UseTeamColor="true"/>
     </Item>
     <Item
             id="decorated_imperial_boots"
@@ -65,15 +68,16 @@
             culture="Culture.empire"
             weight="2.3"
             appearance="3"
-            Type="LegArmor">
+            Type="LegArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     leg_armor="23"
                     covers_legs="true"
                     modifier_group="plate"
-                    material_type="Plate" />
+                    material_type="Plate"/>
         </ItemComponent>
-        <Flags />
+        <Flags/>
     </Item>
     <Item
             id="plated_strip_boots"
@@ -82,26 +86,28 @@
             culture="Culture.empire"
             weight="2.7"
             appearance="2"
-            Type="LegArmor">
+            Type="LegArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     leg_armor="20"
                     covers_legs="true"
                     modifier_group="plate"
-                    material_type="Plate" />
+                    material_type="Plate"/>
         </ItemComponent>
-        <Flags />
+        <Flags/>
     </Item>
     <Item
             id="hemp_tunic"
-            name="{=tncs_yTWOMSmv}Heavy Mercenary Combat Tunic "
+            name="{=tncs_yTWOMSmv}Heavy Mercenary Combat Tunic"
             mesh="armor_hemp_tunic"
             culture="Culture.empire"
             subtype="body_armor"
             weight="0.4"
             difficulty="0"
             appearance="1"
-            Type="BodyArmor">
+            Type="BodyArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     body_armor="24"
@@ -109,11 +115,11 @@
                     arm_armor="8"
                     covers_body="true"
                     modifier_group="cloth_unarmoured"
-                    material_type="Cloth" />
+                    material_type="Cloth"/>
         </ItemComponent>
         <Flags
                 UseTeamColor="true"
-                Civilian="true" />
+                Civilian="true"/>
     </Item>
     <Item
             id="sleeveless_studded_fur_armor"
@@ -124,7 +130,8 @@
             weight="0.4"
             difficulty="0"
             appearance="1"
-            Type="BodyArmor">
+            Type="BodyArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     body_armor="38"
@@ -132,12 +139,12 @@
                     arm_armor="0"
                     covers_body="false"
                     modifier_group="leather"
-                    material_type="Leather" />
+                    material_type="Leather"/>
         </ItemComponent>
         <Flags
                 UseTeamColor="true"
                 Civilian="true"
-                DoesNotHideChest="true" />
+                DoesNotHideChest="true"/>
     </Item>
     <Item
             id="fur_armor"
@@ -148,7 +155,8 @@
             weight="4.0"
             difficulty="0"
             appearance="0.6"
-            Type="BodyArmor">
+            Type="BodyArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     body_armor="26"
@@ -157,10 +165,10 @@
                     has_gender_variations="true"
                     covers_body="true"
                     modifier_group="leather"
-                    material_type="Leather" />
+                    material_type="Leather"/>
         </ItemComponent>
         <Flags
-                UseTeamColor="true" />
+                UseTeamColor="true"/>
     </Item>
     <Item
             id="legionary_mail"
@@ -171,7 +179,8 @@
             weight="19"
             difficulty="0"
             appearance="1.3"
-            Type="BodyArmor">
+            Type="BodyArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     body_armor="50"
@@ -179,10 +188,10 @@
                     arm_armor="14"
                     covers_body="true"
                     modifier_group="chain"
-                    material_type="Chainmail" />
+                    material_type="Chainmail"/>
         </ItemComponent>
         <Flags
-                UseTeamColor="true" />
+                UseTeamColor="true"/>
     </Item>
     <Item
             id="armwraps"
@@ -192,39 +201,670 @@
             weight="0.2"
             difficulty="0"
             appearance="0.3"
-            Type="HandArmor">
+            Type="HandArmor"
+            is_merchandise="true">
         <ItemComponent>
             <Armor
                     arm_armor="3"
                     modifier_group="cloth_unarmoured"
-                    material_type="Cloth" />
+                    material_type="Cloth"/>
         </ItemComponent>
         <Flags
-                Civilian="true" />
+                Civilian="true"/>
     </Item>
-    <CraftedItem
-            id="eastern_javelin_3_t4"
-            name="{=Z6Ak3H6G}Basilisk Jav"
-            crafting_template="Javelin"
-            culture="Culture.aserai"
-            modifier_group="spear_dart_throwing">
+    <CraftedItem id="Desert tribe war blade one handed" name="Desert tribe war blade one handed"
+                 crafting_template="OneHandedSword" culture="Culture.Aseria" modifier_group="sword"
+                 is_merchandise="true">
         <Pieces>
-            <Piece
-                    id="spear_blade_27"
-                    Type="Blade"
-                    scale_factor="100" />
-            <Piece
-                    id="default_polearm_guard"
-                    Type="Guard"
-                    scale_factor="100" />
-            <Piece
-                    id="spear_handle_10"
-                    Type="Handle"
-                    scale_factor="100" />
-            <Piece
-                    id="spear_pommel_12"
-                    Type="Pommel"
-                    scale_factor="100" />
+            <Piece id="vlandian_noble_blade_5"
+                   Type="Blade"
+                   scale_factor="104"/>
+            <Piece id="battania_noble_guard_1"
+                   Type="Guard"
+                   scale_factor="109"/>
+            <Piece id="sturgian_grip_26"
+                   Type="Handle"
+                   scale_factor="97"/>
+            <Piece id="cleaver_pommel_1"
+                   Type="Pommel"
+                   scale_factor="97"/>
+        </Pieces>
+        <!-- Length: 128 Weight: 1.39 -->
+    </CraftedItem>
+    <CraftedItem id="eastern_javelin_3_t4"
+                 name="{=Z6Ak3H6G}Basilisk Jav"
+                 crafting_template="Javelin"
+                 culture="Culture.aserai"
+                 modifier_group="spear_dart_throwing"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="spear_blade_27"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="default_polearm_guard"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="spear_handle_10"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="spear_pommel_12"
+                   Type="Pommel"
+                   scale_factor="100"/>
         </Pieces>
     </CraftedItem>
+    <CraftedItem id="Oniran one handed sword"
+                 name="Oniran one handed sword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="empire_blade_2"
+                   Type="Blade"
+                   scale_factor="110"/>
+            <Piece id="aserai_noble_guard_2"
+                   Type="Guard"
+                   scale_factor="98"/>
+            <Piece id="cleaver_grip_2"
+                   Type="Handle"
+                   scale_factor="99"/>
+            <Piece id="battania_noble_pommel_1"
+                   Type="Pommel"
+                   scale_factor="90"/>
+        </Pieces>
+        <!-- Length: 111 Weight: 1.85 -->
+    </CraftedItem>
+    <CraftedItem id="desert warlord saber 01"
+                 name="desert warlord saber"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="battania_blade_6"
+                   Type="Blade"
+                   scale_factor="106"/>
+            <Piece id="battania_guard_8"
+                   Type="Guard"
+                   scale_factor="109"/>
+            <Piece id="khuzait_grip_20"
+                   Type="Handle"
+                   scale_factor="102"/>
+            <Piece id="vlandian_pommel_6"
+                   Type="Pommel"
+                   scale_factor="90"/>
+        </Pieces>
+        <!-- Length: 110 Weight: 1.48 -->
+    </CraftedItem>
+    <CraftedItem id="balanced eastern warsword 01"
+                 name="balanced eastern warsword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_noble_blade_6"
+                   Type="Blade"
+                   scale_factor="98"/>
+            <Piece id="empire_guard_5"
+                   Type="Guard"/>
+            <Piece id="empire_grip_16"
+                   Type="Handle"
+                   scale_factor="109"/>
+            <Piece id="empire_noble_pommel_4"
+                   Type="Pommel"
+                   scale_factor="106"/>
+        </Pieces>
+        <!-- Length: 104 Weight: 1.32 -->
+    </CraftedItem>
+    <CraftedItem id="balanced feild battle saber 01"
+                 name="balanced feild battle saber"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_noble_blade_4"
+                   Type="Blade"
+                   scale_factor="99"/>
+            <Piece id="vlandian_noble_guard_4"
+                   Type="Guard"/>
+            <Piece id="empire_noble_grip_4"
+                   Type="Handle"
+                   scale_factor="108"/>
+            <Piece id="aserai_pommel_4"
+                   Type="Pommel"
+                   scale_factor="104"/>
+        </Pieces>
+        <!-- Length: 102 Weight: 1.7 -->
+    </CraftedItem>
+    <CraftedItem id="Vangaurd infantry blade 001"
+                 name="Vangaurd infantry blade 1"
+                 crafting_template="TwoHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="vlandian_blade_3"
+                   Type="Blade"
+                   scale_factor="106"/>
+            <Piece id="battania_guard_9"
+                   Type="Guard"
+                   scale_factor="94"/>
+            <Piece id="battania_grip_2"
+                   Type="Handle"
+                   scale_factor="90"/>
+            <Piece id="vlandian_pommel_5"
+                   Type="Pommel"
+                   scale_factor="108"/>
+        </Pieces>
+        <!-- Length: 116 Weight: 1.93 -->
+    </CraftedItem>
+    <CraftedItem id="Vangaurd infantry blade 002"
+                 name="Vangaurd infantry blade 2"
+                 crafting_template="TwoHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="empire_blade_1"
+                   Type="Blade"
+                   scale_factor="101"/>
+            <Piece id="vlandian_guard_8"
+                   Type="Guard"
+                   scale_factor="109"/>
+            <Piece id="sturgian_grip_17"
+                   Type="Handle"
+                   scale_factor="104"/>
+            <Piece id="khuzait_pommel_2"
+                   Type="Pommel"
+                   scale_factor="103"/>
+        </Pieces>
+        <!-- Length: 113 Weight: 1.62 -->
+    </CraftedItem>
+    <CraftedItem id="Vangaurd infantry blade 003"
+                 name="Vangaurd infantry blade 3"
+                 crafting_template="TwoHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="empire_blade_1"
+                   Type="Blade"
+                   scale_factor="101"/>
+            <Piece id="vlandian_guard_8"
+                   Type="Guard"
+                   scale_factor="109"/>
+            <Piece id="sturgian_grip_17"
+                   Type="Handle"
+                   scale_factor="104"/>
+            <Piece id="khuzait_pommel_2"
+                   Type="Pommel"
+                   scale_factor="103"/>
+        </Pieces>
+        <!-- Length: 113 Weight: 1.62 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary battlefeild battle axe 0001"
+                 name="Mercanary battlefeild battle axe"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_38_head"
+                   Type="Blade"
+                   scale_factor="106"/>
+            <Piece id="axe_craft_30_handle"
+                   Type="Handle"
+                   scale_factor="108"/>
+            <Piece id="aserai_noble_pommel_2"
+                   Type="Pommel"
+                   scale_factor="104"/>
+        </Pieces>
+        <!-- Length: 130 Weight: 1.83 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary Vangaurd axe 001"
+                 name="Mercanary Vangaurd axe 1"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_16_head"
+                   Type="Blade"
+                   scale_factor="92"/>
+            <Piece id="axe_craft_8_handle"
+                   Type="Handle"
+                   scale_factor="101"/>
+            <Piece id="vlandian_pommel_7"
+                   Type="Pommel"
+                   scale_factor="108"/>
+        </Pieces>
+        <!-- Length: 103 Weight: 1.66 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary Vangaurd axe 002"
+                 name="Mercanary Vangaurd axe 2"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_1_head"
+                   Type="Blade"
+                   scale_factor="91"/>
+            <Piece id="axe_craft_6_handle"
+                   Type="Handle"
+                   scale_factor="107"/>
+            <Piece id="spear_pommel_1"
+                   Type="Pommel"
+                   scale_factor="109"/>
+        </Pieces>
+        <!-- Length: 124 Weight: 1.31 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary Vangaurd axe 003"
+                 name="Mercanary Vangaurd axe 3"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_3_head"
+                   Type="Blade"
+                   scale_factor="94"/>
+            <Piece id="axe_craft_9_handle"
+                   Type="Handle"/>
+            <Piece id="spear_pommel_5"
+                   Type="Pommel"
+                   scale_factor="101"/>
+        </Pieces>
+        <!-- Length: 125 Weight: 1.04 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary Vangaurd axe 0003"
+                 name="Mercanary Vangaurd axe 3"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_6_head"
+                   Type="Blade"
+                   scale_factor="94"/>
+            <Piece id="axe_craft_9_handle"
+                   Type="Handle"
+                   scale_factor="109"/>
+            <Piece id="aserai_pommel_3"
+                   Type="Pommel"
+                   scale_factor="96"/>
+        </Pieces>
+        <!-- Length: 139 Weight: 1.58 -->
+    </CraftedItem>
+    <CraftedItem id="mercenary Vanguard axe 004"
+                 name="mercenary Vanguard axe 4"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_3_head"
+                   Type="Blade"/>
+            <Piece id="axe_craft_1_handle"
+                   Type="Handle"
+                   scale_factor="109"/>
+            <Piece id="spear_pommel_11"
+                   Type="Pommel"
+                   scale_factor="107"/>
+        </Pieces>
+        <!-- Length: 136 Weight: 1.24 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary vangaurd axe 005"
+                 name="Mercanary vangaurd axe 5"
+                 crafting_template="TwoHandedAxe"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="axe_craft_38_head"
+                   Type="Blade"
+                   scale_factor="94"/>
+            <Piece id="axe_craft_9_handle"
+                   Type="Handle"
+                   scale_factor="93"/>
+            <Piece id="wood_pommel_1"
+                   Type="Pommel"
+                   scale_factor="98"/>
+        </Pieces>
+        <!-- Length: 128 Weight: 1.35 -->
+    </CraftedItem>
+    <CraftedItem id="cheap long one handed sword 01"
+                 name="cheap long one handed sword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="vlandian_blade_7"
+                   Type="Blade"
+                   scale_factor="110"/>
+            <Piece id="battania_guard_8"
+                   Type="Guard"
+                   scale_factor="97"/>
+            <Piece id="vlandian_grip_13"
+                   Type="Handle"
+                   scale_factor="108"/>
+            <Piece id="vlandian_noble_pommel_4"
+                   Type="Pommel"
+                   scale_factor="102"/>
+        </Pieces>
+        <!-- Length: 115 Weight: 1.34 -->
+    </CraftedItem>
+    <CraftedItem id="iron infantry spatha 01"
+                 name="iron infantry spatha"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="vlandian_noble_blade_6"
+                   Type="Blade"
+                   scale_factor="101"/>
+            <Piece id="battania_guard_5"
+                   Type="Guard"
+                   scale_factor="106"/>
+            <Piece id="vlandian_grip_16"
+                   Type="Handle"
+                   scale_factor="95"/>
+            <Piece id="sturgian_pommel_11"
+                   Type="Pommel"
+                   scale_factor="92"/>
+        </Pieces>
+        <!-- Length: 115 Weight: 1.53 -->
+    </CraftedItem>
+    <CraftedItem id="Mercanary one handed warsword 01"
+                 name="Mercanary one handed warsword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="vlandian_blade_5"
+                   Type="Blade"
+                   scale_factor="101"/>
+            <Piece id="khuzait_guard_9"
+                   Type="Guard"
+                   scale_factor="108"/>
+            <Piece id="aserai_grip_20"
+                   Type="Handle"
+                   scale_factor="104"/>
+            <Piece id="khuzait_pommel_7"
+                   Type="Pommel"
+                   scale_factor="97"/>
+        </Pieces>
+        <!-- Length: 113 Weight: 1.69 -->
+    </CraftedItem>
+    <CraftedItem id="mercanary tribal infantry saber sword 01"
+                 name="mercanary tribal infantry saber sword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_noble_blade_1"
+                   Type="Blade"
+                   scale_factor="108"/>
+            <Piece id="sturgian_noble_guard_3"
+                   Type="Guard"
+                   scale_factor="99"/>
+            <Piece id="aserai_grip_18"
+                   Type="Handle"
+                   scale_factor="91"/>
+            <Piece id="aserai_pommel_5"
+                   Type="Pommel"
+                   scale_factor="95"/>
+        </Pieces>
+        <!-- Length: 112 Weight: 1.56 -->
+    </CraftedItem>
+    <CraftedItem id="Balanced mercanary one handed warsword 01"
+                 name="Balanced mercanary one handed warsword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_noble_blade_1"
+                   Type="Blade"
+                   scale_factor="108"/>
+            <Piece id="sturgian_noble_guard_3"
+                   Type="Guard"
+                   scale_factor="99"/>
+            <Piece id="aserai_grip_18"
+                   Type="Handle"
+                   scale_factor="91"/>
+            <Piece id="aserai_pommel_5"
+                   Type="Pommel"
+                   scale_factor="95"/>
+        </Pieces>
+        <!-- Length: 112 Weight: 1.56 -->
+    </CraftedItem>
+    <CraftedItem id="mercanary onehanded warsword 01"
+                 name="sharp mercanary onehanded warsword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_noble_blade_1"
+                   Type="Blade"
+                   scale_factor="108"/>
+            <Piece id="sturgian_noble_guard_3"
+                   Type="Guard"
+                   scale_factor="99"/>
+            <Piece id="aserai_grip_18"
+                   Type="Handle"
+                   scale_factor="91"/>
+            <Piece id="aserai_pommel_5"
+                   Type="Pommel"
+                   scale_factor="95"/>
+        </Pieces>
+        <!-- Length: 112 Weight: 1.56 -->
+    </CraftedItem>
+    <CraftedItem id="elite ranger merc one hander 01"
+                 name="elite ranger merc one hander"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_blade_20"
+                   Type="Blade"
+                   scale_factor="103"/>
+            <Piece id="battania_guard_9"
+                   Type="Guard"
+                   scale_factor="97"/>
+            <Piece id="sturgian_grip_33"
+                   Type="Handle"
+                   scale_factor="105"/>
+            <Piece id="vlandian_noble_pommel_1"
+                   Type="Pommel"
+                   scale_factor="108"/>
+        </Pieces>
+        <!-- Length: 95 Weight: 1.29 -->
+    </CraftedItem>
+    <CraftedItem id="heavy infantry shock one handed sword 01"
+                 name="heavy infantry shock one handed sword"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="vlandian_noble_blade_5"
+                   Type="Blade"/>
+            <Piece id="cleaver_guard_1"
+                   Type="Guard"/>
+            <Piece id="khuzait_grip_12"
+                   Type="Handle"/>
+            <Piece id="battania_pommel_2"
+                   Type="Pommel"
+                   scale_factor="104"/>
+        </Pieces>
+        <!-- Length: 116 Weight: 1.3 -->
+    </CraftedItem>
+    <CraftedItem id="Balanced Tournament spatha 01"
+                 name="Balanced Tournament spatha"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="vlandian_noble_blade_5"
+                   Type="Blade"/>
+            <Piece id="empire_guard_6"
+                   Type="Guard"
+                   scale_factor="92"/>
+            <Piece id="khuzait_grip_20"
+                   Type="Handle"
+                   scale_factor="102"/>
+            <Piece id="aserai_pommel_3"
+                   Type="Pommel"
+                   scale_factor="102"/>
+        </Pieces>
+        <!-- Length: 113 Weight: 1.49 -->
+    </CraftedItem>
+    <CraftedItem id="tribal forest warroir blade 01"
+                 name="tribal forest warroir blade"
+                 crafting_template="OneHandedSword"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="aserai_blade_7"
+                   Type="Blade"
+                   scale_factor="90"/>
+            <Piece id="vlandian_guard_5"
+                   Type="Guard"
+                   scale_factor="108"/>
+            <Piece id="aserai_grip_5"
+                   Type="Handle"
+                   scale_factor="91"/>
+            <Piece id="sturgian_pommel_3"
+                   Type="Pommel"
+                   scale_factor="102"/>
+        </Pieces>
+        <!-- Length: 98 Weight: 1.57 -->
+    </CraftedItem>
+    <!-- New Armor Items -->
+    <Item
+            id="mercenary_praesidium_armor"
+            name="{=abcd1234}Praesidium Lorica"
+            subtype="body_armor"
+            mesh="mercenary_praesidium_armor"
+            culture="Culture.empire"
+            weight="8.4"
+            difficulty="0"
+            appearance="1.4"
+            Type="BodyArmor"
+            is_merchandise="true">
+        <ItemComponent>
+            <Armor
+                    body_armor="28"
+                    leg_armor="11"
+                    arm_armor="10"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
+
+    <Item
+            id="mercenary_galea_armor"
+            name="{=efgh5678}Galea Lorica"
+            subtype="body_armor"
+            mesh="mercenary_galea_armor"
+            culture="Culture.empire"
+            weight="8.2"
+            difficulty="0"
+            appearance="1.2"
+            Type="BodyArmor"
+            is_merchandise="true">
+        <ItemComponent>
+            <Armor
+                    body_armor="27"
+                    leg_armor="12"
+                    arm_armor="10"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
+
+    <Item
+            id="mercenary_scutum_armor"
+            name="{=ijkl9012}Scutum Lorica"
+            subtype="body_armor"
+            mesh="mercenary_scutum_armor"
+            culture="Culture.empire"
+            weight="8.3"
+            difficulty="0"
+            appearance="1.3"
+            Type="BodyArmor"
+            is_merchandise="true">
+        <ItemComponent>
+            <Armor
+                    body_armor="26"
+                    leg_armor="11"
+                    arm_armor="11"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
+
+    <Item
+            id="mercenary_castra_armor"
+            name="{=mnop3456}Castra Lorica"
+            subtype="body_armor"
+            mesh="mercenary_castra_armor"
+            culture="Culture.empire"
+            weight="8.3"
+            difficulty="0"
+            appearance="1.3"
+            Type="BodyArmor"
+            is_merchandise="true">
+        <ItemComponent>
+            <Armor
+                    body_armor="27"
+                    leg_armor="12"
+                    arm_armor="10"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
+
+    <Item
+            id="captain_praetorian_guard_armor"
+            name="{=newName}Captain Praetorian Guard Armor"
+            mesh="imperial_lamellar_c"
+            culture="Culture.empire"
+            is_merchandise="true"
+            weight="26"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="55"
+                    leg_armor="26"
+                    arm_armor="18"
+                    covers_body="true"
+                    modifier_group="plate"
+                    material_type="Plate"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
+    <Item
+            id="emperor_arenicos_royal_armor"
+            name="{=newName}Emperor Arenicos Royal Armor"
+            mesh="imperial_lamellar_c"
+            culture="Culture.empire"
+            is_merchandise="true"
+            weight="26"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="58"
+                    leg_armor="28"
+                    arm_armor="20"
+                    covers_body="true"
+                    modifier_group="plate"
+                    material_type="Plate"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
+    <Item
+            id="appointed_legatus_armor"
+            name="{=tncs_newName}Appointed Legatus Armor"
+            mesh="empire_armor_b"
+            culture="Culture.empire"
+            subtype="body_armor"
+            weight="19"
+            difficulty="0"
+            appearance="1.3"
+            Type="BodyArmor"
+            is_merchandise="true">
+        <ItemComponent>
+            <Armor
+                    body_armor="53"
+                    leg_armor="24"
+                    arm_armor="16"
+                    covers_body="true"
+                    modifier_group="chain"
+                    material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true"/>
+    </Item>
 </Items>

@@ -106,6 +106,8 @@ namespace TheNorthernCastleStates
                     garrisonParty.MemberRoster.AddToCounts(CharacterObject.Find("imperial_legionary"), 40);
                     garrisonParty.MemberRoster.AddToCounts(CharacterObject.Find("imperial_elite_cataphract"), 20);
                     garrisonParty.MemberRoster.AddToCounts(CharacterObject.Find("sturgian_ulfhednar"), 30);
+                    
+                    //Village to have 4 notables
 
                     Settlement villageWith4Notables = Settlement.Find("castle_village_ER_2");
                     for (int index = villageWith4Notables.Notables.Count-1; index <= 3; ++index)
@@ -168,35 +170,24 @@ namespace TheNorthernCastleStates
                 {
                     MobileParty reydlonParty = Hero.FindFirst(x => x.StringId == "walneria_lord_5").PartyBelongedTo;
                     reydlonParty.Party.MemberRoster.RemoveIf(x => x.Character != reydlonParty.LeaderHero.CharacterObject);
-
-
+                    
                     reydlonParty.AddElementToMemberRoster(CharacterObject.Find("imperial_palatine_guard"), 25);
-
                     reydlonParty.AddElementToMemberRoster(CharacterObject.Find("imperial_legionary"), 10);
-
                     reydlonParty.AddElementToMemberRoster(CharacterObject.Find("imperial_menavliaton"), 10);
-
                     reydlonParty.AddElementToMemberRoster(CharacterObject.Find("sturgian_berzerker"), 10);
-
                     reydlonParty.AddElementToMemberRoster(CharacterObject.Find("imperial_elite_cataphract"), 8);
                     heroes.Remove("walneria_lord_5");
                 }
                 if (heroes.Contains("walneria_lord_6") && Hero.FindFirst(x => x.StringId == "walneria_lord_6").PartyBelongedTo != null)
                 {
                     MobileParty darkishanParty = Hero.FindFirst(x => x.StringId == "walneria_lord_6").PartyBelongedTo;
-
-
+                    
                     darkishanParty.Party.MemberRoster.RemoveIf(x => x.Character != darkishanParty.LeaderHero.CharacterObject);
-
-
+                    
                     darkishanParty.AddElementToMemberRoster(CharacterObject.Find("imperial_palatine_guard"), 25);
-
                     darkishanParty.AddElementToMemberRoster(CharacterObject.Find("imperial_legionary"), 10);
-
                     darkishanParty.AddElementToMemberRoster(CharacterObject.Find("imperial_menavliaton"), 10);
-
                     darkishanParty.AddElementToMemberRoster(CharacterObject.Find("sturgian_berzerker"), 10);
-
                     darkishanParty.AddElementToMemberRoster(CharacterObject.Find("imperial_elite_cataphract"), 8);
                     heroes.Remove("walneria_lord_6");
 

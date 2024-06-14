@@ -70,7 +70,7 @@
 			 culture="Culture.empire"
 			 super_faction="Kingdom.avaloria"
 			 is_noble="true"
-			 banner_key="6.4.19.1836.1836.768.788.1.0.-30.205.83.116.875.875.764.764.1.1.0"/>
+			 banner_key="6.4.19.1836.1836.768.788.1.0.-30.205.83.116.568.568.765.763.1.1.0"/>
 	
 	<Faction id="avaloria_clan_3"
 			 name="{=avaloria_clan_3.name}Castetillon"

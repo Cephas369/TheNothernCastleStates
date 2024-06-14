@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using HarmonyLib;
 using TaleWorlds.CampaignSystem;
@@ -17,30 +18,31 @@ namespace TheNorthernCastleStates;
 internal class TNCSMenuBehavior : CampaignBehaviorBase
 {
     private float _scamProgressHours;
+    private float _fraudProgressHours;
     private const float ScamTargetHours = 6;
+    private const float FraudTargetHours = 72;
+    private const int FraudReward = 6500;
+
     private Dictionary<Settlement, (int amount, CharacterObject mercenary)>? _mercenaryData;
 
     private Dictionary<Settlement, (int amount, CharacterObject mercenary)> MercenaryData
     {
-        get
-        {
-            return _mercenaryData ??= new Dictionary<Settlement, (int amount, CharacterObject mercenary)>();
-        }
+        get { return _mercenaryData ??= new Dictionary<Settlement, (int amount, CharacterObject mercenary)>(); }
     }
 
     private bool buy_mercenaries_condition(MenuCallbackArgs args)
     {
         if (MobileParty.MainParty.CurrentSettlement == null || !MobileParty.MainParty.CurrentSettlement.IsTown)
             return false;
-        if(!MercenaryData.ContainsKey(Settlement.CurrentSettlement))
+        if (!MercenaryData.ContainsKey(Settlement.CurrentSettlement))
             InitializeSettlementMercenaries(Settlement.CurrentSettlement);
-        
+
         var tuple = MercenaryData[Settlement.CurrentSettlement];
         if (tuple.amount == 0)
             return false;
         int troopRecruitmentCost =
             Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(tuple.mercenary, Hero.MainHero);
-        
+
         if (Hero.MainHero.Gold >= troopRecruitmentCost)
         {
             int content = MathF.Min(tuple.amount, Hero.MainHero.Gold / troopRecruitmentCost);
@@ -93,10 +95,12 @@ internal class TNCSMenuBehavior : CampaignBehaviorBase
 
     private CharacterObject GetSettlementMercenaryTroop()
     {
-        return Settlement.CurrentSettlement?.OwnerClan?.Culture?.BasicMercenaryTroops != null ?
-            Settlement.CurrentSettlement.OwnerClan.Culture.BasicMercenaryTroops.GetRandomElement() :
-            CharacterObject.All.GetRandomElementWithPredicate(x=>!x.IsHero && x is { IsTemplate: false, IsObsolete: false, Occupation: Occupation.Mercenary });
+        return Settlement.CurrentSettlement?.OwnerClan?.Culture?.BasicMercenaryTroops != null
+            ? Settlement.CurrentSettlement.OwnerClan.Culture.BasicMercenaryTroops.GetRandomElement()
+            : CharacterObject.All.GetRandomElementWithPredicate(x =>
+                !x.IsHero && x is { IsTemplate: false, IsObsolete: false, Occupation: Occupation.Mercenary });
     }
+
     private void InitializeSettlementMercenaries(Settlement settlement)
     {
         (int, CharacterObject) data = (MBRandom.RandomInt(0, 10), GetSettlementMercenaryTroop());
@@ -112,6 +116,7 @@ internal class TNCSMenuBehavior : CampaignBehaviorBase
     public override void SyncData(IDataStore dataStore)
     {
         dataStore.SyncData("_scamProgressHours", ref _scamProgressHours);
+        dataStore.SyncData("_fraudProgressHours", ref _fraudProgressHours);
     }
 
     private void scam_menu_on_tick(MenuCallbackArgs args, CampaignTime dt)
@@ -119,10 +124,22 @@ internal class TNCSMenuBehavior : CampaignBehaviorBase
         _scamProgressHours += (float)dt.ToHours;
         args.MenuContext.GameMenu.SetProgressOfWaitingInMenu(_scamProgressHours / ScamTargetHours);
 
-        if (_scamProgressHours >= 6)
+        if (_scamProgressHours >= ScamTargetHours)
         {
             GiveGoldAction.ApplyForSettlementToCharacter(Settlement.CurrentSettlement, Hero.MainHero, 100);
             ChangeCrimeRatingAction.Apply(Settlement.CurrentSettlement.OwnerClan, 10);
+        }
+    }
+
+    private void fraud_menu_on_tick(MenuCallbackArgs args, CampaignTime dt)
+    {
+        _fraudProgressHours += (float)dt.ToHours;
+        args.MenuContext.GameMenu.SetProgressOfWaitingInMenu(_fraudProgressHours / FraudTargetHours);
+
+        if (_fraudProgressHours >= FraudTargetHours)
+        {
+            GiveGoldAction.ApplyForSettlementToCharacter(Settlement.CurrentSettlement, Hero.MainHero, FraudReward);
+            ChangeCrimeRatingAction.Apply(Settlement.CurrentSettlement.OwnerClan, 35);
         }
     }
 
@@ -135,13 +152,36 @@ internal class TNCSMenuBehavior : CampaignBehaviorBase
                 return true;
             }, args => { GameMenu.SwitchToMenu("scamming_townsfolk"); }, false, 3);
         campaignGameStarter.AddGameMenuOption("town_backstreet", "recruit_mercenaries",
-            "{=NwO0CVzn}Recruit {MEN_COUNT} {MERCENARY_NAME} ({TOTAL_AMOUNT}{GOLD_ICON})",buy_mercenaries_condition, buy_mercenaries_on_consequence, false, 2);
+            "{=NwO0CVzn}Recruit {MEN_COUNT} {MERCENARY_NAME} ({TOTAL_AMOUNT}{GOLD_ICON})", buy_mercenaries_condition,
+            buy_mercenaries_on_consequence, false, 2);
 
         campaignGameStarter.AddWaitGameMenu("scamming_townsfolk", "{=scamming_townsfolk}Scamming...",
-            args => _scamProgressHours = 0, null, null, scam_menu_on_tick, GameMenu.MenuAndOptionType.WaitMenuShowProgressAndHoursOption, GameOverlays.MenuOverlayType.Encounter,
-            targetWaitHours: 6f);
+            args => _scamProgressHours = 0, null, null, scam_menu_on_tick,
+            GameMenu.MenuAndOptionType.WaitMenuShowProgressAndHoursOption, GameOverlays.MenuOverlayType.Encounter,
+            targetWaitHours: ScamTargetHours);
 
         campaignGameStarter.AddGameMenuOption("scamming_townsfolk", "leave_scam", "Leave",
+            args =>
+            {
+                args.optionLeaveType = GameMenuOption.LeaveType.Leave;
+                return true;
+            }, args => GameMenu.ExitToLast(), true, 2);
+
+
+        campaignGameStarter.AddGameMenuOption("town_backstreet", "commit_fraud", "{=commit_fraud}Commit fraud ({TOTAL_AMOUNT}{GOLD_ICON})",
+            args =>
+            {
+                args.optionLeaveType = GameMenuOption.LeaveType.Ransom;
+                MBTextManager.SetTextVariable("TOTAL_AMOUNT", FraudReward);
+                return true;
+            }, args => { GameMenu.SwitchToMenu("committing_fraud"); }, false, 3);
+
+        campaignGameStarter.AddWaitGameMenu("committing_fraud", "{=committing_fraud}Applying fraud...",
+            args => _fraudProgressHours = 0, null, null, fraud_menu_on_tick,
+            GameMenu.MenuAndOptionType.WaitMenuShowProgressAndHoursOption, GameOverlays.MenuOverlayType.Encounter,
+            targetWaitHours: FraudTargetHours);
+
+        campaignGameStarter.AddGameMenuOption("committing_fraud", "leave_fraud", "Leave",
             args =>
             {
                 args.optionLeaveType = GameMenuOption.LeaveType.Leave;
