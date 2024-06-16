@@ -15,6 +15,8 @@ using TaleWorlds.Engine;
 using TaleWorlds.Library;
 using TaleWorlds.ModuleManager;
 using TaleWorlds.MountAndBlade;
+using TaleWorlds.SaveSystem;
+using TheNorthernCastleStates;
 using Path = System.IO.Path;
 
 
@@ -199,5 +201,18 @@ namespace TheNorthernCastleStates
                 
             }
         }
+    }
+}
+
+public class TNCSSaveDefiner : SaveableTypeDefiner
+{
+    // use a big number and ensure that no other mod is using a close range
+    public TNCSSaveDefiner() : base(23_6545_343) { }
+
+    protected override void DefineClassTypes()
+    {
+        // The Id's here are local and will be related to the Id passed to the constructor
+        AddClassDefinition(typeof(PayDebtQuest), 1);
+        AddClassDefinition(typeof(TNCSMenuBehavior), 2);
     }
 }

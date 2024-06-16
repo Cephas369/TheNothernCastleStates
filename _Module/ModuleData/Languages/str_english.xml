@@ -45,5 +45,13 @@
 		<string id="scamming_townsfolk" text="Scamming..."/>
 		<string id="commit_fraud" text="Commit fraud ({TOTAL_AMOUNT}{GOLD_ICON})"/>
 		<string id="committing_fraud" text="Applying fraud..."/>
+
+        <string id="borrow_money" text="Borrow money ({TOTAL_AMOUNT}{GOLD_ICON})"/>
+        <string id="no_gang_leaders" text="There's no gang leaders in this town."/>
+        <string id="not_same_kingdom" text="You're not from this kingdom!"/>
+        <string id="low_clan_tier" text="Your clan tier needs to be at least 1."/>
+        <string id="pay_debt_to" text="Pay your debt to {SETTLEMENT} gang leaders."/>
+        <string id="pay_debt" text="Pay debt ({TOTAL_AMOUNT}{GOLD_ICON})"/>
+        <string id="not_enough_money" text="You don't have enough money."/>
     </strings>
 </base>

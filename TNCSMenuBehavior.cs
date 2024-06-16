@@ -187,5 +187,41 @@ internal class TNCSMenuBehavior : CampaignBehaviorBase
                 args.optionLeaveType = GameMenuOption.LeaveType.Leave;
                 return true;
             }, args => GameMenu.ExitToLast(), true, 2);
+        
+        campaignGameStarter.AddGameMenuOption("town_backstreet", "borrow_money", "{=borrow_money}Borrow money ({TOTAL_AMOUNT}{GOLD_ICON})",
+            args =>
+            {
+                args.optionLeaveType = GameMenuOption.LeaveType.Ransom;
+                int moneyToBorrow = (int)(Settlement.CurrentSettlement.Notables
+                    .Where(hero => hero.IsGangLeader)
+                    .Sum(hero => hero.Gold) * 0.8f);
+                if (Settlement.CurrentSettlement?.Notables.Any(hero => hero.IsGangLeader) == false)
+                {
+                    args.IsEnabled = false;
+                    args.Tooltip = new TextObject("{=no_gang_leaders}There's no gang leaders in this town.");
+                    moneyToBorrow = 0;
+                }
+                else if (Settlement.CurrentSettlement?.MapFaction != Hero.MainHero.MapFaction)
+                {
+                    args.IsEnabled = false;
+                    args.Tooltip = new TextObject("{=not_same_kingdom}You're not from this kingdom!");
+                } 
+                else if (Clan.PlayerClan.Tier < 1)
+                {
+                    args.IsEnabled = false;
+                    args.Tooltip = new TextObject("{=low_clan_tier}Your clan tier needs to be at least 1.");
+                }
+
+                MBTextManager.SetTextVariable("TOTAL_AMOUNT", moneyToBorrow);
+                return !Campaign.Current.QuestManager.Quests.Any(quest => quest is PayDebtQuest payDebtQuest && payDebtQuest._relatedSettlement == Settlement.CurrentSettlement);
+            }, args =>
+            {
+                int moneyToBorrow = (int)(Settlement.CurrentSettlement.Notables
+                    .Where(hero => hero.IsGangLeader)
+                    .Sum(hero => hero.Gold) * 0.8f);
+                Hero hero = Settlement.CurrentSettlement.Notables.GetRandomElementWithPredicate(hero => hero.IsGangLeader);
+                new PayDebtQuest("pay_debt", hero, CampaignTime.DaysFromNow(30), 0, moneyToBorrow, Settlement.CurrentSettlement).StartQuest();
+                GameMenu.ExitToLast();
+            }, false, 3);
     }
 }
