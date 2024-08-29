@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="belecross_lord_1"
+                  name="{=belecross_lord_1.name}Octros Belecross"
+                  is_female="false"
+                  voice="earnest"
+                  age="39"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="41.5" weight="0.8502" build="0.4653"  key="0002580980B41082A98763E58366879C875857267567AB9CEDEA74CB94B288A40357D635058C86B9000000000000000000000000000000000000000040AC1140"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="120"/>
+            <skill
+                    id="TwoHanded"
+                    value="130"/>
+            <skill
+                    id="Polearm"
+                    value="190"/>
+            <skill
+                    id="Bow"
+                    value="190"/>
+            <skill
+                    id="Crossbow"
+                    value="140"/>
+            <skill
+                    id="Throwing"
+                    value="292"/>
+            <skill
+                    id="Riding"
+                    value="130"/>
+            <skill
+                    id="Athletics"
+                    value="140"/>
+            <skill
+                    id="Crafting"
+                    value="73"/>
+            <skill
+                    id="Tactics"
+                    value="120"/>
+            <skill
+                    id="Scouting"
+                    value="61"/>
+            <skill
+                    id="Roguery"
+                    value="88"/>
+            <skill
+                    id="Leadership"
+                    value="112"/>
+            <skill
+                    id="Charm"
+                    value="264"/>
+            <skill
+                    id="Trade"
+                    value="70"/>
+            <skill
+                    id="Steward"
+                    value="40"/>
+            <skill
+                    id="Medicine"
+                    value="173"/>
+            <skill
+                    id="Engineering"
+                    value="170"/>
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="2"/>
+            <Trait id="Honor" value="4"/>
+            <Trait id="Mercy" value="2"/>
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady"/>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_2"
+                  name="{=belecross_lord_2.name}Naomi Vega"
+                  is_female="false"
+                  voice="earnest"
+                  age="45"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="41.5" weight="0.8502" build="0.4653"  key="0005580B80B4300AA98763E58366879C875857267567AB9CEDEA74CB94B288A40357D635058C86B9000000000000000000000000000000000000000040AC2000"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="160" /><skill
+				id="TwoHanded"
+				value="70" /><skill
+				id="Polearm"
+				value="120" /><skill
+				id="Bow"
+				value="210" /><skill
+				id="Crossbow"
+				value="130" /><skill
+				id="Throwing"
+				value="292" /><skill
+				id="Riding"
+				value="150" /><skill
+				id="Athletics"
+				value="160" /><skill
+				id="Crafting"
+				value="269" /><skill
+				id="Tactics"
+				value="40" /><skill
+				id="Scouting"
+				value="257" /><skill
+				id="Roguery"
+				value="124" /><skill
+				id="Leadership"
+				value="298" /><skill
+				id="Charm"
+				value="65" /><skill
+				id="Trade"
+				value="90" /><skill
+				id="Steward"
+				value="35" /><skill
+				id="Medicine"
+				value="186" /><skill
+				id="Engineering"
+				value="50" /></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="2"/>
+            <Trait id="Honor" value="0"/>
+            <Trait id="Mercy" value="-1"/>
+            <Trait
+                    id="Calculating"
+                    value="4"/>
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_heavy"/>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_3"
+                  name="{=belecross_lord_3.name}Lena Armegost"
+                  is_female="false"
+                  voice="earnest"
+                  age="41"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="41.5" weight="0.8502" build="0.4653"  key="0005580E40B43001A98763E58366879C875857267567AB9CEDEA74CB94B288A40357D635058C86B9000000000000000000000000000000000000000040AC2000"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="140" /><skill
+				id="TwoHanded"
+				value="40" /><skill
+				id="Polearm"
+				value="160" /><skill
+				id="Bow"
+				value="195" /><skill
+				id="Crossbow"
+				value="135" /><skill
+				id="Throwing"
+				value="114" /><skill
+				id="Riding"
+				value="160" /><skill
+				id="Athletics"
+				value="130" /><skill
+				id="Crafting"
+				value="72" /><skill
+				id="Tactics"
+				value="81" /><skill
+				id="Scouting"
+				value="200" /><skill
+				id="Roguery"
+				value="251" /><skill
+				id="Leadership"
+				value="290" /><skill
+				id="Charm"
+				value="55" /><skill
+				id="Trade"
+				value="36" /><skill
+				id="Steward"
+				value="208" /><skill
+				id="Medicine"
+				value="172" /><skill
+				id="Engineering"
+				value="64" /></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="4"/>
+            <Trait id="Honor" value="4"/>
+            <Trait id="Mercy" value="4"/>
+            <Trait
+                    id="Calculating"
+                    value="4"/>
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady"/>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_4"
+                  name="{=belecross_lord_4.name}Regnar Armorgathis"
+                  is_female="true"
+                  voice="earnest"
+                  age="54"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="54.69" weight="0.5036" build="0.7311"  key="000D7003407001CE67D9878374888427488AA27762983AD73988B6AD9C94A957053B8656033B7AD60000000000000000000000000000000000000000626C6040"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="120" /><skill
+				id="TwoHanded"
+				value="110" /><skill
+				id="Polearm"
+				value="115" /><skill
+				id="Bow"
+				value="160" /><skill
+				id="Crossbow"
+				value="120" /><skill
+				id="Throwing"
+				value="217" /><skill
+				id="Riding"
+				value="140" /><skill
+				id="Athletics"
+				value="125" /><skill
+				id="Crafting"
+				value="179" /><skill
+				id="Tactics"
+				value="43" /><skill
+				id="Scouting"
+				value="164" /><skill
+				id="Roguery"
+				value="60" /><skill
+				id="Leadership"
+				value="83" /><skill
+				id="Charm"
+				value="249" /><skill
+				id="Trade"
+				value="269" /><skill
+				id="Steward"
+				value="244" /><skill
+				id="Medicine"
+				value="200" /><skill
+				id="Engineering"
+				value="218" /></skills>
+        <Traits>
+            <Trait
+                    id="BalancedFightingSkills"
+                    value="0"/>
+            <Trait
+                    id="Commander"
+                    value="10"/>
+            <Trait
+                    id="Politician"
+                    value="20"/>
+            <Trait
+                    id="Manager"
+                    value="14"/>
+            <Trait
+                    id="Generosity"
+                    value="1"/>
+            <Trait
+                    id="Calculating"
+                    value="1"/>
+            <Trait
+                    id="Authoritarian"
+                    value="1"/>
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_heavy"/>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_5"
+                  name="{=belecross_lord_5.name}August"
+                  is_female="false"
+                  voice="earnest"
+                  age="64"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="64.87" weight="0.5" build="0.5"  key="001BB80FC000340D7C7664876753888A7577866254C69643C4B647398C95A0370677766807A7497300000000000000000000000000000000000000003AEC7000"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="190" /><skill
+				id="TwoHanded"
+				value="250" /><skill
+				id="Polearm"
+				value="216" /><skill
+				id="Bow"
+				value="58" /><skill
+				id="Crossbow"
+				value="276" /><skill
+				id="Throwing"
+				value="290" /><skill
+				id="Riding"
+				value="205" /><skill
+				id="Athletics"
+				value="300" /><skill
+				id="Crafting"
+				value="167" /><skill
+				id="Tactics"
+				value="261" /><skill
+				id="Scouting"
+				value="140" /><skill
+				id="Roguery"
+				value="91" /><skill
+				id="Leadership"
+				value="80" /><skill
+				id="Charm"
+				value="204" /><skill
+				id="Trade"
+				value="130" /><skill
+				id="Steward"
+				value="60" /><skill
+				id="Medicine"
+				value="48" /><skill
+				id="Engineering"
+				value="93" /></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="2"/>
+            <Trait id="Honor" value="4"/>
+            <Trait id="Mercy" value="2"/>
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_heavy"/>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_6"
+                  name="{=belecross_lord_6.name}Kayla"
+                  is_female="false"
+                  voice="earnest"
+                  age="28"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="28.46" weight="0.1759" build="0.7083"  key="0002B8000000300D7C7664876753888A7577866254C69643C4B647398C95A037017B361307A74973000000000000000000000000000000000000000074F44000"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="240" /><skill
+				id="TwoHanded"
+				value="156" /><skill
+				id="Polearm"
+				value="200" /><skill
+				id="Bow"
+				value="96" /><skill
+				id="Crossbow"
+				value="269" /><skill
+				id="Throwing"
+				value="170" /><skill
+				id="Riding"
+				value="277" /><skill
+				id="Athletics"
+				value="140" /><skill
+				id="Crafting"
+				value="35" /><skill
+				id="Tactics"
+				value="168" /><skill
+				id="Scouting"
+				value="80" /><skill
+				id="Roguery"
+				value="131" /><skill
+				id="Leadership"
+				value="117" /><skill
+				id="Charm"
+				value="200" /><skill
+				id="Trade"
+				value="197" /><skill
+				id="Steward"
+				value="146" /><skill
+				id="Medicine"
+				value="86" /><skill
+				id="Engineering"
+				value="61" /></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="2"/>
+            <Trait id="Honor" value="4"/>
+            <Trait id="Mercy" value="2"/>
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_heavy"/>
+            <EquipmentSet
+                    id="wa_civ_template_default"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_7"
+                  name="{=belecross_lord_7.name}Seldecon the Brave"
+                  is_female="true"
+                  voice="earnest"
+                  age="29"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="29.62" weight="0.5045" build="0.3829"  key="001518014044270B8D5BAC3478B87AB988E5AB7977D9C78649AB513DC786638B0156861305714883000000000000000000000000000000000000000052B48140"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="130" /><skill
+				id="TwoHanded"
+				value="161" /><skill
+				id="Polearm"
+				value="140" /><skill
+				id="Bow"
+				value="111" /><skill
+				id="Crossbow"
+				value="45" /><skill
+				id="Throwing"
+				value="130" /><skill
+				id="Riding"
+				value="220" /><skill
+				id="Athletics"
+				value="120" /><skill
+				id="Crafting"
+				value="291" /><skill
+				id="Tactics"
+				value="270" /><skill
+				id="Scouting"
+				value="202" /><skill
+				id="Roguery"
+				value="60" /><skill
+				id="Leadership"
+				value="268" /><skill
+				id="Charm"
+				value="183" /><skill
+				id="Trade"
+				value="51" /><skill
+				id="Steward"
+				value="79" /><skill
+				id="Medicine"
+				value="29" /><skill
+				id="Engineering"
+				value="183" /></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="2"/>
+            <Trait id="Honor" value="4"/>
+            <Trait id="Mercy" value="2"/>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.composite_steppe_bow"/>
+                <equipment
+                        slot="Item1"
+                        id="Item.barbed_arrows"/>
+                <equipment
+                        slot="Item2"
+                        id="Item.barbed_arrows"/>
+                <equipment
+                        slot="Item3"
+                        id="Item.empire_sword_5_t4"/>
+                <equipment
+                        slot="Head"
+                        id="Item.imperial_goggled_helmet"/>
+                <equipment
+                        slot="Body"
+                        id="Item.imperial_lamellar"/>
+                <equipment
+                        slot="Gloves"
+                        id="Item.lordly_padded_mitten"/>
+                <equipment
+                        slot="Leg"
+                        id="Item.lamellar_plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="belecross_lord_8"
+                  name="{=belecross_lord_8.name}Lia the Sniper"
+                  is_female="true"
+                  voice="earnest"
+                  age="20"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+			<BodyProperties version="4" age="20.36" weight="0.7875" build="0.3483"  key="001B400D0070400D3AE56ABDAB6A59957244D897B76CC8E7CC67A9A78B8829290DB5C6D20C4715AB0000000000000000000000000000000000000000576C3000"  />
+        </face>
+		<skills><skill
+				id="OneHanded"
+				value="160" /><skill
+				id="TwoHanded"
+				value="130" /><skill
+				id="Polearm"
+				value="291" /><skill
+				id="Bow"
+				value="270" /><skill
+				id="Crossbow"
+				value="200" /><skill
+				id="Throwing"
+				value="276" /><skill
+				id="Riding"
+				value="107" /><skill
+				id="Athletics"
+				value="160" /><skill
+				id="Crafting"
+				value="167" /><skill
+				id="Tactics"
+				value="87" /><skill
+				id="Scouting"
+				value="60" /><skill
+				id="Roguery"
+				value="292" /><skill
+				id="Leadership"
+				value="97" /><skill
+				id="Charm"
+				value="109" /><skill
+				id="Trade"
+				value="66" /><skill
+				id="Steward"
+				value="215" /><skill
+				id="Medicine"
+				value="221" /><skill
+				id="Engineering"
+				value="178" /></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5"/>
+            <Trait id="Commander" value="6"/>
+            <Trait id="Politician" value="5"/>
+            <Trait id="Manager" value="4"/>
+            <Trait id="Valor" value="2"/>
+            <Trait id="Honor" value="4"/>
+            <Trait id="Mercy" value="2"/>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment
+                        slot="Item0"
+                        id="Item.composite_steppe_bow"/>
+                <equipment
+                        slot="Item1"
+                        id="Item.barbed_arrows"/>
+                <equipment
+                        slot="Item2"
+                        id="Item.barbed_arrows"/>
+                <equipment
+                        slot="Item3"
+                        id="Item.empire_sword_5_t4"/>
+                <equipment
+                        slot="Head"
+                        id="Item.imperial_goggled_helmet"/>
+                <equipment
+                        slot="Body"
+                        id="Item.imperial_lamellar"/>
+                <equipment
+                        slot="Gloves"
+                        id="Item.lordly_padded_mitten"/>
+                <equipment
+                        slot="Leg"
+                        id="Item.lamellar_plate_boots"/>
+            </EquipmentRoster>
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="belecross_lord_9"
+				  name="{=belecross_lord_9.name}Jovas the Battle Proven"
+				  is_female="true"
+				  voice="earnest"
+				  age="47"
+				  default_group="Infantry"
+				  is_hero="true"
+				  culture="Culture.empire"
+				  occupation="Lord"
+				  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.37" weight="0.4558" build="0.4531"  key="0005840000FC104D7BB286A58A925876B6565A1D976829DECB8D7B4258C51D4704777646075B2C42000000000000000000000000000000000000000046E49000"  />
+		</face>
+		<skills><skill
+				id="OneHanded"
+				value="200" /><skill
+				id="TwoHanded"
+				value="200" /><skill
+				id="Polearm"
+				value="210" /><skill
+				id="Bow"
+				value="140" /><skill
+				id="Crossbow"
+				value="140" /><skill
+				id="Throwing"
+				value="200" /><skill
+				id="Riding"
+				value="260" /><skill
+				id="Athletics"
+				value="260" /><skill
+				id="Crafting"
+				value="193" /><skill
+				id="Tactics"
+				value="60" /><skill
+				id="Scouting"
+				value="287" /><skill
+				id="Roguery"
+				value="270" /><skill
+				id="Leadership"
+				value="70" /><skill
+				id="Charm"
+				value="65" /><skill
+				id="Trade"
+				value="291" /><skill
+				id="Steward"
+				value="100" /><skill
+				id="Medicine"
+				value="107" /><skill
+				id="Engineering"
+				value="33" /></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="4"/>
+			<Trait id="Mercy" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+						slot="Item0"
+						id="Item.composite_steppe_bow"/>
+				<equipment
+						slot="Item1"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item2"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item3"
+						id="Item.empire_sword_5_t4"/>
+				<equipment
+						slot="Head"
+						id="Item.imperial_goggled_helmet"/>
+				<equipment
+						slot="Body"
+						id="Item.imperial_lamellar"/>
+				<equipment
+						slot="Gloves"
+						id="Item.lordly_padded_mitten"/>
+				<equipment
+						slot="Leg"
+						id="Item.lamellar_plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet
+					id="emp_noncom_template_stoic"
+					civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="belecross_lord_10"
+				  name="{=belecross_lord_10.name}Leyla the Battle Sister"
+				  is_female="true"
+				  voice="earnest"
+				  age="30"
+				  default_group="Infantry"
+				  is_hero="true"
+				  culture="Culture.empire"
+				  occupation="Lord"
+				  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.55" weight="0.3878" build="0.6493"  key="0002280E5D00100D732A285BB197CA896A3A66C8348985AAA27AD5B949357A0E018A6614087AA796000000000000000000000000000000000000000041040000"  />
+		</face>
+		<skills><skill
+				id="OneHanded"
+				value="140" /><skill
+				id="TwoHanded"
+				value="140" /><skill
+				id="Polearm"
+				value="140" /><skill
+				id="Bow"
+				value="140" /><skill
+				id="Crossbow"
+				value="140" /><skill
+				id="Throwing"
+				value="56" /><skill
+				id="Riding"
+				value="190" /><skill
+				id="Athletics"
+				value="190" /><skill
+				id="Crafting"
+				value="263" /><skill
+				id="Tactics"
+				value="180" /><skill
+				id="Scouting"
+				value="271" /><skill
+				id="Roguery"
+				value="70" /><skill
+				id="Leadership"
+				value="196" /><skill
+				id="Charm"
+				value="145" /><skill
+				id="Trade"
+				value="57" /><skill
+				id="Steward"
+				value="159" /><skill
+				id="Medicine"
+				value="83" /><skill
+				id="Engineering"
+				value="203" /></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="4"/>
+			<Trait id="Mercy" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+						slot="Item0"
+						id="Item.composite_steppe_bow"/>
+				<equipment
+						slot="Item1"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item2"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item3"
+						id="Item.empire_sword_5_t4"/>
+				<equipment
+						slot="Head"
+						id="Item.imperial_goggled_helmet"/>
+				<equipment
+						slot="Body"
+						id="Item.imperial_lamellar"/>
+				<equipment
+						slot="Gloves"
+						id="Item.lordly_padded_mitten"/>
+				<equipment
+						slot="Leg"
+						id="Item.lamellar_plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet
+					id="emp_noncom_template_stoic"
+					civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="belecross_lord_11"
+				  name="{=belecross_lord_11.name}Senya the Rune Maiden"
+				  is_female="true"
+				  voice="earnest"
+				  age="22"
+				  default_group="Infantry"
+				  is_hero="true"
+				  culture="Culture.empire"
+				  occupation="Lord"
+				  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.68" weight="0.4808" build="0.5241"  key="001088000000300E69978798293A7A3C64687A484634462758E2861278B62B770078760307697B9B000000000000000000000000000000000000000028FC2000"  />
+		</face>
+		<skills><skill
+				id="OneHanded"
+				value="150" /><skill
+				id="TwoHanded"
+				value="145" /><skill
+				id="Polearm"
+				value="130" /><skill
+				id="Bow"
+				value="80" /><skill
+				id="Crossbow"
+				value="65" /><skill
+				id="Throwing"
+				value="98" /><skill
+				id="Riding"
+				value="150" /><skill
+				id="Athletics"
+				value="150" /><skill
+				id="Crafting"
+				value="177" /><skill
+				id="Tactics"
+				value="129" /><skill
+				id="Scouting"
+				value="72" /><skill
+				id="Roguery"
+				value="81" /><skill
+				id="Leadership"
+				value="237" /><skill
+				id="Charm"
+				value="144" /><skill
+				id="Trade"
+				value="234" /><skill
+				id="Steward"
+				value="159" /><skill
+				id="Medicine"
+				value="200" /><skill
+				id="Engineering"
+				value="22" /><skill
+				id="Smithing"
+				value="200" /></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="4"/>
+			<Trait id="Mercy" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+						slot="Item0"
+						id="Item.composite_steppe_bow"/>
+				<equipment
+						slot="Item1"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item2"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item3"
+						id="Item.empire_sword_5_t4"/>
+				<equipment
+						slot="Head"
+						id="Item.imperial_goggled_helmet"/>
+				<equipment
+						slot="Body"
+						id="Item.imperial_lamellar"/>
+				<equipment
+						slot="Gloves"
+						id="Item.lordly_padded_mitten"/>
+				<equipment
+						slot="Leg"
+						id="Item.lamellar_plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet
+					id="emp_noncom_template_stoic"
+					civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="belecross_lord_12"
+				  name="{=belecross_lord_12.name}Arcos the Berserker"
+				  is_female="false"
+				  voice="earnest"
+				  age="33"
+				  default_group="Infantry"
+				  is_hero="true"
+				  culture="Culture.empire"
+				  occupation="Lord"
+				  face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.16" weight="0.596" build="0.7311"  key="0005A408C0A0024557A6735278C75D68935A429D66646CDBB959BD7C747D8564026B962406C47DA7000000000000000000000000000000000000000030C490C0"  />
+		</face>
+		<skills><skill
+				id="OneHanded"
+				value="190" /><skill
+				id="TwoHanded"
+				value="280" /><skill
+				id="Polearm"
+				value="270" /><skill
+				id="Bow"
+				value="60" /><skill
+				id="Crossbow"
+				value="142" /><skill
+				id="Throwing"
+				value="180" /><skill
+				id="Riding"
+				value="230" /><skill
+				id="Athletics"
+				value="290" /><skill
+				id="Crafting"
+				value="110" /><skill
+				id="Tactics"
+				value="85" /><skill
+				id="Scouting"
+				value="98" /><skill
+				id="Roguery"
+				value="253" /><skill
+				id="Leadership"
+				value="78" /><skill
+				id="Charm"
+				value="120" /><skill
+				id="Trade"
+				value="185" /><skill
+				id="Steward"
+				value="132" /><skill
+				id="Medicine"
+				value="48" /><skill
+				id="Engineering"
+				value="292" /></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="4"/>
+			<Trait id="Mercy" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+						slot="Item0"
+						id="Item.composite_steppe_bow"/>
+				<equipment
+						slot="Item1"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item2"
+						id="Item.barbed_arrows"/>
+				<equipment
+						slot="Item3"
+						id="Item.empire_sword_5_t4"/>
+				<equipment
+						slot="Head"
+						id="Item.imperial_goggled_helmet"/>
+				<equipment
+						slot="Body"
+						id="Item.imperial_lamellar"/>
+				<equipment
+						slot="Gloves"
+						id="Item.lordly_padded_mitten"/>
+				<equipment
+						slot="Leg"
+						id="Item.lamellar_plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet
+					id="emp_noncom_template_stoic"
+					civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
