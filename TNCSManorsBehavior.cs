@@ -2,11 +2,13 @@
 using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Actions;
+using TaleWorlds.CampaignSystem.Extensions;
 using TaleWorlds.CampaignSystem.GameMenus;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 using TaleWorlds.SaveSystem;
 
 namespace TheNorthernCastleStates;
@@ -32,10 +34,11 @@ public static class ManorHelpers
         }
     }
 }
-public class TNCSManorsBehavior : CampaignBehaviorBase
+public class TNCSManorsBehavior : CampaignBehaviorBase  
 {
     [SaveableField(1)]
-    public Dictionary<Village, Manors>? SettlementManors;
+    public Dictionary<Village, Manors> SettlementManors;
+    
     private const int ManorPriceFactor = 5;
     private const int ManorProfitFactor = 3;
     public static TNCSManorsBehavior Instance { private set; get; }
@@ -50,21 +53,8 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
         CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, OnSessionLaunched);
         CampaignEvents.OnAfterSessionLaunchedEvent.AddNonSerializedListener(this, OnAfterSessionLaunched);
         CampaignEvents.SettlementEntered.AddNonSerializedListener(this, OnSettlementEntered);
-        CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, OnDailyTick);
     }
-
-    private void OnDailyTick()
-    {
-        foreach (var hero in Hero.AllAliveHeroes.FindAll(hero => hero.IsLord))
-        {
-            List<(Manors manors, int index)> foundManors = hero.GetHeroManors().ToList();
-            foreach (var manorTuple in foundManors)
-            {
-                GiveGoldAction.ApplyBetweenCharacters(null, hero, manorTuple.manors.GetProfit());
-            }
-        }
-    }
-
+    
     private void OnSettlementEntered(MobileParty mobileParty, Settlement settlement, Hero hero)
     {
         if (hero?.IsLord == true && settlement.IsVillage && settlement.Village != null)
@@ -125,24 +115,49 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
     private void OnSessionLaunched(CampaignGameStarter campaignGameStarter)
     {
         campaignGameStarter.AddGameMenu("manors", "", args => {});
-        campaignGameStarter.AddGameMenuOption("village", "buy_manors", "{=buy_manors}manors", args =>
-        {
-            return Settlement.CurrentSettlement?.IsVillage == true;
-        }, args => GameMenu.SwitchToMenu("manors"));
+        campaignGameStarter.AddGameMenuOption("village", "buy_manors", "{=buy_manors}Available manors",
+            args =>
+            {
+                args.optionLeaveType = GameMenuOption.LeaveType.Submenu;
+                return Settlement.CurrentSettlement?.IsVillage == true;
+            }, args => GameMenu.SwitchToMenu("manors"));
         
-        campaignGameStarter.AddGameMenuOption("village", "manor_1", "Manor 1", args =>
-        {
-            return Settlement.CurrentSettlement?.IsVillage == true;
-        }, args => GameMenu.SwitchToMenu("manors"));
-        campaignGameStarter.AddGameMenuOption("village", "manor_2", "Manor 2", args =>
-        {
-            return Settlement.CurrentSettlement?.IsVillage == true;
-        }, args => GameMenu.SwitchToMenu("manors"));
+        campaignGameStarter.AddGameMenuOption("manors", "manor_1", "Buy manor 1", ManorOptionCondition, args => 
+            ManorClickConsequence(args, 0), false, -1, false, this);
+        campaignGameStarter.AddGameMenuOption("manors", "manor_2", "Buy manor 2", ManorOptionCondition, args => 
+            ManorClickConsequence(args, 1), false, -1, false, this);
+        campaignGameStarter.AddGameMenuOption("manors", "manor_3", "Buy manor 3", ManorOptionCondition, args => 
+            ManorClickConsequence(args, 2), false, -1, false, this);
         
-        campaignGameStarter.AddGameMenuOption("village", "manor_3", "Manor 3", args =>
+        campaignGameStarter.AddGameMenuOption("manors", "leave", "{=3sRdGQou}Leave", args =>
         {
-            return Settlement.CurrentSettlement?.IsVillage == true;
-        }, args => GameMenu.SwitchToMenu("manors"));
+            args.optionLeaveType = GameMenuOption.LeaveType.Leave;
+            return true;
+        }, null, true);
+    }
+    
+    private bool ManorOptionCondition(MenuCallbackArgs menuCallbackArgs)
+    {
+        menuCallbackArgs.optionLeaveType = GameMenuOption.LeaveType.Bribe;
+        return true;
+    }
+    private void ManorClickConsequence(MenuCallbackArgs menuCallbackArgs, int index)
+    {
+        Manors manors = SettlementManors[Settlement.CurrentSettlement.Village];
+        Hero owner = manors.ManorOwners[index];
+        int price = manors.GetPrice();
+        
+        TextObject title = new TextObject("{=buy_manor_title}Buy manor");
+        
+        TextObject description = new TextObject("{=buy_manor_desc}This manor belongs to {HERO.NAME} and is presently valued at {PRICE}. Are you certain of purchasing it ?");
+        description.SetCharacterProperties("HERO", owner.CharacterObject);
+        description.SetTextVariable("PRICE", price);
+        
+        InformationManager.ShowInquiry(new InquiryData(title.ToString(), description.ToString(), true, false,
+            GameTexts.FindText("str_proceed").ToString(), GameTexts.FindText("str_cancel").ToString(), () =>
+            {
+                manors.ManorOwners[index] = Hero.MainHero;
+            }, null));
     }
 
     public override void SyncData(IDataStore dataStore)
