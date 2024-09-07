@@ -34,8 +34,8 @@ public static class ManorHelpers
 }
 public class TNCSManorsBehavior : CampaignBehaviorBase
 {
-    [SaveableField(0)]
-    public Dictionary<Village, Manors> SettlementManors;
+    [SaveableField(1)]
+    public Dictionary<Village, Manors>? SettlementManors;
     private const int ManorPriceFactor = 5;
     private const int ManorProfitFactor = 3;
     public static TNCSManorsBehavior Instance { private set; get; }
@@ -67,8 +67,7 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
 
     private void OnSettlementEntered(MobileParty mobileParty, Settlement settlement, Hero hero)
     {
-        if (settlement.IsVillage && settlement.IsVillage && settlement.Village != null &&
-            hero.IsLord)
+        if (hero?.IsLord == true && settlement.IsVillage && settlement.Village != null)
         {
             int manorIndex = MostLikelyManorToBuy(hero, settlement);
             if (manorIndex > 0)
@@ -107,13 +106,17 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
 
     private void OnAfterSessionLaunched(CampaignGameStarter campaignGameStarter)
     {
-        if (SettlementManors.IsEmpty())
+        if (SettlementManors == null || SettlementManors?.IsEmpty() == true)
         {
+            SettlementManors = new();
             foreach (var village in Settlement.All.FindAll(settlement => settlement.IsVillage))
             {
                 for (int i = 0; i < 3; i++)
                 {
-                    SettlementManors.Add(village.Village, new Manors(village.Village));
+                    if (!SettlementManors.ContainsKey(village.Village))
+                        SettlementManors.Add(village.Village, new Manors(village.Village));
+                    else
+                        SettlementManors[village.Village] = new Manors(village.Village);
                 }
             }
         }
@@ -122,21 +125,21 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
     private void OnSessionLaunched(CampaignGameStarter campaignGameStarter)
     {
         campaignGameStarter.AddGameMenu("manors", "", args => {});
-        campaignGameStarter.AddGameMenuOption("town", "buy_manors", "{=buy_manors}manors", args =>
+        campaignGameStarter.AddGameMenuOption("village", "buy_manors", "{=buy_manors}manors", args =>
         {
             return Settlement.CurrentSettlement?.IsVillage == true;
         }, args => GameMenu.SwitchToMenu("manors"));
         
-        campaignGameStarter.AddGameMenuOption("town", "manor_1", "Manor 1", args =>
+        campaignGameStarter.AddGameMenuOption("village", "manor_1", "Manor 1", args =>
         {
             return Settlement.CurrentSettlement?.IsVillage == true;
         }, args => GameMenu.SwitchToMenu("manors"));
-        campaignGameStarter.AddGameMenuOption("town", "manor_2", "Manor 2", args =>
+        campaignGameStarter.AddGameMenuOption("village", "manor_2", "Manor 2", args =>
         {
             return Settlement.CurrentSettlement?.IsVillage == true;
         }, args => GameMenu.SwitchToMenu("manors"));
         
-        campaignGameStarter.AddGameMenuOption("town", "manor_3", "Manor 3", args =>
+        campaignGameStarter.AddGameMenuOption("village", "manor_3", "Manor 3", args =>
         {
             return Settlement.CurrentSettlement?.IsVillage == true;
         }, args => GameMenu.SwitchToMenu("manors"));
@@ -149,7 +152,9 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
 
     public class Manors
     {
+        [SaveableField(1)]
         public readonly Village Village;
+        [SaveableField(2)]
         public Hero[] ManorOwners;
         
         public Manors(Village village)

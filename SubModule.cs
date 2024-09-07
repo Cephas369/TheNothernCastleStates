@@ -34,14 +34,14 @@ namespace TheNorthernCastleStates
 
             MethodInfo original = AccessTools.Method(AccessTools.TypeByName("VillageTradeBoundCampaignBehavior"), "TryToAssignTradeBoundForVillage");
             MethodInfo method = AccessTools.Method(typeof(SubModule), "Transpiler");
-            Harmony.Patch((MethodBase)original, transpiler: new HarmonyMethod(method));
+            Harmony.Patch(original, transpiler: new HarmonyMethod(method));
         }
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             foreach (CodeInstruction instruction in instructions)
             {
-                if (instruction.opcode == OpCodes.Ldc_R4 && instruction.OperandIs((object)150))
-                    instruction.operand = (object)SubModule.tradeBoundDistance;
+                if (instruction.opcode == OpCodes.Ldc_R4 && instruction.OperandIs(150))
+                    instruction.operand = tradeBoundDistance;
                 yield return instruction;
             }
         }
@@ -53,6 +53,8 @@ namespace TheNorthernCastleStates
             {
                 campaignGameStarter.AddBehavior(new TNCSMenuBehavior());
                 campaignGameStarter.AddBehavior(new TNCSManorsBehavior());
+                
+                campaignGameStarter.AddModel(new TNCSClanFinanceModel());
             }
         }
 
