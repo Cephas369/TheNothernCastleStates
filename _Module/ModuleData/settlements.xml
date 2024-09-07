@@ -157,7 +157,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_AV_1" name="{=Settlements.Settlement.name.castle_village_ER_1}Capreae" posX="724.8400" posY="660.7201" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ER_1}Capreae is a village that produces wheat.">
+  <Settlement id="castle_village_AV_1" name="{=Settlements.Settlement.name.castle_village_ER_1}Capreae" posX="724.15" posY="660.29" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ER_1}Capreae is a village that produces wheat.">
     <Components>
       <Village id="castle_village_comp_AV_1" village_type="VillageType.wheat_farm" hearth="200" gate_rotation="0.008" bound="Settlement.castle_AV" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -176,6 +176,55 @@
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_005" max_prosperity="70" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_BC" name="{=Settlements.Settlement.name.castle_BC}Belecross Royal Keep" owner="Faction.belecross_clan_1" posX="718.1" posY="664.88" culture="Culture.empire" gate_posX="720.1266" gate_posY="662.8175">
+    <Components>
+      <Town id="castle_comp_BC" is_castle="true" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="8500" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_BC_1" name="{=Settlements.Settlement.name.castle_village_BC_1}Cascantum" posX="728.57" posY="659.18" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_WA_1}Isca is a village that produces olive.">
+    <Components>
+      <Village id="castle_village_comp_BC_1" village_type="VillageType.vineyard" hearth="200" gate_rotation="0.008" bound="Settlement.castle_BC" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_011" max_prosperity="70" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_BC_2" name="{=Settlements.Settlement.name.castle_village_BC_2}Sipontum" posX="726.37" posY="653.32" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_WA_2}Massilia is a wheat farm village.">
+    <Components>
+      <Village id="castle_village_comp_BC_2" village_type="VillageType.sheep_farm" hearth="200" gate_rotation="0.908" bound="Settlement.castle_BC" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_005" max_prosperity="70" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_BC_3" name="{=Settlements.Settlement.name.castle_village_BC_3}Lucentum" posX="732.63" posY="646.22" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_WA_3}Vesunna is a cattle raising village.">
+    <Components>
+      <Village id="castle_village_comp_BC_3" village_type="VillageType.iron_mine" hearth="200" gate_rotation="0.908" bound="Settlement.castle_BC" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_x" max_prosperity="70" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />

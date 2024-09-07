@@ -4,7 +4,7 @@
                   name="{=belecross_lord_1.name}Octros Belecross"
                   is_female="false"
                   voice="earnest"
-                  age="39"
+                  age="41"
                   default_group="Infantry"
                   is_hero="true"
                   culture="Culture.empire"
@@ -88,9 +88,9 @@
     </NPCCharacter>
     <NPCCharacter id="belecross_lord_2"
                   name="{=belecross_lord_2.name}Naomi Vega"
-                  is_female="false"
+                  is_female="true"
                   voice="earnest"
-                  age="45"
+                  age="41"
                   default_group="Infantry"
                   is_hero="true"
                   culture="Culture.empire"
@@ -158,7 +158,7 @@
     </NPCCharacter>
     <NPCCharacter id="belecross_lord_3"
                   name="{=belecross_lord_3.name}Lena Armegost"
-                  is_female="false"
+                  is_female="true"
                   voice="earnest"
                   age="41"
                   default_group="Infantry"
@@ -228,7 +228,7 @@
     </NPCCharacter>
     <NPCCharacter id="belecross_lord_4"
                   name="{=belecross_lord_4.name}Regnar Armorgathis"
-                  is_female="true"
+                  is_female="false"
                   voice="earnest"
                   age="54"
                   default_group="Infantry"
@@ -376,7 +376,7 @@
     </NPCCharacter>
     <NPCCharacter id="belecross_lord_6"
                   name="{=belecross_lord_6.name}Kayla"
-                  is_female="false"
+                  is_female="true"
                   voice="earnest"
                   age="28"
                   default_group="Infantry"
@@ -443,7 +443,7 @@
     </NPCCharacter>
     <NPCCharacter id="belecross_lord_7"
                   name="{=belecross_lord_7.name}Seldecon the Brave"
-                  is_female="true"
+                  is_female="false"
                   voice="earnest"
                   age="29"
                   default_group="Infantry"
@@ -625,7 +625,7 @@
     </NPCCharacter>
 	<NPCCharacter id="belecross_lord_9"
 				  name="{=belecross_lord_9.name}Jovas the Battle Proven"
-				  is_female="true"
+				  is_female="false"
 				  voice="earnest"
 				  age="47"
 				  default_group="Infantry"

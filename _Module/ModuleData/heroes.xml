@@ -42,4 +42,20 @@
 	<Hero id="avaloria_lord_9" faction="Faction.avaloria_clan_2" />
 
 	<Hero id="avaloria_lord_10" faction="Faction.avaloria_clan_3" />
+
+
+	<Hero id="belecross_lord_1" faction="Faction.belecross_clan_1" />
+	<Hero id="belecross_lord_2" faction="Faction.belecross_clan_1" />
+	<Hero id="belecross_lord_3" faction="Faction.belecross_clan_1" />
+	<Hero id="belecross_lord_4" faction="Faction.belecross_clan_1" />
+
+	<Hero id="belecross_lord_5" faction="Faction.belecross_clan_2" />
+	<Hero id="belecross_lord_6" faction="Faction.belecross_clan_2" />
+	<Hero id="belecross_lord_7" faction="Faction.belecross_clan_2" />
+	<Hero id="belecross_lord_8" faction="Faction.belecross_clan_2" />
+
+	<Hero id="belecross_lord_9" faction="Faction.belecross_clan_3" />
+	<Hero id="belecross_lord_10" faction="Faction.belecross_clan_3" />
+	<Hero id="belecross_lord_11" faction="Faction.belecross_clan_3" />
+	<Hero id="belecross_lord_12" faction="Faction.belecross_clan_3" />
 </Heroes>
