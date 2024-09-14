@@ -1,4 +1,5 @@
 ﻿using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.GameComponents;
 using TaleWorlds.Localization;
 
@@ -6,10 +7,16 @@ namespace TheNorthernCastleStates;
 
 public class TNCSClanFinanceModel : DefaultClanFinanceModel
 {
-    public override ExplainedNumber CalculateClanIncome(Clan clan, bool includeDescriptions = false, bool applyWithdrawals = false,
-        bool includeDetails = false)
+    private ClanFinanceModel _previousModel;
+
+    public TNCSClanFinanceModel(ClanFinanceModel previousModel)
     {
-        ExplainedNumber baseValue = base.CalculateClanIncome(clan, includeDescriptions, applyWithdrawals, includeDetails);
+        _previousModel = previousModel;
+    }
+    public override ExplainedNumber CalculateClanGoldChange(Clan clan, bool includeDescriptions = false,
+        bool applyWithdrawals = false, bool includeDetails = false)
+    {
+        ExplainedNumber baseNumber = _previousModel.CalculateClanGoldChange(clan, includeDescriptions, applyWithdrawals, includeDetails);
         
         int totalAmount = 0;
         foreach (var hero in clan.Heroes)
@@ -23,9 +30,13 @@ public class TNCSClanFinanceModel : DefaultClanFinanceModel
 
         if (totalAmount > 0)
         {
-            baseValue.Add(totalAmount, new TextObject("{=manor_profit_desc}Clan Manors"));
+            if (clan != Clan.PlayerClan)
+            {
+                int i = 0;
+            }
+            baseNumber.Add(totalAmount, new TextObject("{=manor_profit_desc}Clan Manors"));
         }
 
-        return baseValue;
+        return baseNumber;
     }
 }

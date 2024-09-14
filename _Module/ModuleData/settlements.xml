@@ -10,7 +10,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_WA_1" name="{=Settlements.Settlement.name.castle_village_WA_1}Arkala" posX="749.9249" posY="635.6165" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_WA_1}Arkala is a village of woodcutters.">
+  <Settlement id="castle_village_WA_1" name="{=Settlements.Settlement.name.castle_village_WA_1}Arkala" posX="747.9249" posY="635.6165" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_WA_1}Arkala is a village of woodcutters.">
     <Components>
       <Village id="castle_village_comp_WA_1" village_type="VillageType.lumberjack" hearth="200" gate_rotation="0.008" bound="Settlement.castle_WA" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>

@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using Helpers;
 using SandBox.View.Map;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
 using TaleWorlds.DotNet;
@@ -54,7 +56,7 @@ namespace TheNorthernCastleStates
                 campaignGameStarter.AddBehavior(new TNCSMenuBehavior());
                 campaignGameStarter.AddBehavior(new TNCSManorsBehavior());
                 
-                campaignGameStarter.AddModel(new TNCSClanFinanceModel());
+                campaignGameStarter.AddModel(new TNCSClanFinanceModel((ClanFinanceModel)campaignGameStarter.Models.Last(model => model.GetType().IsSubclassOf(typeof(ClanFinanceModel)))));
             }
         }
 
@@ -77,11 +79,12 @@ public class TNCSSaveDefiner : SaveableTypeDefiner
         AddClassDefinition(typeof(PayDebtQuest), 1);
         AddClassDefinition(typeof(TNCSMenuBehavior), 2);
         AddClassDefinition(typeof(TNCSManorsBehavior), 3);
-        AddClassDefinition(typeof(TNCSManorsBehavior.Manors), 4);
+        AddClassDefinition(typeof(Manors), 4);
     }
 
     protected override void DefineContainerDefinitions()
     {
-        ConstructContainerDefinition(typeof(Dictionary<Settlement, TNCSManorsBehavior.Manors>));
+        ConstructContainerDefinition(typeof(Dictionary<Village, Manors>));
+        ConstructContainerDefinition(typeof(Dictionary<Hero, CampaignTime>));
     }
 }
