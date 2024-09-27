@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
     <CraftedItem id="tncs_eastern_javelin_3_t6"
-                 name="{=jareed}Jareed"
+                 name="{=iron_viper}Iron Viper"
                  crafting_template="Javelin"
                  culture="Culture.aserai"
                  modifier_group="spear_dart_throwing"
@@ -23,7 +23,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_western_javelin_1_t2"
-            name="{=tncs_0NLJnGfF}Native Dark Steel Jav"
+            name="{=tncs_western_javelin_1_t2}Native Dark Steel Jav"
             crafting_template="Javelin"
             modifier_group="spear_dart_throwing">
         <Pieces>
@@ -47,7 +47,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_battania_noble_sword_1_t6"
-            name="{=tncs_VucrovFw}House Belecross Royal Heirloom Sword"
+            name="{=tncs_battania_noble_sword_1_t6}House Belecross Royal Heirloom Sword"
             crafting_template="OneHandedSword"
             is_merchandise="true"
             culture="Culture.battania"
@@ -73,7 +73,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_battania_noble_sword_1_t6_2"
-            name="{=tncs_VucrovFw_2}The Elder Lionheart Elder Sword"
+            name="{=tncs_battania_noble_sword_1_t6_2}The Elder Lionheart Elder Sword"
             crafting_template="OneHandedSword"
             is_merchandise="true"
             culture="Culture.battania"
@@ -99,7 +99,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_aserai_2haxe_3_t5"
-            name="{=tncs_hTPJXK1w}House Harvjoys Execution Axe"
+            name="{=tncs_aserai_2haxe_3_t5}House Harvjoys Execution Axe"
             crafting_template="TwoHandedAxe"
             culture="Culture.aserai"
             modifier_group="axe">
@@ -116,7 +116,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_vlandia_2hsword_2_t5"
-            name="{=tncs_VAO11FSu}Castetillion War Two Hander"
+            name="{=tncs_vlandia_2hsword_2_t5}Castetillion War Two Hander"
             crafting_template="TwoHandedSword"
             culture="Culture.vlandia"
             modifier_group="sword">
@@ -141,7 +141,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_vlandia_2hsword_2_t5_2"
-            name="{=tncs_VAO11FSu_2}The Baldegs Ceremony Blade"
+            name="{=tncs_vlandia_2hsword_2_t5_2}The Baldegs Ceremony Blade"
             crafting_template="TwoHandedSword"
             culture="Culture.vlandia"
             modifier_group="sword">
@@ -166,7 +166,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_khuzait_lance_3_t5"
-            name="{=tncs_EBRG6qbv}Dawnpiercer Lance"
+            name="{=tncs_khuzait_lance_3_t5}Dawnpiercer Lance"
             crafting_template="TwoHandedPolearm"
             culture="Culture.khuzait"
             modifier_group="polearm">
@@ -191,7 +191,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_sickle_blade_1"
-            name="{=tncs_4wdgiTta_1}War Steppe Sickle"
+            name="{=tncs_sickle_blade_1}War Steppe Sickle"
             crafting_template="OneHandedAxe"
             modifier_group="cheap_weapon">
         <Pieces>
@@ -207,7 +207,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_sickle_blade_2"
-            name="{=tncs_4wdgiTta_2}Militant Steppe Sickle"
+            name="{=tncs_sickle_blade_2}Militant Steppe Sickle"
             crafting_template="OneHandedAxe"
             modifier_group="cheap_weapon">
         <Pieces>
@@ -223,7 +223,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_sickle_blade_3"
-            name="{=tncs_4wdgiTta_3}Dark Steel Noble War Sickle"
+            name="{=tncs_sickle_blade_3}Dark Steel Noble War Sickle"
             crafting_template="OneHandedAxe"
             modifier_group="cheap_weapon">
         <Pieces>

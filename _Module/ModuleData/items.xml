@@ -234,8 +234,8 @@
         </Pieces>
         <!-- Length: 128 Weight: 1.39 -->
     </CraftedItem>
-    <CraftedItem id="eastern_javelin_3_t4"
-                 name="{=Z6Ak3H6G}Basilisk Jav"
+    <CraftedItem id="tncs_eastern_javelin_3_t4_basilisk"
+                 name="{=tncs_eastern_javelin_3_t4_basilisk}Basilisk Jav"
                  crafting_template="Javelin"
                  culture="Culture.aserai"
                  modifier_group="spear_dart_throwing"

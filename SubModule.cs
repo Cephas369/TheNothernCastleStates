@@ -63,7 +63,7 @@ namespace TheNorthernCastleStates
                 
                 campaignGameStarter.AddModel(new TNCSClanFinanceModel((ClanFinanceModel)campaignGameStarter.Models.Last(model => model.GetType().IsSubclassOf(typeof(ClanFinanceModel)))));
                 
-                campaignGameStarter.AddBehavior(new BechassardImperialMercenaryClanBehavior());
+                campaignGameStarter.AddBehavior(new TNCSCampaignBehavior());
             }
         }
 

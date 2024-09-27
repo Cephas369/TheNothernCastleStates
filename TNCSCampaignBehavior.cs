@@ -4,7 +4,7 @@ using TaleWorlds.CampaignSystem;
 
 namespace TheNorthernCastleStates;
 
-public class BechassardImperialMercenaryClanBehavior: CampaignBehaviorBase
+public class TNCSCampaignBehavior: CampaignBehaviorBase
 {
     private bool modifiedClan = false;
 
