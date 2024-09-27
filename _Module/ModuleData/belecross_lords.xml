@@ -78,13 +78,13 @@
             <Trait id="Honor" value="4"/>
             <Trait id="Mercy" value="2"/>
         </Traits>
-        <Equipments>
-            <EquipmentSet
-                    id="wa_bat_template_lady"/>
-            <EquipmentSet
-                    id="emp_noncom_template_stoic"
-                    civilian="true"/>
-        </Equipments>
+		<Equipments>
+			<EquipmentSet
+					id="wa_bat_template_heavy"/>
+			<EquipmentSet
+					id="wa_civ_template_default"
+					civilian="true"/>
+		</Equipments>
     </NPCCharacter>
     <NPCCharacter id="belecross_lord_2"
                   name="{=belecross_lord_2.name}Naomi Vega"

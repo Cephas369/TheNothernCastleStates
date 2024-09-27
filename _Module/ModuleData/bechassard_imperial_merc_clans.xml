@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+
+	<Faction id="imperial_merc_clan"
+			 initial_posX="472.0"
+			 initial_posY="372.0"
+			 banner_key="19.14.6.846.846.768.788.1.0.-30.102.39.116.-855.713.764.764.0.0.0"
+			 culture="Culture.empire"
+			 default_party_template="PartyTemplate.kingdom_hero_party_mercenary_empire_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+			 name="Béchassard"
+			 short_name="Béchassard"
+			 tier="3"
+			 owner="Hero.imperial_merc_ruthas"
+			 text="The Béchassard clan is a new clan from the lands of the imperials. Ruthas' father, a renowned cataphractoi, fell on the battlefield a hero and gave birth to its legend.">
+	</Faction>
+
+	<Faction id="order_of_swords_merc_clan"
+			 initial_posX="472.0"
+			 initial_posY="372.0"
+			 banner_key="1.8.73.1836.1836.768.788.1.0.-30.302.144.116.948.948.768.788.0.1.0"
+			 culture="Culture.aserai"
+			 default_party_template="PartyTemplate.kingdom_hero_party_mercenary_aserai_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+			 name="Order of Swords"
+			 short_name="Order of Swords"
+			 tier="3"
+			 owner="Hero.order_of_swords_merc_eldric"
+			 text="The Order of Swords, led by Eldric 'the Destroyer', is made up of young and ambitious men willing to make a name for themselves by the sword. Eldric grew wealthy and got tired of the aristocratic life, so he decided to make a name for himself by forming this new group of warriors.">
+	</Faction>
+
+	<Faction id="lifordus_merc_clan"
+			 initial_posX="472.0"
+			 initial_posY="372.0"
+			 banner_key="19.47.55.1576.1576.768.788.1.0.-30.155.82.116.-600.450.764.764.0.0.0"
+			 culture="Culture.aserai"
+			 default_party_template="PartyTemplate.kingdom_hero_party_mercenary_aserai_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+			 name="Lifordus"
+			 short_name="Lifordus"
+			 tier="3"
+			 owner="Hero.lifordus_merc_askar"
+			 text="">
+	</Faction>
+
+</Factions>

@@ -118,12 +118,92 @@
             </IncludedGameTypes>
         </XmlNode>
         <XmlNode>
+            <XmlName id="CraftingPieces" path="crafting_pieces" />
+            <IncludedGameTypes>
+                <GameType value="Campaign" />
+                <GameType value="CampaignStoryMode" />
+                <GameType value="CustomGame" />
+                <GameType value="EditorGame" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="CraftingTemplates" path="crafting_templates"/>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
+        </XmlNode>
+        <XmlNode>
             <XmlName id="Items" path="items"/>
             <IncludedGameTypes>
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>
                 <GameType value = "CustomGame"/>
                 <GameType value = "EditorGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="items_second"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+                <GameType value = "EditorGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="NPCCharacters" path="leopardcompany_spspecialcharacters"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="partyTemplates" path="leopardcompany_partyTemplates"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Factions" path="leopardcompany_spclans"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Heroes" path="leopardcompany_heroes"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="EquipmentRosters" path="bechassard_equipment_sets"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="NPCCharacters" path="bechassard_imperial_merc_lords"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Heroes" path="bechassard_imperial_merc_heroes"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Factions" path="bechassard_imperial_merc_clans"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
             </IncludedGameTypes>
         </XmlNode>
     </Xmls>

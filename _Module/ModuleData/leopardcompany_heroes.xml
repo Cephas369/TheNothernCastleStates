@@ -1,0 +1,31 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_leopard_leader" 
+        alive="true"
+        text="Equitia Rufiniana, once noble Vipon's most respected soldier in the Empire, now walked a very different path. Her reputation as an elite warrior was known not only to Vipon and his soldiers, but throughout the empire. Nobles admired her, soldiers respected her, and her name was synonymous with loyalty and military skill. However, her destiny took an unexpected turn for her. Without warning or justification, Equitia was expelled from Vipon's troops, leaving behind a promising career and an unshakable reputation. The reason remained shrouded in mystery, fueling speculation and gossip in the halls of nobles. Determined not to succumb to ostracism, Equitia decided to forge her own destiny. With her military skill and the loyalty of the few who believed in her, she founded the Leopard Company, a mercenary guild. The Leopard Company quickly gained fame for its cunning tactics and success in dangerous missions. Equitia, once a proud soldier of Vipon, became a respected leader among the mercenaries, and her name resonated beyond the Empire's borders. The truth behind Equitia's expulsion remained a closely guarded secret. Some whispers indicated political disagreements, while others pointed to intrigues within the Vipon household itself. The nobleman from the Western Empire avoided discussing the matter, further fueling doubts about his decision." 
+        faction="Faction.leopard_company"
+        spouse="Hero.spc_leopard_leaderm" />
+        <!--xxxxxxx-->
+	<Hero id="spc_leopard_leaderm" 
+        alive="false"
+        faction="Faction.leopard_company"
+        spouse="Hero.spc_leopard_leader" />
+        <!--xxxxxxx-->
+	<Hero id="spc_leopard_child_1" 
+        alive="true"
+        faction="Faction.leopard_company"
+        mother="Hero.spc_leopard_leader"
+        father="Hero.spc_leopard_leaderm" />
+        <!--xxxxxxx-->
+	<Hero id="spc_leopard_child_2" 
+        alive="true"
+        faction="Faction.leopard_company"
+        mother="Hero.spc_leopard_leader"
+        father="Hero.spc_leopard_leaderm" />
+        <!--xxxxxxx-->
+	<Hero id="spc_leopard_child_3" 
+        alive="true"
+        faction="Faction.leopard_company"
+        mother="Hero.spc_leopard_leader"
+        father="Hero.spc_leopard_leaderm" />
+</Heroes>

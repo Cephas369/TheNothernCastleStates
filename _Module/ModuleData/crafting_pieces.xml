@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+	<CraftingPiece
+			id="tncs_spear_blade_27"
+			name="{=tncs_1rGNXUaJ}TNCS Thin Fine Steel Hewing Spear Head"
+			tier="6"
+			piece_type="Blade"
+			mesh="spear_blade_27"
+			length="69.5"
+			weight="0.4"
+			excluded_item_usage_features="swing">
+		<BladeData
+				stack_amount="6"
+				physics_material="wood_weapon"
+				body_name="bo_spear_b"
+				holster_mesh="throwing_spear_quiver_2"
+				holster_body_name="bo_throwing_spear_quiver_2"
+				holster_mesh_length="94.6">
+			<Thrust
+					damage_type="Pierce"
+					damage_factor="3.2" />
+		</BladeData>
+		<StatContributions
+				accuracy_bonus="4"
+				thrust_damage_bonus="2"/>
+		<Materials>
+			<Material
+					id="Iron5"
+					count="2" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+			id="tncs_spear_blade_15"
+			name="{=tncs_Y4tIQnS4}TNCS Short Simple Spear Head"
+			tier="6"
+			piece_type="Blade"
+			mesh="spear_blade_15"
+			length="22.862"
+			weight="0.2136"
+			excluded_item_usage_features="swing">
+		<BladeData
+				stack_amount="4"
+				physics_material="wood_weapon"
+				body_name="bo_spear_b"
+				holster_mesh="throwing_spear_quiver_1_1"
+				holster_body_name="bo_throwing_spear_quiver_1_1"
+				holster_mesh_length="68.9">
+			<Thrust
+					damage_type="Pierce"
+					damage_factor="3.6" />
+		</BladeData>
+		<StatContributions
+
+				thrust_damage_bonus="21"/>
+		<Materials>
+			<Material
+					id="Iron2"
+					count="1" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+			id="tncs_battania_noble_blade_1"
+			name="{=tncs_5Xoa1EFa}TNCS Engraved Backsword Blade"
+			tier="6"
+			piece_type="Blade"
+			mesh="battania_noble_blade_1"
+			culture="Culture.battania"
+			length="96"
+			weight="1.0">
+		<BladeData
+				stack_amount="3"
+				physics_material="metal_weapon"
+				body_name="bo_sword_one_handed"
+				holster_mesh="battania_noble_blade_1_scabbard_1">
+			<Thrust
+					damage_type="Pierce"
+					damage_factor="2.8" />
+			<Swing
+					damage_type="Cut"
+					damage_factor="5.0" />
+		</BladeData>
+		<Flags>
+			<Flag
+					name="BonusAgainstShield" />
+			<Flag
+					name="Civilian"
+					type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+					id="Iron6"
+					count="3" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+			id="tncs_axe_craft_38_head"
+			name="{=tncs_SEsx3kZz}TNCS Heavy Bardiche Head"
+			tier="6"
+			piece_type="Blade"
+			mesh="axe_craft_16_head"
+			distance_to_next_piece="28.8"
+			distance_to_previous_piece="6"
+			weight="0.9">
+		<BuildData
+				piece_offset="-12" />
+		<BladeData
+				stack_amount="3"
+				blade_length="57.435"
+				blade_width="23.337"
+				physics_material="metal_weapon"
+				body_name="bo_axe_longer_b">
+			<Swing
+					damage_type="Cut"
+					damage_factor="3.6" />
+		</BladeData>
+		<Flags>
+			<Flag
+					name="CanBePickedUpFromCorpse"
+					type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+					id="Iron5"
+					count="3" />
+			<Material
+					id="Iron4"
+					count="2" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+			id="tncs_vlandian_blade_3"
+			name="{=tncs_mak3naEe}TNCS Wide Fullered Broad Two Hander Blade"
+			tier="6"
+			piece_type="Blade"
+			mesh="vlandian_blade_3"
+			culture="Culture.vlandia"
+			length="99.4"
+			weight="1.35">
+		<BladeData
+				stack_amount="3"
+				physics_material="metal_weapon"
+				body_name="bo_sword_one_handed"
+				holster_mesh="vlandian_blade_2_scabbard_2">
+			<Thrust
+					damage_type="Pierce"
+					damage_factor="3.2" />
+			<Swing
+					damage_type="Cut"
+					damage_factor="4.1" />
+		</BladeData>
+		<Materials>
+			<Material
+					id="Iron6"
+					count="4" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+			id="tncs_spear_blade_13"
+			name="{=tncs_MpVC0RXl}TNCS Northern Triangular Spear"
+			tier="6"
+			piece_type="Blade"
+			mesh="spear_blade_13"
+			length="50.864"
+			weight="0.3592"
+			excluded_item_usage_features="swing">
+		<BladeData
+				stack_amount="3"
+				physics_material="wood_weapon"
+				body_name="bo_spear_b">
+			<Thrust
+					damage_type="Pierce"
+					damage_factor="2.8" />
+		</BladeData>
+		<Flags>
+			<Flag
+					name="NotStackable"
+					type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+					id="Iron5"
+					count="2" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+			id="tncs_sickle_blade_1"
+			name="{=tncs_vxqrW5GN}TNCS Sickle Blade"
+			tier="1"
+			piece_type="Blade"
+			mesh="sickle_blade_1"
+			length="38.5"
+			weight="0.762"
+			full_scale="true"
+			excluded_item_usage_features="thrust">
+		<BladeData
+				stack_amount="3"
+				physics_material="wood_weapon"
+				body_name="bo_mace_a">
+			<Swing
+					damage_type="Cut"
+					damage_factor="2.4" />
+		</BladeData>
+		<Flags>
+			<Flag
+					name="Civilian"
+					type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+					id="Iron1"
+					count="2" />
+		</Materials>
+	</CraftingPiece>
+</CraftingPieces>

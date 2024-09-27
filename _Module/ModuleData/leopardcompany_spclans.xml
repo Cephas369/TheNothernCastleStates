@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <Faction id="leopard_company"
+           initial_posX="563.0"
+           initial_posY="399.0"
+           banner_key="8.142.149.1727.1246.764.764.1.0.0.510.119.116.335.320.644.756.1.0.-90.510.119.116.335.320.769.896.1.0.0.527.119.116.239.228.790.754.1.0.0.527.119.116.175.167.812.754.1.1.0.527.119.116.127.122.795.754.1.0.0.340.119.116.213.203.800.606.1.0.0.515.119.116.135.129.976.687.1.0.0.515.119.116.135.129.976.814.1.0.0.515.119.116.135.129.976.940.1.0.0.515.119.116.135.129.976.1070.1.0.0.515.119.116.135.129.552.1070.1.0.0.515.119.116.136.129.552.940.1.0.0.515.119.116.135.129.552.814.1.0.0.515.119.116.135.129.552.687.1.0.0.515.119.116.135.129.552.560.1.0.0.515.119.116.135.129.976.560.1.0.0.206.119.116.119.114.780.490.1.0.0.206.119.116.119.114.779.1038.1.0.0"
+           label_color="FFE44434"
+           color="FFE44434"
+           color2="FF456DFF"
+           alternative_color="FFE44434"
+           alternative_color2="FF456DFF"
+           culture="Culture.empire"
+           default_party_template="PartyTemplate.leopard_party_template"
+           settlement_banner_mesh="encounter_flag_f"
+           is_minor_faction="true"
+           name="Leopard Company"
+           tier="4"
+           owner="Hero.spc_leopard_leader"
+           text="Leopard Company, the renowned clan of Calradia, is the result of the union of two prominent merchant families in the region. Its history is full of intrigue, but one curious fact stands out: the clan follows the wishes of the founding families. Despite having few members, the clan is promising and enjoys a good reputation, being in demand throughout Calradia, especially as it is accompanied by the Empire's elite troops. After the death of Theo, a skilled warrior and husband of Equitia Rufiniana, she assumed leadership of the clan. The mystery surrounding Theo's death fuels speculation, as he was a key player in the Leopard Company. Equitia, determined to honor her husband's legacy, continues the journey alongside her three children: Vedia, Coruncania and Julius. The objective of the leader and her offspring is ambitious: to reach the top of Calradia, conquering a place among the most developed and influential clans. Thus, Leopard Company treads its path in a land full of challenges and opportunities, seeking not only to maintain tradition, but also to forge its own destiny among the most notable figures on the Calradian scene.">
+  </Faction>
+</Factions>

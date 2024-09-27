@@ -24,7 +24,7 @@
             mesh="padded_vambrace_a_lordly"
             culture="Culture.empire"
             weight="0.9"
-            difficulty="0"
+            difficfulty="0"
             appearance="0.7"
             Type="HandArmor"
             is_merchandise="true">
@@ -212,8 +212,11 @@
         <Flags
                 Civilian="true"/>
     </Item>
-    <CraftedItem id="Desert tribe war blade one handed" name="Desert tribe war blade one handed"
-                 crafting_template="OneHandedSword" culture="Culture.Aseria" modifier_group="sword"
+    <CraftedItem id="Desert tribe war blade one handed" 
+                 name="Desert tribe war blade one handed"
+                 crafting_template="OneHandedSword" 
+                 culture="Culture.Aseria" 
+                 modifier_group="sword"
                  is_merchandise="true">
         <Pieces>
             <Piece id="vlandian_noble_blade_5"
@@ -330,8 +333,8 @@
         </Pieces>
         <!-- Length: 102 Weight: 1.7 -->
     </CraftedItem>
-    <CraftedItem id="Vangaurd infantry blade 001"
-                 name="Vangaurd infantry blade 1"
+    <CraftedItem id="Vanguard infantry blade 001"
+                 name="Vanguard infantry blade 1"
                  crafting_template="TwoHandedSword"
                  is_merchandise="true">
         <Pieces>
@@ -350,8 +353,8 @@
         </Pieces>
         <!-- Length: 116 Weight: 1.93 -->
     </CraftedItem>
-    <CraftedItem id="Vangaurd infantry blade 002"
-                 name="Vangaurd infantry blade 2"
+    <CraftedItem id="Vanguard infantry blade 002"
+                 name="Vanguard infantry blade 2"
                  crafting_template="TwoHandedSword"
                  is_merchandise="true">
         <Pieces>
@@ -370,8 +373,8 @@
         </Pieces>
         <!-- Length: 113 Weight: 1.62 -->
     </CraftedItem>
-    <CraftedItem id="Vangaurd infantry blade 003"
-                 name="Vangaurd infantry blade 3"
+    <CraftedItem id="Vanguard infantry blade 003"
+                 name="Vanguard infantry blade 3"
                  crafting_template="TwoHandedSword"
                  is_merchandise="true">
         <Pieces>
@@ -390,8 +393,8 @@
         </Pieces>
         <!-- Length: 113 Weight: 1.62 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary battlefeild battle axe 0001"
-                 name="Mercanary battlefeild battle axe"
+    <CraftedItem id="Mercenary battlefield battle axe 0001"
+                 name="Mercenary battlefield battle axe"
                  crafting_template="TwoHandedAxe"
                  is_merchandise="true">
         <Pieces>
@@ -407,8 +410,8 @@
         </Pieces>
         <!-- Length: 130 Weight: 1.83 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary Vangaurd axe 001"
-                 name="Mercanary Vangaurd axe 1"
+    <CraftedItem id="Mercenary Vangaurd axe 001"
+                 name="Mercenary Vangaurd axe 1"
                  crafting_template="TwoHandedAxe"
                  is_merchandise="true">
         <Pieces>
@@ -424,8 +427,8 @@
         </Pieces>
         <!-- Length: 103 Weight: 1.66 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary Vangaurd axe 002"
-                 name="Mercanary Vangaurd axe 2"
+    <CraftedItem id="Mercenary Vangaurd axe 002"
+                 name="Mercenary Vangaurd axe 2"
                  crafting_template="TwoHandedAxe"
                  is_merchandise="true">
         <Pieces>
@@ -441,8 +444,8 @@
         </Pieces>
         <!-- Length: 124 Weight: 1.31 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary Vangaurd axe 003"
-                 name="Mercanary Vangaurd axe 3"
+    <CraftedItem id="Mercenary Vangaurd axe 003"
+                 name="Mercenary Vangaurd axe 3"
                  crafting_template="TwoHandedAxe"
                  is_merchandise="true">
         <Pieces>
@@ -457,8 +460,8 @@
         </Pieces>
         <!-- Length: 125 Weight: 1.04 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary Vangaurd axe 0003"
-                 name="Mercanary Vangaurd axe 3"
+    <CraftedItem id="Mercenary Vangaurd axe 0003"
+                 name="Mercenary Vangaurd axe 3"
                  crafting_template="TwoHandedAxe"
                  is_merchandise="true">
         <Pieces>
@@ -490,8 +493,8 @@
         </Pieces>
         <!-- Length: 136 Weight: 1.24 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary vangaurd axe 005"
-                 name="Mercanary vangaurd axe 5"
+    <CraftedItem id="Mercenary vangaurd axe 005"
+                 name="Mercenary vangaurd axe 5"
                  crafting_template="TwoHandedAxe"
                  is_merchandise="true">
         <Pieces>
@@ -547,8 +550,8 @@
         </Pieces>
         <!-- Length: 115 Weight: 1.53 -->
     </CraftedItem>
-    <CraftedItem id="Mercanary one handed warsword 01"
-                 name="Mercanary one handed warsword"
+    <CraftedItem id="Mercenary one handed warsword 01"
+                 name="Mercenary one handed warsword"
                  crafting_template="OneHandedSword"
                  is_merchandise="true">
         <Pieces>

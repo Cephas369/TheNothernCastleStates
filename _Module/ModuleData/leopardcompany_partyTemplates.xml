@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="leopard_party_template" >
+      <stacks>
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.imperial_elite_cataphract" />
+        <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.imperial_cataphract" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.imperial_heavy_horseman" />
+        <PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.imperial_equite" />
+        <PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.imperial_vigla_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="imperial_merc_ruthas"
+                 default_group="Cavalry"
+                 age="21"
+                 voice="ironic"
+                 is_hero="true"
+                 is_female="false"
+                 culture="Culture.empire"
+                 occupation="Lord"
+                 name="Ruthas"
+                 face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" age="21.3" weight="0.2654" build="0.5"  key="001B200D0000100D8B1CB60B4789B7898B795BB6BE96A6A8C4B6473984796B750087460308A749730000000000000000000000000000000000000000331C4002"  />
+    </face>
+     <skills></skills>
+    <Traits>
+      <Trait id="CavalryFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="10" />
+      <Trait id="Politician"
+             value="12" />
+      <Trait id="Manager"
+             value="4" />
+      <Trait id="Calculating"
+             value="-1" />
+      <Trait id="Generosity"
+             value="-1" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Valor"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_template_southfrontier" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="imperial_merc_lilia"
+                 default_group="Cavalry"
+                 age="21"
+                 voice="earnest"
+                 is_hero="true"
+                 is_female="true"
+                 culture="Culture.empire"
+                 occupation="Lord"
+                 name="Lilia"
+                 face_mesh_cache="true">
+    <face>
+	<BodyProperties version="4" age="20.5" weight="0.1235" build="0.4691"  key="000AB00F00003004CC78422AB7C7988A8B79B8B8897665B6C4B6473984796B750077260307A74973000000000000000000000000000000000000000032EC1003"  />
+    </face>
+     <skills></skills>
+    <Traits>
+      <Trait id="CavalryFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="10" />
+      <Trait id="Politician"
+             value="12" />
+      <Trait id="Manager"
+             value="4" />
+      <Trait id="Calculating"
+             value="-1" />
+      <Trait id="Generosity"
+             value="-1" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Valor"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_template_southfrontier" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+	<NPCCharacter id="order_of_swords_merc_eldric"
+				   default_group="Infantry"
+				   age="75"
+				   voice="ironic"
+				   is_hero="true"
+				   is_female="false"
+				   culture="Culture.empire"
+				   occupation="Lord"
+				   name="Eldric the Destroyer"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="75.02" weight="0.6001" build="0.4461"  key="000D5C0800A0179C49483874259C56838A38D98A3597E88235DE26958B5A64B608C796890CE8698400000000000000000000000000000000000000003F8C4140"  />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="220" />
+			<skill id="OneHanded"
+				   value="170" />
+			<skill id="TwoHanded"
+				   value="220" />
+			<skill id="Throwing"
+				   value="150" />
+			<skill id="Bow"
+				   value="75" />
+			<skill id="Crossbow"
+				   value="55" />
+			<skill id="Scouting"
+				   value="120" />
+			<skill id="Steward"
+				   value="90" />
+			<skill id="Leadership"
+				   value="70" />
+			<skill id="Polearm"
+				   value="150" />
+			<skill id="Medicine"
+				   value="40" />
+		</skills>
+		<Traits>
+			<Trait id="Valor"
+				   value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="order_of_swords_merc_eldric_equipment" />
+			<EquipmentSet id="emp_civ_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="order_of_swords_merc_cedra"
+				   default_group="Infantry"
+				   age="18"
+				   voice="earnest"
+				   is_hero="true"
+				   is_female="true"
+				   culture="Culture.aserai"
+				   occupation="Lord"
+				   name="Cedra Langford"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.75" weight="0.5" build="0.5"  key="0000F8000000200EB8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868087776820896723B00000000000000000000000000000000000000003EF41000"  />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="160" />
+			<skill id="Polearm"
+				   value="130" />
+			<skill id="OneHanded"
+				   value="140" />
+			<skill id="TwoHanded"
+				   value="170" />
+			<skill id="Throwing"
+				   value="120" />
+			<skill id="Bow"
+				   value="50" />
+			<skill id="Crossbow"
+				   value="50" />
+			<skill id="Scouting"
+				   value="100" />
+			<skill id="Steward"
+				   value="60" />
+			<skill id="Leadership"
+				   value="50" />
+		</skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="order_of_swords_merc_hero_equipment" />
+			<EquipmentSet id="ase_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="order_of_swords_merc_haylee"
+				   default_group="Infantry"
+				   age="18"
+				   voice="earnest"
+				   is_hero="true"
+				   is_female="true"
+				   culture="Culture.aserai"
+				   occupation="Lord"
+				   name="Haylee Barbour"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.32" weight="0.086" build="0.6239"  key="0005B80080E4300F377A2D2C4CC896A7759A731786C7C83A3726E565C64EE6A5076916720666587700000000000000000000000000000000000000002AC42040"  />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="160" />
+			<skill id="Polearm"
+				   value="130" />
+			<skill id="OneHanded"
+				   value="140" />
+			<skill id="TwoHanded"
+				   value="170" />
+			<skill id="Throwing"
+				   value="120" />
+			<skill id="Bow"
+				   value="50" />
+			<skill id="Crossbow"
+				   value="50" />
+			<skill id="Scouting"
+				   value="100" />
+			<skill id="Steward"
+				   value="60" />
+			<skill id="Leadership"
+				   value="50" />
+		</skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="order_of_swords_merc_hero_equipment" />
+			<EquipmentSet id="ase_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="order_of_swords_merc_oras"
+				   default_group="Infantry"
+				   age="18"
+				   voice="earnest"
+				   is_hero="true"
+				   is_female="false"
+				   culture="Culture.aserai"
+				   occupation="Lord"
+				   name="Oras Portens"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.54" weight="0.7012" build="0.7561"  key="001EB001404436C196884B7A3989ACCA64A888577CC869BA89A976786777FA8508DBB6820AEC7F76000000000000000000000000000000000000000057AC6080"  />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="160" />
+			<skill id="Polearm"
+				   value="130" />
+			<skill id="OneHanded"
+				   value="140" />
+			<skill id="TwoHanded"
+				   value="170" />
+			<skill id="Throwing"
+				   value="120" />
+			<skill id="Bow"
+				   value="50" />
+			<skill id="Crossbow"
+				   value="50" />
+			<skill id="Scouting"
+				   value="100" />
+			<skill id="Steward"
+				   value="60" />
+			<skill id="Leadership"
+				   value="50" />
+		</skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="order_of_swords_merc_hero_equipment" />
+			<EquipmentSet id="ase_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lifordus_merc_askar"
+				   default_group="Cavalry"
+				   age="42"
+				   voice="earnest"
+				   is_hero="true"
+				   is_female="false"
+				   culture="Culture.aserai"
+				   occupation="Lord"
+				   name="Askar Lozar"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.31" weight="0.562" build="0.6083"  key="003CDC0F002C1704775F8DB7C7A7975959AB74A6BBC58452F963D969A5C3D7C703E986350E76A66C00000000000000000000000000000000000000002FCC7140"  />
+		</face>
+		<skills>
+			<skill id="Riding"
+				   value="160" />
+			<skill id="Polearm"
+				   value="213" />
+			<skill id="Leadership"
+				   value="78" />
+			<skill id="Athletics"
+				   value="144" />
+			<skill id="Throwing"
+				   value="142" />
+			<skill id="OneHanded"
+				   value="210" />
+			<skill id="TwoHanded"
+				   value="217" />
+			<skill id="Charm"
+				   value="73" />
+			<skill id="Steward"
+				   value="60" />
+			<skill id="Bow"
+				   value="50" />
+			<skill id="Crossbow"
+				   value="50" />
+		</skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lifordus_merc_hero_equipment" />
+			<EquipmentSet id="ase_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lifordus_merc_rada"
+				   default_group="Cavalry"
+				   age="39"
+				   voice="softspoken"
+				   is_hero="true"
+				   is_female="true"
+				   culture="Culture.aserai"
+				   occupation="Lord"
+				   name="Rada Lozar"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.31" weight="0.4" build="0.5"  key="003CDC0F00B43006896E536881589D38A4C4786274ACB5A3A3A8A662899947AC03976635098A33760000000000000000000000000000000000000000193C10C0"  />
+		</face>
+		<skills>
+			<skill id="Riding"
+				   value="172" />
+			<skill id="Polearm"
+				   value="166" />
+			<skill id="Athletics"
+				   value="200" />
+			<skill id="Throwing"
+				   value="138" />
+			<skill id="OneHanded"
+				   value="157" />
+			<skill id="TwoHanded"
+				   value="190" />
+			<skill id="Charm"
+				   value="59" />
+			<skill id="Steward"
+				   value="55" />
+			<skill id="Bow"
+				   value="108" />
+			<skill id="Crossbow"
+				   value="67" />
+		</skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lifordus_merc_hero_equipment" />
+			<EquipmentSet id="ase_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lifordus_merc_orso"
+				   default_group="Cavalry"
+				   age="19"
+				   voice="ironic"
+				   is_hero="true"
+				   is_female="false"
+				   culture="Culture.aserai"
+				   occupation="Lord"
+				   name="Orso the Swift"
+				   face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.17" weight="0.4762" build="0.5083"  key="003CDC0F002C100B775F8DB7C7A7975959AB74A6BBC58452F963D969A5C3D7C70AE876A20C76A66C00000000000000000000000000000000000000005BCC40C0"  />
+		</face>
+		<skills>
+			<skill id="Riding"
+				   value="120" />
+			<skill id="Polearm"
+				   value="170" />
+			<skill id="Athletics"
+				   value="220" />
+			<skill id="Throwing"
+				   value="140" />
+			<skill id="OneHanded"
+				   value="170" />
+			<skill id="TwoHanded"
+				   value="200" />
+			<skill id="Charm"
+				   value="40" />
+			<skill id="Steward"
+				   value="55" />
+			<skill id="Bow"
+				   value="100" />
+			<skill id="Crossbow"
+				   value="70" />
+		</skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lifordus_merc_hero_equipment" />
+			<EquipmentSet id="ase_noncom_template_default"
+						  civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>

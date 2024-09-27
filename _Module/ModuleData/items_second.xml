@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="tncs_eastern_javelin_3_t6"
+                 name="{=jareed}Jareed"
+                 crafting_template="Javelin"
+                 culture="Culture.aserai"
+                 modifier_group="spear_dart_throwing"
+                 is_merchandise="true">
+        <Pieces>
+            <Piece id="tncs_spear_blade_27"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="default_polearm_guard"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="spear_handle_10"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="spear_pommel_12"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_western_javelin_1_t2"
+            name="{=tncs_0NLJnGfF}Native Dark Steel Jav"
+            crafting_template="Javelin"
+            modifier_group="spear_dart_throwing">
+        <Pieces>
+            <Piece
+                    id="tncs_spear_blade_15"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="default_polearm_guard"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="spear_handle_2"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="default_polearm_pommel"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_battania_noble_sword_1_t6"
+            name="{=tncs_VucrovFw}House Belecross Royal Heirloom Sword"
+            crafting_template="OneHandedSword"
+            is_merchandise="true"
+            culture="Culture.battania"
+            modifier_group="sword">
+        <Pieces>
+            <Piece
+                    id="tncs_battania_noble_blade_1"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="battania_noble_guard_1"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="battania_grip_4"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="battania_pommel_5"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_battania_noble_sword_1_t6_2"
+            name="{=tncs_VucrovFw_2}The Elder Lionheart Elder Sword"
+            crafting_template="OneHandedSword"
+            is_merchandise="true"
+            culture="Culture.battania"
+            modifier_group="sword">
+        <Pieces>
+            <Piece
+                    id="tncs_battania_noble_blade_1"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="battania_noble_guard_1"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="battania_grip_4"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="battania_pommel_5"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_aserai_2haxe_3_t5"
+            name="{=tncs_hTPJXK1w}House Harvjoys Execution Axe"
+            crafting_template="TwoHandedAxe"
+            culture="Culture.aserai"
+            modifier_group="axe">
+        <Pieces>
+            <Piece
+                    id="tncs_axe_craft_38_head"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="axe_craft_1_handle"
+                    Type="Handle"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_vlandia_2hsword_2_t5"
+            name="{=tncs_VAO11FSu}Castetillion War Two Hander"
+            crafting_template="TwoHandedSword"
+            culture="Culture.vlandia"
+            modifier_group="sword">
+        <Pieces>
+            <Piece
+                    id="tncs_vlandian_blade_3"
+                    Type="Blade"
+                    scale_factor="110" />
+            <Piece
+                    id="vlandian_guard_8"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="vlandian_grip_7"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="vlandian_pommel_9"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_vlandia_2hsword_2_t5_2"
+            name="{=tncs_VAO11FSu_2}The Baldegs Ceremony Blade"
+            crafting_template="TwoHandedSword"
+            culture="Culture.vlandia"
+            modifier_group="sword">
+        <Pieces>
+            <Piece
+                    id="tncs_vlandian_blade_3"
+                    Type="Blade"
+                    scale_factor="110" />
+            <Piece
+                    id="vlandian_guard_8"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="vlandian_grip_7"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="vlandian_pommel_9"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_khuzait_lance_3_t5"
+            name="{=tncs_EBRG6qbv}Dawnpiercer Lance"
+            crafting_template="TwoHandedPolearm"
+            culture="Culture.khuzait"
+            modifier_group="polearm">
+        <Pieces>
+            <Piece
+                    id="tncs_spear_blade_13"
+                    Type="Blade"
+                    scale_factor="110" />
+            <Piece
+                    id="spear_guard_13"
+                    Type="Guard"
+                    scale_factor="100" />
+            <Piece
+                    id="spear_handle_20"
+                    Type="Handle"
+                    scale_factor="100" />
+            <Piece
+                    id="spear_pommel_9"
+                    Type="Pommel"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_sickle_blade_1"
+            name="{=tncs_4wdgiTta_1}War Steppe Sickle"
+            crafting_template="OneHandedAxe"
+            modifier_group="cheap_weapon">
+        <Pieces>
+            <Piece
+                    id="tncs_sickle_blade_1"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="axe_craft_20_handle"
+                    Type="Handle"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_sickle_blade_2"
+            name="{=tncs_4wdgiTta_2}Militant Steppe Sickle"
+            crafting_template="OneHandedAxe"
+            modifier_group="cheap_weapon">
+        <Pieces>
+            <Piece
+                    id="tncs_sickle_blade_1"
+                    Type="Blade"
+                    scale_factor="100" />
+            <Piece
+                    id="axe_craft_20_handle"
+                    Type="Handle"
+                    scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem
+            id="tncs_sickle_blade_3"
+            name="{=tncs_4wdgiTta_3}Dark Steel Noble War Sickle"
+            crafting_template="OneHandedAxe"
+            modifier_group="cheap_weapon">
+        <Pieces>
+            <Piece
+                    id="tncs_sickle_blade_1"
+                    Type="Blade"
+                    scale_factor="70" />
+            <Piece
+                    id="axe_craft_13_handle"
+                    Type="Handle"
+                    scale_factor="72" />
+        </Pieces>
+    </CraftedItem>
+
+    <Item
+        id="tncs_ironlame_roundkettle_over_imperial_mail_1"
+        name="{=tncs_ironlame_roundkettle_over_imperial_mail_1}Dark Steel Round Kettle Helm Over Mail"
+        subtype="head_armor"
+        mesh="empire_helmet_j_fb"
+        culture="Culture.empire"
+        weight="2.85"
+        difficulty="0"
+        appearance="1.65"
+        Type="HeadArmor">
+        <ItemComponent>
+            <Armor
+                    head_armor="52"
+                    has_gender_variations="false"
+                    hair_cover_type="all"
+                    beard_cover_type="type2"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+    <Item
+        id="tncs_ironlame_roundkettle_over_imperial_mail_2"
+        name="{=tncs_ironlame_roundkettle_over_imperial_mail_2}Warlord Roundkettle Helm"
+        subtype="head_armor"
+        mesh="empire_helmet_j_fb"
+        culture="Culture.empire"
+        weight="2.85"
+        difficulty="0"
+        appearance="1.65"
+        Type="HeadArmor">
+        <ItemComponent>
+            <Armor
+                    head_armor="42"
+                    has_gender_variations="false"
+                    hair_cover_type="all"
+                    beard_cover_type="type2"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+    <Item
+            id="tncs_ironlame_roundkettle_over_imperial_mail_3"
+            name="{=tncs_ironlame_roundkettle_over_imperial_mail_3}Warlord Roundkettle Over Mail"
+            subtype="head_armor"
+            mesh="empire_helmet_j_fb"
+            culture="Culture.empire"
+            weight="2.85"
+            difficulty="0"
+            appearance="1.65"
+            Type="HeadArmor">
+        <ItemComponent>
+            <Armor
+                    head_armor="47"
+                    has_gender_variations="false"
+                    hair_cover_type="all"
+                    beard_cover_type="type2"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+
+    <Item
+        id="tncs_scarf"
+        name="{=tncs_scarf}Winter Nobles Scarf"
+        mesh="sturgia_cape_a"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.3"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+        <ItemComponent>
+            <Armor
+                    body_armor="13"
+                    arm_armor="7"
+                    modifier_group="cloth_unarmoured"
+                    material_type="Cloth" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <Item
+        id="tncs_fur_cloak_c_1"
+        name="{=tncs_fur_cloak_c_1}Chieftains Fur Cloak Armor"
+        mesh="fur_cloak_c"
+        culture="Culture.battania"
+        weight="8.3"
+        appearance="3"
+        Type="Cape">
+        <ItemComponent>
+            <Armor
+                    body_armor="14"
+                    arm_armor="8"
+                    head_armor="4"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+
+    <Item
+            id="tncs_fur_cloak_c_2"
+            name="{=tncs_fur_cloak_c_2}Chieftains Fur Cloak Armor"
+            mesh="fur_cloak_c"
+            culture="Culture.battania"
+            weight="8.3"
+            appearance="3"
+            Type="Cape">
+        <ItemComponent>
+            <Armor
+                    body_armor="13"
+                    arm_armor="5"
+                    head_armor="3"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+
+    <Item
+            id="tncs_khuzait_civil_coat_1"
+            name="{=tncs_khuzait_civil_coat_1}Tribal Warrior Recruit Coat"
+            mesh="khuzait_civil_coat"
+            culture="Culture.khuzait"
+            weight="2.7"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="5"
+                    leg_armor="4"
+                    arm_armor="2"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <!-- Tribal Warrior Coat -->
+    <Item
+            id="tncs_khuzait_civil_coat_2"
+            name="{=tncs_khuzait_civil_coat_2}Tribal Warrior Coat"
+            mesh="khuzait_civil_coat"
+            culture="Culture.khuzait"
+            weight="2.7"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="10"
+                    leg_armor="8"
+                    arm_armor="4"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <!-- Tribal Skilled Warrior Coat -->
+    <Item
+            id="tncs_khuzait_civil_coat_3"
+            name="{=tncs_khuzait_civil_coat_3}Tribal Skilled Warrior Coat"
+            mesh="khuzait_civil_coat"
+            culture="Culture.khuzait"
+            weight="2.7"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="23"
+                    leg_armor="15"
+                    arm_armor="7"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <!-- Tribal Champions Fur Warrior Coat -->
+    <Item
+            id="tncs_khuzait_civil_coat_4"
+            name="{=tncs_khuzait_civil_coat_4}Tribal Champions Fur Warrior Coat"
+            mesh="khuzait_civil_coat"
+            culture="Culture.khuzait"
+            weight="2.7"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="27"
+                    leg_armor="17"
+                    arm_armor="10"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <!-- Chieftains Fur Warrior Coat -->
+    <Item
+            id="tncs_khuzait_civil_coat_5"
+            name="{=tncs_khuzait_civil_coat_5}Chieftains Fur Warrior Coat"
+            mesh="khuzait_civil_coat"
+            culture="Culture.khuzait"
+            weight="2.7"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="34"
+                    leg_armor="19"
+                    arm_armor="16"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <!-- Chieftains Armor Fur Coat Over Bronze Mail -->
+    <Item
+            id="tncs_khuzait_civil_coat_6"
+            name="{=tncs_khuzait_civil_coat_6}Chieftains Armor Fur Coat Over Bronze Mail"
+            mesh="khuzait_civil_coat"
+            culture="Culture.khuzait"
+            weight="2.7"
+            appearance="1"
+            Type="BodyArmor">
+        <ItemComponent>
+            <Armor
+                    body_armor="46"
+                    leg_armor="28"
+                    arm_armor="25"
+                    has_gender_variations="true"
+                    covers_body="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true"
+                UseTeamColor="true" />
+    </Item>
+
+    <Item
+            id="tncs_guarded_armwraps_1"
+            name="{=tncs_guarded_armwraps_1}Bear Fur Native Gloves"
+            mesh="battania_armwraps_b"
+            culture="Culture.battania"
+            weight="0.4"
+            difficulty="0"
+            appearance="0.4"
+            Type="HandArmor">
+        <ItemComponent>
+            <Armor
+                    arm_armor="19"
+                    modifier_group="cloth"
+                    material_type="Cloth" />
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
+    </Item>
+    <Item
+            id="tncs_guarded_armwraps_2"
+            name="{=tncs_guarded_armwraps_2}Thick Bear Leather Gloves"
+            mesh="battania_armwraps_b"
+            culture="Culture.battania"
+            weight="0.4"
+            difficulty="0"
+            appearance="0.4"
+            Type="HandArmor">
+        <ItemComponent>
+            <Armor
+                    arm_armor="21"
+                    modifier_group="cloth"
+                    material_type="Cloth" />
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
+    </Item>
+
+    <Item
+            id="tncs_highland_boots_1"
+            name="{=tncs_highland_boots_1}Thick Native Forest Bear Fur Boots"
+            mesh="pict_armor_boot"
+            culture="Culture.battania"
+            weight="1.0"
+            difficulty="0"
+            appearance="1"
+            Type="LegArmor">
+        <ItemComponent>
+            <Armor
+                    leg_armor="24"
+                    covers_legs="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
+    </Item>
+    <Item
+            id="tncs_highland_boots_2"
+            name="{=tncs_highland_boots_2}Native Forest Bear Fur Boots"
+            mesh="pict_armor_boot"
+            culture="Culture.battania"
+            weight="1.0"
+            difficulty="0"
+            appearance="1"
+            Type="LegArmor">
+        <ItemComponent>
+            <Armor
+                    leg_armor="9"
+                    covers_legs="true"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
+    </Item>
+
+    <Item
+            id="tncs_bearhead"
+            name="{=tncs_bearhead}Reinforced Bear Head Armor"
+            subtype="head_armor"
+            mesh="battania_helmet_g"
+            culture="Culture.battania"
+            weight="1.4"
+            difficulty="0"
+            appearance="2"
+            Type="HeadArmor">
+        <ItemComponent>
+            <Armor
+                    head_armor="40"
+                    has_gender_variations="false"
+                    hair_cover_type="all"
+                    modifier_group="leather"
+                    material_type="Leather" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+
+    <Item
+            id="tncs_nasal_cervelliere_over_mail_coif_1"
+            name="{=tncs_nasal_cervelliere_over_mail_coif_1}Nasal Bronze Cervelliere Over Mail"
+            mesh="vlandia_helmet_o_a"
+            culture="Culture.vlandia"
+            weight="2.6"
+            appearance="2"
+            Type="HeadArmor">
+        <ItemComponent>
+            <Armor
+                    head_armor="29"
+                    has_gender_variations="false"
+                    hair_cover_type="all"
+                    beard_cover_type="type4"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+
+    <Item
+            id="tncs_nasal_cervelliere_over_mail_coif_2"
+            name="{=tncs_nasal_cervelliere_over_mail_coif_2}Darksteel Nasal Cervelliere Over Mail"
+            mesh="vlandia_helmet_o_a"
+            culture="Culture.vlandia"
+            weight="2.6"
+            appearance="2"
+            Type="HeadArmor">
+        <ItemComponent>
+            <Armor
+                    head_armor="50"
+                    has_gender_variations="false"
+                    hair_cover_type="all"
+                    beard_cover_type="type4"
+                    modifier_group="plate"
+                    material_type="Plate" />
+        </ItemComponent>
+        <Flags
+                UseTeamColor="true" />
+    </Item>
+</Items>

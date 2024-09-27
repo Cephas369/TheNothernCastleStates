@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_leopard_leader" name="Equitia Rufiniana" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+		<face>
+		   <BodyProperties version="4" age="22.24" weight="0.7146" build="0.73"  key="0026A80E402C100894838DAC567585346E20896F39505815BBE6E8B4FB4C8C6B00ABB6030A7DB8250000000000000000000000000000000000000000054C0080"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Trade" value="90"/>
+			<skill id="Roguery" value="120"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="20" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+                          <equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+                          <equipment slot="Item1" id="Item.steel_round_shield" />
+                          <equipment slot="Item2" id="Item.empire_polearm_2_t5" />
+                          <equipment slot="Item3" id="Item.eastern_javelin_3_t4" />
+                          <equipment slot="Head" id="Item.empire_guarded_lord_helmet" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+                          <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                          <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+                          <equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+                          <equipment slot="Item1" id="Item.steel_round_shield" />
+                          <equipment slot="Item2" id="Item.empire_polearm_2_t5" />
+                          <equipment slot="Item3" id="Item.eastern_javelin_3_t4" />
+                          <equipment slot="Head" id="Item.empire_guarded_lord_helmet" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+                          <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                          <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_leopard_leaderm" name="Theo" age="19" is_female="false" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+		<face>
+		   <BodyProperties version="4" age="19.2" weight="0.3839" build="0.474"  key="000A540FC02C22599E38949838B569928DD67B3CE996986789727496317793A80A9766A20966753D0000000000000000000000000000000000000000412C4080"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="160"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="155"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Commander" value="16" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+                          <equipment slot="Item0" id="Item.battania_sword_5_t5" />
+                          <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+                          <equipment slot="Item2" id="Item.khuzait_lance_3_t5" />
+                          <equipment slot="Head" id="Item.empire_jewelled_helmet" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.imperial_scale_armor" />
+                          <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                          <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+                          <equipment slot="Item0" id="Item.battania_sword_5_t5" />
+                          <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+                          <equipment slot="Item2" id="Item.khuzait_lance_3_t5" />
+                          <equipment slot="Head" id="Item.empire_jewelled_helmet" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.imperial_scale_armor" />
+                          <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.aserai_horse_tournament" />
+                          <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_leopard_child_1" name="Vedia Postumiana" age="2" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+		<face>
+		   <BodyProperties version="4" age="1.44" weight="0.4212" build="0.3172"  key="0026E40FC000300557E6A43D5348613589AA164543757686AAB7977989BD6A980186961308B888AA0000000000000000000000000000000000000000430410C2"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="12" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+                          <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+                          <equipment slot="Item1" id="Item.steel_round_shield" />
+                          <equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3" />
+                          <equipment slot="Item3" id="Item.northern_javelin_2_t3" />
+                          <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.legionary_mail" />
+                          <equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+                          <equipment slot="Leg" id="Item.plated_strip_boots" />
+                          <equipment slot="Horse" id="Item.t2_aserai_horse" />
+                          <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+                          <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+                          <equipment slot="Item1" id="Item.steel_round_shield" />
+                          <equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3" />
+                          <equipment slot="Item3" id="Item.northern_javelin_2_t3" />
+                          <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.legionary_mail" />
+                          <equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+                          <equipment slot="Leg" id="Item.plated_strip_boots" />
+                          <equipment slot="Horse" id="Item.t2_aserai_horse" />
+                          <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_leopard_child_2" name="Coruncania Tiberilla" age="2" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+		<face>
+		   <BodyProperties version="4" age="1.44" weight="0.3997" build="0.4475"  key="0026E40FC000300557E6A43D5348613589AA164543757686AAB7977989BD6A980188761308B888AA00000000000000000000000000000000000000003B0410C4"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="75"/>
+			<skill id="Riding" value="30"/>
+			<skill id="OneHanded" value="105"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="-1" />
+			<Trait id="Mercy" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Commander" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+                          <equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
+                          <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+                          <equipment slot="Item2" id="Item.vlandia_lance_3_t5" />
+                          <equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+                          <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.imperial_lamellar" />
+                          <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.desert_war_horse" />
+                          <equipment slot="HorseHarness" id="Item.half_scale_barding" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+                          <equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
+                          <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+                          <equipment slot="Item2" id="Item.vlandia_lance_3_t5" />
+                          <equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+                          <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.imperial_lamellar" />
+                          <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.desert_war_horse" />
+                          <equipment slot="HorseHarness" id="Item.half_scale_barding" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_leopard_child_3" name="Julius Tiberilla" age="2" is_female="false" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+		<face>
+		   <BodyProperties version="4" age="1.44" weight="0.5782" build="0.7126"  key="0026E40FD700300557E6A43D5348613589AA164543757686AAB7977989BD6A980179661307B888AA00000000000000000000000000000000000000005AF410C5"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="95"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="-1" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="18" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+                          <equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
+                          <equipment slot="Item1" id="Item.steel_round_shield" />
+                          <equipment slot="Item2" id="Item.vlandia_pike_1_t5" />
+                          <equipment slot="Item3" id="Item.southern_throwing_axe_1_t4" />
+                          <equipment slot="Head" id="Item.tall_helmet" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.western_scale_mail" />
+                          <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.desert_war_horse" />
+                          <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+                          <equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
+                          <equipment slot="Item1" id="Item.steel_round_shield" />
+                          <equipment slot="Item2" id="Item.vlandia_pike_1_t5" />
+                          <equipment slot="Item3" id="Item.southern_throwing_axe_1_t4" />
+                          <equipment slot="Head" id="Item.tall_helmet" />
+                          <equipment slot="Cape" id="Item.leopard_pelt" />
+                          <equipment slot="Body" id="Item.western_scale_mail" />
+                          <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+                          <equipment slot="Leg" id="Item.lamellar_plate_boots" />
+                          <equipment slot="Horse" id="Item.desert_war_horse" />
+                          <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

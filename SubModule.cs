@@ -48,6 +48,11 @@ namespace TheNorthernCastleStates
             }
         }
 
+        protected override void OnApplicationTick(float dt)
+        {
+            base.OnApplicationTick(dt);
+        }
+
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
             base.OnGameStart(game, gameStarterObject);
@@ -57,6 +62,8 @@ namespace TheNorthernCastleStates
                 campaignGameStarter.AddBehavior(new TNCSManorsBehavior());
                 
                 campaignGameStarter.AddModel(new TNCSClanFinanceModel((ClanFinanceModel)campaignGameStarter.Models.Last(model => model.GetType().IsSubclassOf(typeof(ClanFinanceModel)))));
+                
+                campaignGameStarter.AddBehavior(new BechassardImperialMercenaryClanBehavior());
             }
         }
 

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+  <Hero id="imperial_merc_ruthas" spouse="Hero.imperial_merc_lilia" faction="Faction.imperial_merc_clan" text="Ruthas Béchassard is the son of a slain cataphractoi who had proved his worth ten times over. He has sworn to his countrymen that he would reap his vengeance from those the imperials would call barbarians."/>
+  <Hero id="imperial_merc_lilia" spouse="Hero.imperial_merc_ruthas" faction="Faction.imperial_merc_clan" text="Lilia Béchassard is the wife of Ruthas. Her and Ruthas are childhood friends turned lovers. She always shared his passion for battle."/>
+
+	<Hero id="order_of_swords_merc_eldric" faction="Faction.order_of_swords_merc_clan" text="Eldric 'the Destroyer' was once a wealthy imperial aristocrat who lived it up after catching the attention of a former Calradic emperor. He grew tired of his old life, so once more he seeks adventure and fame in a new era."/>
+	<Hero id="order_of_swords_merc_cedra" faction="Faction.order_of_swords_merc_clan" text=""/>
+	<Hero id="order_of_swords_merc_haylee" faction="Faction.order_of_swords_merc_clan" text=""/>
+	<Hero id="order_of_swords_merc_oras" faction="Faction.order_of_swords_merc_clan" text=""/>
+
+	<Hero id="lifordus_merc_askar" spouse="Hero.lifordus_merc_rada" faction="Faction.lifordus_merc_clan" text=""/>
+	<Hero id="lifordus_merc_rada" spouse="Hero.lifordus_merc_askar" faction="Faction.lifordus_merc_clan" text=""/>
+	<Hero id="lifordus_merc_orso" faction="Faction.lifordus_merc_clan" text=""/>
+</Heroes>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster id="order_of_swords_merc_eldric_equipment"
+					 culture="Culture.aserai">
+		<EquipmentSet civilian="false">
+			<Equipment slot="Item0"
+					   id="Item.aserai_2haxe_3_t5" />
+			<Equipment slot="Item1"
+					   id="Item.southern_broad_2hsword_t4" />
+			<Equipment slot="Item2"
+					   id="Item.steel_round_shield" />
+			<Equipment slot="Item3"
+					   id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Body"
+					   id="Item.aserai_scale_armor_on_chain" />
+			<Equipment slot="Head"
+					   id="Item.brass_aserai_helmet_open" />
+			<Equipment slot="Leg"
+					   id="Item.decorated_imperial_boots" />
+			<Equipment slot="Gloves"
+					   id="Item.decorated_imperial_gauntlets" />
+			<Equipment slot="Cape"
+					   id="Item.pauldron_over_scale_armor" />
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="false"
+			  IsCombatantTemplate="true"
+			  IsWandererEquipment="false" />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="order_of_swords_merc_hero_equipment"
+					 culture="Culture.aserai">
+		<EquipmentSet civilian="false">
+			<Equipment slot="Item0"
+					   id="Item.broad_arming_sword_t4" />
+			<Equipment slot="Item1"
+					   id="Item.steel_round_shield" />
+			<Equipment slot="Item2"
+					   id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Body"
+					   id="Item.aserai_scale_armor_on_cloth" />
+			<Equipment slot="Head"
+					   id="Item.brass_aserai_helmet_open" />
+			<Equipment slot="Leg"
+					   id="Item.decorated_imperial_boots" />
+			<Equipment slot="Gloves"
+					   id="Item.decorated_imperial_gauntlets" />
+			<Equipment slot="Cape"
+					   id="Item.pauldron_cape_a" />
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="false"
+			  IsCombatantTemplate="true"
+			  IsWandererEquipment="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster id="lifordus_merc_hero_equipment"
+					 culture="Culture.aserai">
+		<EquipmentSet civilian="false">
+			<Equipment slot="Item0"
+					   id="Item.aserai_2haxe_2_t4" />
+			<Equipment slot="Item1"
+					   id="Item.southern_throwing_axe_1_t4" />
+			<Equipment slot="Head"
+					   id="Item.brass_aserai_helmet_closed" />
+			<Equipment slot="Body"
+					   id="Item.aserai_armor_02_b" />
+			<Equipment slot="Gloves"
+					   id="Item.reinforced_leather_vambraces" />
+			<Equipment slot="Leg"
+					   id="Item.mail_cavalier_boots" />
+			<Equipment slot="Cape"
+					   id="Item.aserai_scale_shoulder_e" />
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="false"
+			  IsCombatantTemplate="true"
+			  IsWandererEquipment="false" />
+	</EquipmentRoster>
+	
+	
+</EquipmentRosters>

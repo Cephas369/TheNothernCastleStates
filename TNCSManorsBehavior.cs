@@ -58,7 +58,8 @@ public class TNCSManorsBehavior : CampaignBehaviorBase
     private void OnSettlementEntered(MobileParty mobileParty, Settlement settlement, Hero hero)
     {
         if (hero == Hero.MainHero || hero?.IsLord != true || !settlement.IsVillage ||
-            settlement.Village == null || settlement.MapFaction is Kingdom kingdom && !AllowedKingdoms.Contains(kingdom.StringId)) return;
+            settlement.Village == null ||
+            (settlement.MapFaction is Kingdom kingdom && !AllowedKingdoms.Contains(kingdom.StringId))) return;
 
         if (SettlementManors.TryGetValue(settlement.Village, out Manors manors))
         {
