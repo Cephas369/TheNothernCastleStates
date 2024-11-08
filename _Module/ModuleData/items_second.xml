@@ -116,7 +116,7 @@
     </CraftedItem>
     <CraftedItem
             id="tncs_vlandia_2hsword_2_t5"
-            name="{=tncs_vlandia_2hsword_2_t5}Castetillion War Two Hander"
+            name="{=tncs_vlandia_2hsword_2_t5}Castetillon War Two Hander"
             crafting_template="TwoHandedSword"
             culture="Culture.vlandia"
             modifier_group="sword">
@@ -645,5 +645,152 @@
         </ItemComponent>
         <Flags
                 UseTeamColor="true" />
+    </Item>
+    
+    <Item
+            id="omen_war_horse"
+            name="{=omen_war_horse}Omen War Horse{@Plural}omen war horses{\@}"
+            mesh="horse_brown"
+            item_category="war_horse"
+            is_merchandise="false"
+            difficulty="80"
+            weight="500"
+            appearance="1"
+            Type="Horse">
+        <ItemComponent>
+            <Horse
+                    monster="Monster.horse_2"
+                    maneuver="64"
+                    speed="69"
+                    charge_damage="23"
+                    body_length="105"
+                    is_mountable="true"
+                    extra_health="-5"
+                    modifier_group="horse">
+                <AdditionalMeshes>
+                    <Mesh
+                            name="horse_mane"
+                            affected_by_cover="true" />
+                </AdditionalMeshes>
+                <Materials>
+                    <Material
+                            name="horse_brown_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF010101"
+                                    percentage="0.75" />
+                            <MeshMultiplier
+                                    mesh_multiplier="FF909090"
+                                    percentage="0.25" />
+                        </MeshMultipliers>
+                    </Material>
+                    <Material
+                            name="horse_black_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF010101"
+                                    percentage="0.75" />
+                            <MeshMultiplier
+                                    mesh_multiplier="FF909090"
+                                    percentage="0.25" />
+                        </MeshMultipliers>
+                    </Material>
+                    <Material
+                            name="horse_grey_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF303030"
+                                    percentage="0.75" />
+                            <MeshMultiplier
+                                    mesh_multiplier="FF909090"
+                                    percentage="0.25" />
+                        </MeshMultipliers>
+                    </Material>
+                    <Material
+                            name="horse_white_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF303030"
+                                    percentage="1.0" />
+                        </MeshMultipliers>
+                    </Material>
+                </Materials>
+            </Horse>
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
+    </Item>
+    <Item
+            id="brown_steppe_warhose"
+            name="{=brown_steppe_warhose}Brown Steppe War Horse{@Plural}brown steppe war horses{\@}"
+            mesh="horse_brown"
+            item_category="war_horse"
+            is_merchandise="false"
+            difficulty="80"
+            weight="500"
+            appearance="1"
+            Type="Horse">
+        <ItemComponent>
+            <Horse
+                    monster="Monster.horse_2"
+                    maneuver="70"
+                    speed="50"
+                    charge_damage="26"
+                    body_length="105"
+                    is_mountable="true"
+                    extra_health="80"
+                    modifier_group="horse">
+                <AdditionalMeshes>
+                    <Mesh
+                            name="horse_mane"
+                            affected_by_cover="true" />
+                </AdditionalMeshes>
+                <Materials>
+                    <Material
+                            name="horse_brown_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF010101"
+                                    percentage="0.75" />
+                            <MeshMultiplier
+                                    mesh_multiplier="FF909090"
+                                    percentage="0.25" />
+                        </MeshMultipliers>
+                    </Material>
+                    <Material
+                            name="horse_black_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF010101"
+                                    percentage="0.75" />
+                            <MeshMultiplier
+                                    mesh_multiplier="FF909090"
+                                    percentage="0.25" />
+                        </MeshMultipliers>
+                    </Material>
+                    <Material
+                            name="horse_grey_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF303030"
+                                    percentage="0.75" />
+                            <MeshMultiplier
+                                    mesh_multiplier="FF909090"
+                                    percentage="0.25" />
+                        </MeshMultipliers>
+                    </Material>
+                    <Material
+                            name="horse_white_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier
+                                    mesh_multiplier="FF303030"
+                                    percentage="1.0" />
+                        </MeshMultipliers>
+                    </Material>
+                </Materials>
+            </Horse>
+        </ItemComponent>
+        <Flags
+                Civilian="true" />
     </Item>
 </Items>

@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="klevantrias_lord_1"
+                  name="{=klevantrias_lord_1.name}Chicchan"
+                  is_female="false"
+                  voice="earnest"
+                  age="27"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="27.23" weight="0.4914" build="0.483"  key="0031840FC00003833D997CBEDE92A272D1BA7CA7458124E49738E3B496C3B6BD01D770130DBBD7A9000000000000000000000000000000000000000021C08000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="234" />
+            <skill
+                    id="TwoHanded"
+                    value="231" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="340" />
+            <skill
+                    id="Crossbow"
+                    value="60" />
+            <skill
+                    id="Throwing"
+                    value="317" />
+            <skill
+                    id="Riding"
+                    value="260" />
+            <skill
+                    id="Athletics"
+                    value="312" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="321" />
+            <skill
+                    id="Scouting"
+                    value="282" />
+            <skill
+                    id="Roguery"
+                    value="43" />
+            <skill
+                    id="Leadership"
+                    value="165" />
+            <skill
+                    id="Charm"
+                    value="217" />
+            <skill
+                    id="Trade"
+                    value="160" />
+            <skill
+                    id="Steward"
+                    value="340" />
+            <skill
+                    id="Medicine"
+                    value="263" />
+            <skill
+                    id="Engineering"
+                    value="325" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_2"
+                  name="{=klevantrias_lord_2.name}Kukulcan"
+                  is_female="false"
+                  voice="earnest"
+                  age="27"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="27.23" weight="0.4914" build="0.483"  key="0031840FC00003833D997CBEDE92A272D1BA7CA7458124E49738E3B496C3B6BD01D770130DBBD7A9000000000000000000000000000000000000000021C08000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="234" />
+            <skill
+                    id="TwoHanded"
+                    value="231" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="340" />
+            <skill
+                    id="Crossbow"
+                    value="60" />
+            <skill
+                    id="Throwing"
+                    value="317" />
+            <skill
+                    id="Riding"
+                    value="260" />
+            <skill
+                    id="Athletics"
+                    value="312" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="321" />
+            <skill
+                    id="Scouting"
+                    value="282" />
+            <skill
+                    id="Roguery"
+                    value="43" />
+            <skill
+                    id="Leadership"
+                    value="165" />
+            <skill
+                    id="Charm"
+                    value="217" />
+            <skill
+                    id="Trade"
+                    value="160" />
+            <skill
+                    id="Steward"
+                    value="340" />
+            <skill
+                    id="Medicine"
+                    value="263" />
+            <skill
+                    id="Engineering"
+                    value="325" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_3"
+                  name="{=klevantrias_lord_3.name}Itzamatul"
+                  is_female="false"
+                  voice="earnest"
+                  age="27"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="27.23" weight="0.4914" build="0.483"  key="0031840FC00000023D997CBEDE92A272D1BA7CA7458124E49738E3B496C3B6BD0177701307BBD7A9000000000000000000000000000000000000000020F84000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="124" />
+            <skill
+                    id="TwoHanded"
+                    value="212" />
+            <skill
+                    id="Polearm"
+                    value="200" />
+            <skill
+                    id="Bow"
+                    value="175" />
+            <skill
+                    id="Crossbow"
+                    value="132" />
+            <skill
+                    id="Throwing"
+                    value="160" />
+            <skill
+                    id="Riding"
+                    value="200" />
+            <skill
+                    id="Athletics"
+                    value="114" />
+            <skill
+                    id="Crafting"
+                    value="95" />
+            <skill
+                    id="Tactics"
+                    value="67" />
+            <skill
+                    id="Scouting"
+                    value="90" />
+            <skill
+                    id="Roguery"
+                    value="145" />
+            <skill
+                    id="Leadership"
+                    value="182" />
+            <skill
+                    id="Charm"
+                    value="254" />
+            <skill
+                    id="Trade"
+                    value="158" />
+            <skill
+                    id="Steward"
+                    value="266" />
+            <skill
+                    id="Medicine"
+                    value="173" />
+            <skill
+                    id="Engineering"
+                    value="298" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_4"
+                  name="{=klevantrias_lord_4.name}Tepin"
+                  is_female="true"
+                  voice="earnest"
+                  age="19"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="19.71" weight="0.4914" build="0.483"  key="0031840FC00000063D997CBEDE92A272D1BA7CA7458124E49738E3B496C3B6BD0B3770B207BBD7A9000000000000000000000000000000000000000020584000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="143" />
+            <skill
+                    id="TwoHanded"
+                    value="187" />
+            <skill
+                    id="Polearm"
+                    value="140" />
+            <skill
+                    id="Bow"
+                    value="199" />
+            <skill
+                    id="Crossbow"
+                    value="82" />
+            <skill
+                    id="Throwing"
+                    value="134" />
+            <skill
+                    id="Riding"
+                    value="274" />
+            <skill
+                    id="Athletics"
+                    value="120" />
+            <skill
+                    id="Crafting"
+                    value="126" />
+            <skill
+                    id="Tactics"
+                    value="65" />
+            <skill
+                    id="Scouting"
+                    value="239" />
+            <skill
+                    id="Roguery"
+                    value="95" />
+            <skill
+                    id="Leadership"
+                    value="34" />
+            <skill
+                    id="Charm"
+                    value="255" />
+            <skill
+                    id="Trade"
+                    value="163" />
+            <skill
+                    id="Steward"
+                    value="264" />
+            <skill
+                    id="Medicine"
+                    value="223" />
+            <skill
+                    id="Engineering"
+                    value="158" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_5"
+                  name="{=klevantrias_lord_5.name}Xibalba"
+                  is_female="false"
+                  voice="earnest"
+                  age="19"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="19.13" weight="0.1627" build="0.483"  key="0031840FC000004930997CBEDE92A272D1BA7CA14F8124E49738E3B496C3B6BD0977209208BBD7A9000000000000000000000000000000000000000020F88000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="106" />
+            <skill
+                    id="TwoHanded"
+                    value="213" />
+            <skill
+                    id="Polearm"
+                    value="103" />
+            <skill
+                    id="Bow"
+                    value="174" />
+            <skill
+                    id="Crossbow"
+                    value="81" />
+            <skill
+                    id="Throwing"
+                    value="102" />
+            <skill
+                    id="Riding"
+                    value="267" />
+            <skill
+                    id="Athletics"
+                    value="112" />
+            <skill
+                    id="Crafting"
+                    value="146" />
+            <skill
+                    id="Tactics"
+                    value="71" />
+            <skill
+                    id="Scouting"
+                    value="154" />
+            <skill
+                    id="Roguery"
+                    value="97" />
+            <skill
+                    id="Leadership"
+                    value="134" />
+            <skill
+                    id="Charm"
+                    value="212" />
+            <skill
+                    id="Trade"
+                    value="167" />
+            <skill
+                    id="Steward"
+                    value="261" />
+            <skill
+                    id="Medicine"
+                    value="200" />
+            <skill
+                    id="Engineering"
+                    value="142" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_6"
+                  name="{=klevantrias_lord_6.name}Itzamna"
+                  is_female="true"
+                  voice="earnest"
+                  age="19"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="19.13" weight="0.1627" build="0.483"  key="0031840FC000000A30997CBEDE92A272D1BA7CA14F8124E49738E3B496C3B6BD0977209208BBD7A9000000000000000000000000000000000000000020F82000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="143" />
+            <skill
+                    id="TwoHanded"
+                    value="187" />
+            <skill
+                    id="Polearm"
+                    value="140" />
+            <skill
+                    id="Bow"
+                    value="199" />
+            <skill
+                    id="Crossbow"
+                    value="82" />
+            <skill
+                    id="Throwing"
+                    value="134" />
+            <skill
+                    id="Riding"
+                    value="274" />
+            <skill
+                    id="Athletics"
+                    value="120" />
+            <skill
+                    id="Crafting"
+                    value="126" />
+            <skill
+                    id="Tactics"
+                    value="65" />
+            <skill
+                    id="Scouting"
+                    value="239" />
+            <skill
+                    id="Roguery"
+                    value="95" />
+            <skill
+                    id="Leadership"
+                    value="34" />
+            <skill
+                    id="Charm"
+                    value="255" />
+            <skill
+                    id="Trade"
+                    value="163" />
+            <skill
+                    id="Steward"
+                    value="264" />
+            <skill
+                    id="Medicine"
+                    value="223" />
+            <skill
+                    id="Engineering"
+                    value="158" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_7"
+                  name="{=klevantrias_lord_7.name}Ixmacane"
+                  is_female="false"
+                  voice="earnest"
+                  age="19"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="19.13" weight="0.1627" build="0.483"  key="0031D40FC000000230997CBEDE92A272D1BA7CA14F8124E49738E3B496C3B6BD0977209208BBD7A9000000000000000000000000000000000000000020F88000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="124" />
+            <skill
+                    id="TwoHanded"
+                    value="212" />
+            <skill
+                    id="Polearm"
+                    value="200" />
+            <skill
+                    id="Bow"
+                    value="175" />
+            <skill
+                    id="Crossbow"
+                    value="132" />
+            <skill
+                    id="Throwing"
+                    value="160" />
+            <skill
+                    id="Riding"
+                    value="200" />
+            <skill
+                    id="Athletics"
+                    value="114" />
+            <skill
+                    id="Crafting"
+                    value="95" />
+            <skill
+                    id="Tactics"
+                    value="67" />
+            <skill
+                    id="Scouting"
+                    value="90" />
+            <skill
+                    id="Roguery"
+                    value="145" />
+            <skill
+                    id="Leadership"
+                    value="182" />
+            <skill
+                    id="Charm"
+                    value="254" />
+            <skill
+                    id="Trade"
+                    value="158" />
+            <skill
+                    id="Steward"
+                    value="266" />
+            <skill
+                    id="Medicine"
+                    value="173" />
+            <skill
+                    id="Engineering"
+                    value="298" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_8"
+                  name="{=klevantrias_lord_8.name}Camaxtli"
+                  is_female="false"
+                  voice="earnest"
+                  age="39"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="39.96" weight="0.4914" build="0.483"  key="0031D40FD000000530997CBEDE92A272D1BA7CA14F8124E49738E3B496C3B6BD03C770350CBBD7A9000000000000000000000000000000000000000021888000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="143" />
+            <skill
+                    id="TwoHanded"
+                    value="187" />
+            <skill
+                    id="Polearm"
+                    value="140" />
+            <skill
+                    id="Bow"
+                    value="199" />
+            <skill
+                    id="Crossbow"
+                    value="82" />
+            <skill
+                    id="Throwing"
+                    value="134" />
+            <skill
+                    id="Riding"
+                    value="274" />
+            <skill
+                    id="Athletics"
+                    value="120" />
+            <skill
+                    id="Crafting"
+                    value="126" />
+            <skill
+                    id="Tactics"
+                    value="65" />
+            <skill
+                    id="Scouting"
+                    value="239" />
+            <skill
+                    id="Roguery"
+                    value="95" />
+            <skill
+                    id="Leadership"
+                    value="34" />
+            <skill
+                    id="Charm"
+                    value="255" />
+            <skill
+                    id="Trade"
+                    value="163" />
+            <skill
+                    id="Steward"
+                    value="264" />
+            <skill
+                    id="Medicine"
+                    value="223" />
+            <skill
+                    id="Engineering"
+                    value="158" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_9"
+                  name="{=klevantrias_lord_9.name}Chachiuitl"
+                  is_female="true"
+                  voice="earnest"
+                  age="29"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="29.55" weight="0.371" build="0.8626"  key="0031D40FD814000D30997CBEDE92A272D1BA7CA14F8124E49738E3B460C0B0BD016D601306BBD7A9000000000000000000000000000000000000000020C02000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="106" />
+            <skill
+                    id="TwoHanded"
+                    value="213" />
+            <skill
+                    id="Polearm"
+                    value="103" />
+            <skill
+                    id="Bow"
+                    value="174" />
+            <skill
+                    id="Crossbow"
+                    value="81" />
+            <skill
+                    id="Throwing"
+                    value="102" />
+            <skill
+                    id="Riding"
+                    value="267" />
+            <skill
+                    id="Athletics"
+                    value="112" />
+            <skill
+                    id="Crafting"
+                    value="146" />
+            <skill
+                    id="Tactics"
+                    value="71" />
+            <skill
+                    id="Scouting"
+                    value="154" />
+            <skill
+                    id="Roguery"
+                    value="97" />
+            <skill
+                    id="Leadership"
+                    value="134" />
+            <skill
+                    id="Charm"
+                    value="212" />
+            <skill
+                    id="Trade"
+                    value="167" />
+            <skill
+                    id="Steward"
+                    value="261" />
+            <skill
+                    id="Medicine"
+                    value="200" />
+            <skill
+                    id="Engineering"
+                    value="142" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_10"
+                  name="{=klevantrias_lord_10.name}Zyanya"
+                  is_female="true"
+                  voice="earnest"
+                  age="20"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="20.86" weight="0.4583" build="0.6528"  key="0031D40F1814000A30997CBEDE92A272D01F7CA14F8124E49738E3B48FC0B0BD0F5A70F20ABBD7A9000000000000000000000000000000000000000020A02000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="234" />
+            <skill
+                    id="TwoHanded"
+                    value="231" />
+            <skill
+                    id="Polearm"
+                    value="260" />
+            <skill
+                    id="Bow"
+                    value="340" />
+            <skill
+                    id="Crossbow"
+                    value="60" />
+            <skill
+                    id="Throwing"
+                    value="317" />
+            <skill
+                    id="Riding"
+                    value="260" />
+            <skill
+                    id="Athletics"
+                    value="312" />
+            <skill
+                    id="Crafting"
+                    value="60" />
+            <skill
+                    id="Tactics"
+                    value="321" />
+            <skill
+                    id="Scouting"
+                    value="282" />
+            <skill
+                    id="Roguery"
+                    value="43" />
+            <skill
+                    id="Leadership"
+                    value="165" />
+            <skill
+                    id="Charm"
+                    value="217" />
+            <skill
+                    id="Trade"
+                    value="160" />
+            <skill
+                    id="Steward"
+                    value="340" />
+            <skill
+                    id="Medicine"
+                    value="263" />
+            <skill
+                    id="Engineering"
+                    value="325" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_11"
+                  name="{=klevantrias_lord_11.name}Xmucane"
+                  is_female="true"
+                  voice="earnest"
+                  age="28"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="28.97" weight="0.4583" build="0.6528"  key="0031D40F1814000A38997CBEDE92A272D01F7331478124E09738E3B48FC0B0BD015A701305BBD7A9000000000000000000000000000000000000000020A04000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="131" />
+            <skill
+                    id="TwoHanded"
+                    value="207" />
+            <skill
+                    id="Polearm"
+                    value="156" />
+            <skill
+                    id="Bow"
+                    value="175" />
+            <skill
+                    id="Crossbow"
+                    value="68" />
+            <skill
+                    id="Throwing"
+                    value="124" />
+            <skill
+                    id="Riding"
+                    value="293" />
+            <skill
+                    id="Athletics"
+                    value="132" />
+            <skill
+                    id="Crafting"
+                    value="120" />
+            <skill
+                    id="Tactics"
+                    value="78" />
+            <skill
+                    id="Scouting"
+                    value="165" />
+            <skill
+                    id="Roguery"
+                    value="94" />
+            <skill
+                    id="Leadership"
+                    value="139" />
+            <skill
+                    id="Charm"
+                    value="227" />
+            <skill
+                    id="Trade"
+                    value="180" />
+            <skill
+                    id="Steward"
+                    value="245" />
+            <skill
+                    id="Medicine"
+                    value="192" />
+            <skill
+                    id="Engineering"
+                    value="153" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_12"
+                  name="{=klevantrias_lord_12.name}Xumucane"
+                  is_female="false"
+                  voice="earnest"
+                  age="23"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="23.18" weight="0.4583" build="0.9954"  key="0031D40F0F14000238997CBEDE92A272D0177331478124E09738E3B40FC0B0BD005F700305BBD7A9000000000000000000000000000000000000000020A08000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="112" />
+            <skill
+                    id="TwoHanded"
+                    value="210" />
+            <skill
+                    id="Polearm"
+                    value="123" />
+            <skill
+                    id="Bow"
+                    value="200" />
+            <skill
+                    id="Crossbow"
+                    value="74" />
+            <skill
+                    id="Throwing"
+                    value="127" />
+            <skill
+                    id="Riding"
+                    value="283" />
+            <skill
+                    id="Athletics"
+                    value="145" />
+            <skill
+                    id="Crafting"
+                    value="129" />
+            <skill
+                    id="Tactics"
+                    value="95" />
+            <skill
+                    id="Scouting"
+                    value="123" />
+            <skill
+                    id="Roguery"
+                    value="109" />
+            <skill
+                    id="Leadership"
+                    value="137" />
+            <skill
+                    id="Charm"
+                    value="251" />
+            <skill
+                    id="Trade"
+                    value="174" />
+            <skill
+                    id="Steward"
+                    value="238" />
+            <skill
+                    id="Medicine"
+                    value="184" />
+            <skill
+                    id="Engineering"
+                    value="161" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_13"
+                  name="{=klevantrias_lord_13.name}Ekchauh"
+                  is_female="false"
+                  voice="earnest"
+                  age="74"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="74.68" weight="0.6048" build="0.4133"  key="002E900FC04436C8765776B6615A7A7679C765C68967B22996B23CBC758B56670836908903466985000000000000000000000000000000000000000006508100"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="131" />
+            <skill
+                    id="TwoHanded"
+                    value="207" />
+            <skill
+                    id="Polearm"
+                    value="156" />
+            <skill
+                    id="Bow"
+                    value="175" />
+            <skill
+                    id="Crossbow"
+                    value="68" />
+            <skill
+                    id="Throwing"
+                    value="124" />
+            <skill
+                    id="Riding"
+                    value="293" />
+            <skill
+                    id="Athletics"
+                    value="132" />
+            <skill
+                    id="Crafting"
+                    value="120" />
+            <skill
+                    id="Tactics"
+                    value="78" />
+            <skill
+                    id="Scouting"
+                    value="165" />
+            <skill
+                    id="Roguery"
+                    value="94" />
+            <skill
+                    id="Leadership"
+                    value="139" />
+            <skill
+                    id="Charm"
+                    value="227" />
+            <skill
+                    id="Trade"
+                    value="180" />
+            <skill
+                    id="Steward"
+                    value="245" />
+            <skill
+                    id="Medicine"
+                    value="192" />
+            <skill
+                    id="Engineering"
+                    value="153" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_14"
+                  name="{=klevantrias_lord_14.name}Hacha'kyum"
+                  is_female="false"
+                  voice="earnest"
+                  age="42"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="42.85" weight="0.4028" build="0.4133"  key="002E900FC04436C576B776B6615A7A7679C765C68967B22996B23CBC758B56670396603509466F85000000000000000000000000000000000000000007288100"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="112" />
+            <skill
+                    id="TwoHanded"
+                    value="210" />
+            <skill
+                    id="Polearm"
+                    value="123" />
+            <skill
+                    id="Bow"
+                    value="200" />
+            <skill
+                    id="Crossbow"
+                    value="74" />
+            <skill
+                    id="Throwing"
+                    value="127" />
+            <skill
+                    id="Riding"
+                    value="283" />
+            <skill
+                    id="Athletics"
+                    value="145" />
+            <skill
+                    id="Crafting"
+                    value="129" />
+            <skill
+                    id="Tactics"
+                    value="95" />
+            <skill
+                    id="Scouting"
+                    value="123" />
+            <skill
+                    id="Roguery"
+                    value="109" />
+            <skill
+                    id="Leadership"
+                    value="137" />
+            <skill
+                    id="Charm"
+                    value="251" />
+            <skill
+                    id="Trade"
+                    value="174" />
+            <skill
+                    id="Steward"
+                    value="238" />
+            <skill
+                    id="Medicine"
+                    value="184" />
+            <skill
+                    id="Engineering"
+                    value="161" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="klevantrias_lord_15"
+                  name="{=klevantrias_lord_15.name}Chimalmat"
+                  is_female="false"
+                  voice="earnest"
+                  age="42"
+                  default_group="Infantry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4" age="42.85" weight="0.4028" build="0.4133"  key="002EB00FE144000176B776B6615A7A7679C765C68967B22996B23CBC758B56670396603509466F85000000000000000000000000000000000000000007284000"  />
+        </face>
+        <skills>
+            <skill
+                    id="OneHanded"
+                    value="106" />
+            <skill
+                    id="TwoHanded"
+                    value="213" />
+            <skill
+                    id="Polearm"
+                    value="103" />
+            <skill
+                    id="Bow"
+                    value="174" />
+            <skill
+                    id="Crossbow"
+                    value="81" />
+            <skill
+                    id="Throwing"
+                    value="102" />
+            <skill
+                    id="Riding"
+                    value="267" />
+            <skill
+                    id="Athletics"
+                    value="112" />
+            <skill
+                    id="Crafting"
+                    value="146" />
+            <skill
+                    id="Tactics"
+                    value="71" />
+            <skill
+                    id="Scouting"
+                    value="154" />
+            <skill
+                    id="Roguery"
+                    value="97" />
+            <skill
+                    id="Leadership"
+                    value="134" />
+            <skill
+                    id="Charm"
+                    value="212" />
+            <skill
+                    id="Trade"
+                    value="167" />
+            <skill
+                    id="Steward"
+                    value="261" />
+            <skill
+                    id="Medicine"
+                    value="200" />
+            <skill
+                    id="Engineering"
+                    value="142" />
+        </skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="5" />
+            <Trait id="Commander" value="6" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="4" />
+            <Trait id="Valor" value="2" />
+            <Trait id="Honor" value="4" />
+            <Trait id="Mercy" value="2" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet
+                    id="wa_bat_template_lady" />
+            <EquipmentSet
+                    id="emp_noncom_template_stoic"
+                    civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>
